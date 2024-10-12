@@ -3,6 +3,1875 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "810d75f1-d78a-402f-9613-ebcebadaab14")
-	(paper "A4")
-	(lib_symbols)
+	(paper "A2")
+	(lib_symbols
+		(symbol "emberone:CSD95372BQ5M"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -17.018 21.844 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "CSD95372BQ5M"
+				(at 9.398 -21.844 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "emberone:DQP0012A"
+				(at 8.128 -29.972 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd95372bq5m.pdf"
+				(at 8.128 -29.972 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 8.128 -29.972 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTNO" "CSD95372BQ5M"
+				(at 9.398 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DK" "296-40014-1-ND"
+				(at 9.398 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CSD95372BQ5M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DQP0012A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CSD95372BQ5M_0_1"
+				(pin output line
+					(at -20.32 -15.24 0)
+					(length 2.54)
+					(name "IOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 10.16 0)
+					(length 2.54)
+					(name "FCCM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -12.7 0)
+					(length 2.54)
+					(name "TAO_FAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -5.08 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -15.24 180)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -17.78 0)
+					(length 2.54)
+					(name "REFIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 0 0)
+					(length 2.54)
+					(name "ENABLE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 5.08 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "VSW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 15.24 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 7.62 180)
+					(length 2.54)
+					(name "BOOT_R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 15.24 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CSD95372BQ5M_1_1"
+				(rectangle
+					(start -17.78 20.32)
+					(end 17.78 -20.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "emberone:TPS53647RTAR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -19.304 57.912 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TPS53647RTAR"
+				(at 11.938 -56.388 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "emberone:RTA0040B"
+				(at 17.526 -64.008 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps53647.pdf"
+				(at 14.732 -61.468 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTNO" "TPS53647RTAR"
+				(at 17.018 -68.072 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DK" "296-51986-1-ND"
+				(at 16.764 -70.104 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TPS53647RTAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RTA0040B RTA0040B_NV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS53647RTAR_0_1"
+				(pin input line
+					(at -22.86 -50.8 0)
+					(length 2.54)
+					(name "OCP-R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 0 0)
+					(length 2.54)
+					(name "VSN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 33.02 180)
+					(length 2.54)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 43.18 180)
+					(length 2.54)
+					(name "ISUM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 50.8 180)
+					(length 2.54)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 40.64 0)
+					(length 2.54)
+					(name "V3R3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 50.8 0)
+					(length 2.54)
+					(name "V5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 45.72 0)
+					(length 2.54)
+					(name "V12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -43.18 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -2.54 180)
+					(length 2.54)
+					(name "VR_RDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -12.7 180)
+					(length 2.54)
+					(name "VR_HOT_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 38.1 180)
+					(length 2.54)
+					(name "IMON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -45.72 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 30.48 0)
+					(length 2.54)
+					(name "RESET_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -48.26 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 35.56 0)
+					(length 2.54)
+					(name "ENABLE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 25.4 0)
+					(length 2.54)
+					(name "PMB_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 20.32 0)
+					(length 2.54)
+					(name "PMB_ALERT_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 15.24 0)
+					(length 2.54)
+					(name "PMB_DIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -7.62 180)
+					(length 2.54)
+					(name "VR_FAULT_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -25.4 0)
+					(length 2.54)
+					(name "ADDR_TRISE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -30.48 0)
+					(length 2.54)
+					(name "SLEW-MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -5.08 0)
+					(length 2.54)
+					(name "CSP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -35.56 0)
+					(length 2.54)
+					(name "O-USR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -40.64 0)
+					(length 2.54)
+					(name "VBOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -45.72 0)
+					(length 2.54)
+					(name "F-IMAX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -33.02 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -35.56 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 7.62 180)
+					(length 2.54)
+					(name "PWM4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 12.7 180)
+					(length 2.54)
+					(name "PWM3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 17.78 180)
+					(length 2.54)
+					(name "PWM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 22.86 180)
+					(length 2.54)
+					(name "PWM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -20.32 180)
+					(length 2.54)
+					(name "SKIP_NVM_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -10.16 0)
+					(length 2.54)
+					(name "CSP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 10.16 0)
+					(length 2.54)
+					(name "TSEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -50.8 180)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -15.24 0)
+					(length 2.54)
+					(name "CSP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -20.32 0)
+					(length 2.54)
+					(name "CSP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -27.94 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -30.48 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 5.08 0)
+					(length 2.54)
+					(name "VSP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS53647RTAR_1_1"
+				(rectangle
+					(start -20.32 55.88)
+					(end 20.32 -54.61)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "emberone:CSD95372BQ5M")
+		(at 447.04 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43e3c28b-18ec-48fe-9a78-905a636ae91b")
+		(property "Reference" "U3"
+			(at 447.04 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CSD95372BQ5M"
+			(at 447.04 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "emberone:DQP0012A"
+			(at 455.168 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd95372bq5m.pdf"
+			(at 455.168 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 455.168 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CSD95372BQ5M"
+			(at 456.438 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-40014-1-ND"
+			(at 456.438 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "cb9ccaee-0b3b-45a2-939e-6dbc1d866ee2")
+		)
+		(pin "12"
+			(uuid "a01427f6-2c02-4c65-8206-79722c30dd33")
+		)
+		(pin "2"
+			(uuid "9e101370-1fe9-4ddc-9a6a-ecf926a6bc4c")
+		)
+		(pin "6"
+			(uuid "73db340a-4b8a-46b5-bbd8-fed122f34e17")
+		)
+		(pin "13"
+			(uuid "0467515d-e0c6-4a8f-8777-b073360ad03a")
+		)
+		(pin "1"
+			(uuid "137dd865-59b2-492b-894e-dcdbf582b9bd")
+		)
+		(pin "10"
+			(uuid "b9f723b6-3ae1-4fce-9af8-8373d76de6d1")
+		)
+		(pin "7"
+			(uuid "c4a3e54d-62fb-47b6-803a-df5995cc60d0")
+		)
+		(pin "9"
+			(uuid "d033133e-047a-4979-a7d6-858a750fc7fc")
+		)
+		(pin "3"
+			(uuid "fd2da000-e2b9-4cb5-a654-e1572c13f03d")
+		)
+		(pin "5"
+			(uuid "8b5242ae-e0ad-4aa7-8fdc-3cf1b18958c1")
+		)
+		(pin "8"
+			(uuid "c58bfa8c-5356-4fbe-b597-61f70d458499")
+		)
+		(pin "4"
+			(uuid "8d2c00ca-5b94-45ed-a127-ca7d46197594")
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/77c510ef-c2c8-433b-9442-e0d7684769dc"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "emberone:CSD95372BQ5M")
+		(at 447.04 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8008e890-a1ef-426e-8b3a-0ae3bc994e8e")
+		(property "Reference" "U4"
+			(at 447.04 195.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CSD95372BQ5M"
+			(at 447.04 198.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "emberone:DQP0012A"
+			(at 455.168 250.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd95372bq5m.pdf"
+			(at 455.168 250.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 455.168 250.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CSD95372BQ5M"
+			(at 456.438 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-40014-1-ND"
+			(at 456.438 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "c94a779a-aa59-4637-93b5-649b8dba4ded")
+		)
+		(pin "12"
+			(uuid "77a643bf-2a01-475b-b5b0-e3be0c4790a0")
+		)
+		(pin "2"
+			(uuid "5dd31b47-ede2-43c4-b89f-c6fc220b6b6f")
+		)
+		(pin "6"
+			(uuid "5d496792-273f-437d-9891-a056303d489c")
+		)
+		(pin "13"
+			(uuid "79bf9107-45fe-4b01-b6eb-6717fce02e0e")
+		)
+		(pin "1"
+			(uuid "77484dd2-b432-47a4-bf48-2f9c279d9983")
+		)
+		(pin "10"
+			(uuid "14d9d369-f0d1-4cc9-a4f9-b78f4e8f00f8")
+		)
+		(pin "7"
+			(uuid "ab3f9415-8f0c-44d0-af15-522aebe1940e")
+		)
+		(pin "9"
+			(uuid "a61a2156-1913-4e94-bdd5-b445197e9f60")
+		)
+		(pin "3"
+			(uuid "376a65d9-cb10-4f7c-b700-3be9138d08b4")
+		)
+		(pin "5"
+			(uuid "2abeae9c-00a2-4ae5-a1f5-da1cc0e70460")
+		)
+		(pin "8"
+			(uuid "c5c3ab89-dadb-40d5-9593-ffa78d7f3601")
+		)
+		(pin "4"
+			(uuid "a5be83dd-4bb4-4292-bf3a-0a6d6a5104ed")
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/77c510ef-c2c8-433b-9442-e0d7684769dc"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "emberone:CSD95372BQ5M")
+		(at 447.04 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8983128d-207b-4812-ba28-fbdd59446c16")
+		(property "Reference" "U2"
+			(at 447.04 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CSD95372BQ5M"
+			(at 447.04 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "emberone:DQP0012A"
+			(at 455.168 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd95372bq5m.pdf"
+			(at 455.168 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 455.168 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CSD95372BQ5M"
+			(at 456.438 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-40014-1-ND"
+			(at 456.438 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "365dacf2-5990-4e14-93fa-08ae206c7499")
+		)
+		(pin "12"
+			(uuid "78df9bdf-8beb-4dbb-a06c-50dff7792e2a")
+		)
+		(pin "2"
+			(uuid "cefc6ef4-1d96-4165-9349-7122524f570f")
+		)
+		(pin "6"
+			(uuid "4432524c-1fe9-41c7-bc4e-d32c143ccf7a")
+		)
+		(pin "13"
+			(uuid "da0dc9ac-19b0-4d62-a44f-3e32e06e2721")
+		)
+		(pin "1"
+			(uuid "e588ab72-6213-47e3-879b-604dbc9277f0")
+		)
+		(pin "10"
+			(uuid "64310109-9391-4505-8dd4-ab72e11d5c76")
+		)
+		(pin "7"
+			(uuid "ad6327b7-566f-4cae-9d21-7beb15fd97fc")
+		)
+		(pin "9"
+			(uuid "89195f0a-e869-444c-8377-06b36d7e886a")
+		)
+		(pin "3"
+			(uuid "d011ecf3-fd92-44c0-b50e-0715e8a3844e")
+		)
+		(pin "5"
+			(uuid "4140c50c-42fe-4523-9c3e-99efb2c15b9e")
+		)
+		(pin "8"
+			(uuid "76d5ef96-b096-4729-bd8b-272f3d0f45b2")
+		)
+		(pin "4"
+			(uuid "e6f4450b-503e-4764-9f40-21306bc570cc")
+		)
+		(instances
+			(project ""
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/77c510ef-c2c8-433b-9442-e0d7684769dc"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "emberone:TPS53647RTAR")
+		(at 196.85 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d65977af-ed18-442f-9612-c19d087d8168")
+		(property "Reference" "U1"
+			(at 177.8 108.966 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS53647RTAR"
+			(at 209.042 222.758 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "emberone:RTA0040B"
+			(at 214.376 230.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps53647.pdf"
+			(at 211.582 227.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "TPS53647RTAR"
+			(at 213.868 234.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-51986-1-ND"
+			(at 213.614 236.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "19"
+			(uuid "08abded5-764b-41b1-952b-0488228659ff")
+		)
+		(pin "12"
+			(uuid "2e753f9e-2321-4691-bf76-68f9de40f601")
+		)
+		(pin "36"
+			(uuid "cff9a295-99ae-44b7-a7a0-7624266e5d8d")
+		)
+		(pin "37"
+			(uuid "efc2838b-7403-4365-9fe5-9aaee90dbbfe")
+		)
+		(pin "38"
+			(uuid "428530ed-5865-4469-8e4b-461341e002a4")
+		)
+		(pin "11"
+			(uuid "fe10859e-ba8a-4b7b-bccc-fcd9fe3fe94c")
+		)
+		(pin "21"
+			(uuid "6f86a133-de75-4ada-b289-76be4b506dac")
+		)
+		(pin "22"
+			(uuid "dacaebc4-159e-4823-ac66-5194702116df")
+		)
+		(pin "6"
+			(uuid "fda3f0eb-ca7a-4fbd-a804-d9ab998d33c1")
+		)
+		(pin "7"
+			(uuid "e0fb62e5-1e51-4391-b401-b25cd249b254")
+		)
+		(pin "8"
+			(uuid "31fb9a46-65fd-49fb-9727-53e2871b68bb")
+		)
+		(pin "9"
+			(uuid "d8546885-b075-4d14-852d-c8576fb7cf1e")
+		)
+		(pin "39"
+			(uuid "186667e2-262d-4dc3-8643-903ff2312dfb")
+		)
+		(pin "4"
+			(uuid "85b72e86-cce8-43ed-975d-e7efdcd09eee")
+		)
+		(pin "40"
+			(uuid "c54ad2a5-f3f3-4553-8b58-2bf35265c4c6")
+		)
+		(pin "41"
+			(uuid "41af12b3-77d3-4ca6-8c44-07396d8faba9")
+		)
+		(pin "5"
+			(uuid "e51e9586-fae1-46e2-bff8-cbbf6652fa81")
+		)
+		(pin "17"
+			(uuid "e60794dd-1b9c-49b6-bd5d-a647afc8fa6d")
+		)
+		(pin "14"
+			(uuid "5e3b897a-525e-448e-8e4e-93042b164d70")
+		)
+		(pin "15"
+			(uuid "d9bbcdf4-eb76-4e73-8de6-85015b23d197")
+		)
+		(pin "29"
+			(uuid "b88fa538-e84c-4b68-9e88-a781d96d84b9")
+		)
+		(pin "3"
+			(uuid "3b0b23dc-5389-457a-aa79-c4da3be8ed70")
+		)
+		(pin "30"
+			(uuid "67f6ddb8-ad24-4145-b9ab-90a7f02f9ed5")
+		)
+		(pin "18"
+			(uuid "744581d7-75e6-4a84-90d1-1335850354f7")
+		)
+		(pin "2"
+			(uuid "b488d223-04b6-49fc-87eb-1c6d4a45fd75")
+		)
+		(pin "20"
+			(uuid "122609de-4ce3-48a0-a9fe-0f904e25b69e")
+		)
+		(pin "31"
+			(uuid "0f850be8-af50-4767-849d-c71d87387dc6")
+		)
+		(pin "32"
+			(uuid "9dd58f15-fe5d-4e6b-91f7-d555f38ed33e")
+		)
+		(pin "33"
+			(uuid "b6decfb4-9d9b-4462-96bb-253316342c95")
+		)
+		(pin "34"
+			(uuid "d41bdb97-67c6-4b68-b23f-181869431089")
+		)
+		(pin "35"
+			(uuid "b140e767-7a68-4bfa-b993-ddb6c7965816")
+		)
+		(pin "1"
+			(uuid "d35b6b8f-37ee-4977-8cb7-0e6b204250d5")
+		)
+		(pin "13"
+			(uuid "82dce837-294d-4ceb-989c-35b37f5b55e4")
+		)
+		(pin "23"
+			(uuid "9129ad20-fcb5-4f10-9b0c-b148678e4eff")
+		)
+		(pin "24"
+			(uuid "90567498-6f13-4527-af5a-14f279cf4ea7")
+		)
+		(pin "25"
+			(uuid "4d252193-3328-4fac-97d5-6bb879d0f04b")
+		)
+		(pin "26"
+			(uuid "283b6317-c7e3-422b-b9ea-51ab1abb067b")
+		)
+		(pin "27"
+			(uuid "365e1295-3297-4373-a062-d05f7ff0737f")
+		)
+		(pin "28"
+			(uuid "7cb06bba-494a-4d6c-8c34-0d3caccf3282")
+		)
+		(pin "10"
+			(uuid "d11b097f-62ae-4d92-a59f-a17329966118")
+		)
+		(pin "16"
+			(uuid "11755531-c05b-4673-b0d7-16a0c9bbb6a8")
+		)
+		(instances
+			(project ""
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/77c510ef-c2c8-433b-9442-e0d7684769dc"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "emberone:CSD95372BQ5M")
+		(at 447.04 283.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f568f629-30c8-4a9a-a487-80d42f155a59")
+		(property "Reference" "U5"
+			(at 447.04 257.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CSD95372BQ5M"
+			(at 447.04 260.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "emberone:DQP0012A"
+			(at 455.168 313.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd95372bq5m.pdf"
+			(at 455.168 313.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 455.168 313.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CSD95372BQ5M"
+			(at 456.438 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-40014-1-ND"
+			(at 456.438 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "3d6c31c9-726d-40dd-8df5-882afbb5d74c")
+		)
+		(pin "12"
+			(uuid "74b5e639-9061-485c-b9f3-1790a75c5f2d")
+		)
+		(pin "2"
+			(uuid "d2025cb0-e9c5-4065-88ec-d0b139958b79")
+		)
+		(pin "6"
+			(uuid "4d34a9d5-df50-486f-90f2-31a9095afbd8")
+		)
+		(pin "13"
+			(uuid "761a7314-c818-4ef5-9363-ff8f3483b337")
+		)
+		(pin "1"
+			(uuid "0630ccbf-0eef-4868-883e-d9ba63ba4549")
+		)
+		(pin "10"
+			(uuid "bfa172bc-d0ba-49df-bccd-904d5648d6b4")
+		)
+		(pin "7"
+			(uuid "766d525f-b0a4-4ff5-979f-3b5917c318a5")
+		)
+		(pin "9"
+			(uuid "5f71f04b-92ae-4ad4-aede-b7bbe4b47c2f")
+		)
+		(pin "3"
+			(uuid "c60eb8ad-ef3d-484d-ba1d-64b2979e749e")
+		)
+		(pin "5"
+			(uuid "dfb9b72c-84e2-48f1-b8d4-5ad389216629")
+		)
+		(pin "8"
+			(uuid "a7d8a2ca-4f82-4fa7-b4a4-437acc0f497e")
+		)
+		(pin "4"
+			(uuid "22fff9cb-46fa-4338-b3b8-c971f0ef76c7")
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/77c510ef-c2c8-433b-9442-e0d7684769dc"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

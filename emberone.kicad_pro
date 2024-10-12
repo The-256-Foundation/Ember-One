@@ -462,8 +462,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "emberone"
+    ],
+    "pinned_symbol_libs": [
+      "emberone"
+    ]
   },
   "meta": {
     "filename": "emberone.kicad_pro",
