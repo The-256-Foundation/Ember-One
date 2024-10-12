@@ -1,0 +1,94 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b036224c-4cdf-48cc-81df-19bc5283ebd2")
+	(paper "A4")
+	(title_block
+		(title "emberOne")
+		(date "2024-10-12")
+		(rev "1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 69.596 39.624)
+		(size 29.718 24.892)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "77c510ef-c2c8-433b-9442-e0d7684769dc")
+		(property "Sheetname" "Power"
+			(at 69.596 38.9124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 69.596 65.1006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.596 90.932)
+		(size 29.718 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "8fbe5865-2681-4e3d-9bfe-f9d833280d6f")
+		(property "Sheetname" "ASICs"
+			(at 69.596 90.2204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "asics.kicad_sch"
+			(at 69.596 118.1866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
