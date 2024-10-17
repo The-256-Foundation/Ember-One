@@ -776,7 +776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LM25119PSQ/NOPB"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm25119.pdf"
 			(at 11.176 -44.45 0)
 			(effects
 				(font
@@ -786,7 +786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://www.ti.com/lit/ds/symlink/lm25119.pdf"
+		(property "Description" ""
 			(at 63.5 20.32 0)
 			(effects
 				(font
