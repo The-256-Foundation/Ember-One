@@ -392,16 +392,16 @@
 		(uuid "2d2fe701-ac30-4562-b920-4a009f49546b")
 	)
 	(pad "8" smd rect
-		(at 2.795001 -1.905)
-		(size 0.910001 0.509999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "b1f75797-135d-43b4-883c-23398993b880")
-	)
-	(pad "9" smd rect
 		(at 1.005002 0)
 		(size 4.490001 4.570001)
 		(layers "F.Cu")
 		(uuid "7d351111-6a27-450e-8252-1d12a032e13d")
+	)
+	(pad "8" smd rect
+		(at 2.795001 -1.905)
+		(size 0.910001 0.509999)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b1f75797-135d-43b4-883c-23398993b880")
 	)
 	(model "${KIPRJMOD}/3d/DQJ0008A.stp"
 		(offset
