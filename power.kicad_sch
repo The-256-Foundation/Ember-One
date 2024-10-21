@@ -5921,6 +5921,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-56.2KHRCT-ND"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0603FR-0756K2L"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b592a46-0261-4cf5-87aa-7162f14298da")
 		)
@@ -5954,7 +5972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15nF"
+		(property "Value" "0.015uF"
 			(at 157.48 133.3499 0)
 			(effects
 				(font
@@ -5982,6 +6000,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 153.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "399-C0805C153K5RAC7800CT-ND"
+			(at 153.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "C0805C153K5RAC7800"
 			(at 153.67 132.08 0)
 			(effects
 				(font
@@ -6023,7 +6059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "0.22uF"
 			(at 265.684 109.22 90)
 			(effects
 				(font
@@ -6051,6 +6087,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 262.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "1276-2947-1-ND"
+			(at 262.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CL21B224KBFNFNE"
 			(at 262.89 105.41 0)
 			(effects
 				(font
@@ -6129,6 +6183,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-86.6KHRCT-ND"
+			(at 259.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0603FR-0786K6L"
+			(at 259.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9868f07f-17c6-4636-9010-86dd5dcd6afe")
 		)
@@ -6190,6 +6262,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 82.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-1140-1-ND"
+			(at 82.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
 			(at 82.55 87.63 0)
 			(effects
 				(font
@@ -6528,7 +6618,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "1276-6470-1-ND"
 			(at 153.67 212.09 0)
 			(effects
 				(font
@@ -6537,7 +6627,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL21B105KBFNNNG"
 			(at 153.67 212.09 0)
 			(effects
 				(font
@@ -6615,7 +6705,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "1276-6470-1-ND"
 			(at 251.46 209.55 0)
 			(effects
 				(font
@@ -6624,7 +6714,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL21B105KBFNNNG"
 			(at 251.46 209.55 0)
 			(effects
 				(font
@@ -6702,6 +6792,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "1276-6470-1-ND"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CL21B105KBFNNNG"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "617b9474-9e58-40ae-823a-afb99ba1b840")
 		)
@@ -6763,6 +6871,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-1194-1-ND"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB821"
 			(at 101.6 127 0)
 			(effects
 				(font
@@ -6921,6 +7047,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 231.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "1276-6470-1-ND"
+			(at 231.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CL21B105KBFNNNG"
 			(at 231.14 100.33 0)
 			(effects
 				(font
@@ -7108,6 +7252,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-3.57KHRCT-ND"
+			(at 330.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0603FR-073K57L"
+			(at 330.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37fb341c-2349-4d95-9b88-9ef0dea57605")
 		)
@@ -7265,6 +7427,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-11.0KHRCT-ND"
+			(at 147.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0603FR-0711KL"
+			(at 147.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3a94f7a-0c5b-4ee7-ba7d-dfcbb161bcc3")
 		)
@@ -7385,7 +7565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "0.47uF"
 			(at 135.89 128.2699 0)
 			(effects
 				(font
@@ -7413,6 +7593,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "1276-6482-1-ND"
+			(at 132.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CL21B474KBFNNNG"
 			(at 132.08 127 0)
 			(effects
 				(font
@@ -7518,7 +7716,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15nF"
+		(property "Value" "0.015uF"
 			(at 151.13 67.3099 0)
 			(effects
 				(font
@@ -7546,6 +7744,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "399-C0805C153K5RAC7800CT-ND"
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "C0805C153K5RAC7800"
 			(at 147.32 66.04 0)
 			(effects
 				(font
@@ -7802,7 +8018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "0.22uF"
 			(at 243.078 76.2 90)
 			(effects
 				(font
@@ -7830,6 +8046,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 240.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "1276-2947-1-ND"
+			(at 240.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CL21B224KBFNFNE"
 			(at 240.03 72.39 0)
 			(effects
 				(font
@@ -7899,6 +8133,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "399-C0805C331J5GAC7800CT-ND"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "C0805C331J5GAC7800"
 			(at 134.62 71.12 0)
 			(effects
 				(font
@@ -8063,6 +8315,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-44.2KHRCT-ND"
+			(at 123.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0603FR-0744K2L"
+			(at 123.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b5c262b-0ba0-4b17-9216-89f18ed422ec")
 		)
@@ -8125,6 +8395,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 330.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-1.02KHRCT-ND"
+			(at 330.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0603FR-071K02L"
 			(at 330.2 92.71 0)
 			(effects
 				(font
@@ -8667,6 +8955,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-9.09KHRCT-ND"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0603FR-079K09L"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08978f5c-6d13-4988-b590-72dd5b54d5f8")
 		)
@@ -8728,6 +9034,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-1194-1-ND"
+			(at 143.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB821"
 			(at 143.51 120.65 0)
 			(effects
 				(font
@@ -8974,6 +9298,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 255.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-86.6KHRCT-ND"
+			(at 255.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0603FR-0786K6L"
 			(at 255.27 63.5 0)
 			(effects
 				(font
@@ -9314,7 +9656,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15nF"
+		(property "Value" "0.015uF"
 			(at 116.84 111.7599 0)
 			(effects
 				(font
@@ -9342,6 +9684,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "399-C0805C153K5RAC7800CT-ND"
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "C0805C153K5RAC7800"
 			(at 113.03 110.49 0)
 			(effects
 				(font
