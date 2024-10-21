@@ -510,7 +510,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Manufacturing Files/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -521,8 +521,18 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
-    "bom_fmt_presets": [],
+    "bom_export_filename": "Manufacturing Files/emberone BOM.csv",
+    "bom_fmt_presets": [
+      {
+        "field_delimiter": ",",
+        "keep_line_breaks": false,
+        "keep_tabs": false,
+        "name": "emberOneBOM",
+        "ref_delimiter": ",",
+        "ref_range_delimiter": "",
+        "string_delimiter": "\""
+      }
+    ],
     "bom_fmt_settings": {
       "field_delimiter": ",",
       "keep_line_breaks": false,
@@ -564,7 +574,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
