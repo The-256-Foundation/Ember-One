@@ -368,7 +368,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "36-7771-ND"
+		(property "DK" "36-7770-ND"
 			(at 152.4 49.53 0)
 			(effects
 				(font
@@ -377,7 +377,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "36-7771"
+		(property "PARTNO" "36-7770"
 			(at 152.4 49.53 0)
 			(effects
 				(font
@@ -451,7 +451,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "36-7771-ND"
+		(property "DK" "36-7770-ND"
 			(at 44.45 43.18 0)
 			(effects
 				(font
@@ -460,7 +460,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "36-7771"
+		(property "PARTNO" "36-7770"
 			(at 44.45 43.18 0)
 			(effects
 				(font
@@ -534,7 +534,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "36-7771-ND"
+		(property "DK" "36-7770-ND"
 			(at 44.45 49.53 0)
 			(effects
 				(font
@@ -543,7 +543,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "36-7771"
+		(property "PARTNO" "36-7770"
 			(at 44.45 49.53 0)
 			(effects
 				(font
@@ -617,7 +617,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "36-7771-ND"
+		(property "DK" "36-7770-ND"
 			(at 152.4 43.18 0)
 			(effects
 				(font
@@ -626,7 +626,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "36-7771"
+		(property "PARTNO" "36-7770"
 			(at 152.4 43.18 0)
 			(effects
 				(font
