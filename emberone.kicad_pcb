@@ -1046,7 +1046,7 @@
 			)
 		)
 		(property "Footprint" "emberone:SDO_4S13R-G_TOR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a012d6f5-e393-4c5c-ad0c-13ad84a32c83")
@@ -1058,7 +1058,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.torexsemi.com/system/files/series/xbs104s13r.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6c32b972-432d-4057-8198-5c42717094d8")
@@ -1070,7 +1070,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "18bb54a2-ed60-4368-b68b-117c7d99ea89")
@@ -13167,7 +13167,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C19"
-			(at -3.24 -0.05 360)
+			(at -3.24 -0.05 0)
 			(layer "F.SilkS")
 			(uuid "6054a2fc-4346-4cb5-a97b-ccb017b9fe99")
 			(effects
@@ -13178,7 +13178,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "b85e17d0-2a01-41eb-84cc-1e44102c06ba")
 			(effects
@@ -13359,7 +13359,7 @@
 			(uuid "c3e7ec32-147f-422f-912e-e6850f153197")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ca0d9740-abb4-4324-8d37-6516ef5b9e0e")
 			(effects
