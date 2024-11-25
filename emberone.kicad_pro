@@ -676,6 +676,22 @@
     [
       "8fbe5865-2681-4e3d-9bfe-f9d833280d6f",
       "ASICs"
+    ],
+    [
+      "b5b35c8d-a874-45f0-a46b-0abe93654fb4",
+      "stack4"
+    ],
+    [
+      "116c5cb9-bbfa-49e6-9944-02b998b96a8d",
+      "stack1"
+    ],
+    [
+      "6389911e-171c-449b-b24a-470381125fac",
+      "stack2"
+    ],
+    [
+      "87264efe-8c7c-4339-98a8-48c5b352aa2e",
+      "stack3"
     ]
   ],
   "text_variables": {}
