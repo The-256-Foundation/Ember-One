@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "022a403d-4dba-405a-821f-d816a7196328")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(date "2024-11-25")
 		(rev "2")
@@ -283,16 +283,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 104.14) (xy 57.15 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74476978-82c7-41b8-a577-27755807d7e6")
-	)
-	(wire
-		(pts
 			(xy 142.24 85.09) (xy 171.45 85.09)
 		)
 		(stroke
@@ -564,17 +554,6 @@
 		)
 		(uuid "36ce26c4-0127-40c2-adab-d5db24259932")
 	)
-	(label "GND0"
-		(at 48.26 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4471cd24-a39b-44a0-a618-a47bf44d2736")
-	)
 	(label "3V6"
 		(at 49.53 76.2 0)
 		(fields_autoplaced yes)
@@ -831,16 +810,6 @@
 				(justify left)
 			)
 			(uuid "b80378f0-602a-4093-8f87-dad4b27b9bd3")
-		)
-		(pin "GND0" output
-			(at 57.15 104.14 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5df9318b-b2f6-4006-bd81-1cdc668775fc")
 		)
 		(pin "TX" input
 			(at 57.15 82.55 180)

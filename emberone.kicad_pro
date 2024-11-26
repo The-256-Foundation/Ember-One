@@ -653,7 +653,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "emberone.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -674,28 +674,24 @@
       "Power"
     ],
     [
-      "8fbe5865-2681-4e3d-9bfe-f9d833280d6f",
-      "ASICs"
-    ],
-    [
-      "b5b35c8d-a874-45f0-a46b-0abe93654fb4",
-      "stack3"
-    ],
-    [
-      "116c5cb9-bbfa-49e6-9944-02b998b96a8d",
-      "stack0"
-    ],
-    [
-      "6389911e-171c-449b-b24a-470381125fac",
-      "stack1"
-    ],
-    [
-      "87264efe-8c7c-4339-98a8-48c5b352aa2e",
-      "stack2"
-    ],
-    [
       "e89e3a77-546a-4a35-b100-669149b20581",
       "Data"
+    ],
+    [
+      "dea5684e-9ec9-4967-b9ef-d4ee852a3fa0",
+      "stack4"
+    ],
+    [
+      "1041e984-4167-4ef3-8410-dcacf0440a69",
+      "stack5"
+    ],
+    [
+      "b7ad7cc6-371f-46f9-875b-8b04bdc75b20",
+      "stack6"
+    ],
+    [
+      "75fd7cab-4b1e-4fa4-8631-02e52962bbf8",
+      "stack7"
     ]
   ],
   "text_variables": {}
