@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "b036224c-4cdf-48cc-81df-19bc5283ebd2")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "emberOne")
-		(date "2024-10-12")
-		(rev "1")
+		(date "2024-11-25")
+		(rev "2")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
@@ -121,25 +121,39 @@
 			)
 		)
 	)
-	(junction
-		(at 106.68 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e78a3b2c-2392-42e7-8a73-7f9013918435")
-	)
 	(wire
 		(pts
-			(xy 99.06 105.41) (xy 124.46 105.41)
+			(xy 137.16 123.19) (xy 177.8 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13888189-f661-4116-8d69-5c58a6daa63c")
+		(uuid "0e5295d1-bafd-4917-a4f7-50937af2276b")
 	)
 	(wire
 		(pts
-			(xy 106.68 73.66) (xy 106.68 60.96)
+			(xy 137.16 125.73) (xy 177.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e38d532-23fc-48d9-8942-4b193d9c44d3")
+	)
+	(wire
+		(pts
+			(xy 99.06 72.39) (xy 107.95 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3162af06-2fa5-4332-9992-560216a8086f")
+	)
+	(wire
+		(pts
+			(xy 143.51 88.9) (xy 143.51 72.39)
 		)
 		(stroke
 			(width 0)
@@ -149,7 +163,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 50.8) (xy 99.06 50.8)
+			(xy 107.95 109.22) (xy 99.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ceb31f-9efe-4c91-9b7a-f942a13e8810")
+	)
+	(wire
+		(pts
+			(xy 162.56 62.23) (xy 137.16 62.23)
 		)
 		(stroke
 			(width 0)
@@ -159,7 +183,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 49.53) (xy 59.69 49.53)
+			(xy 78.74 60.96) (xy 85.09 60.96)
 		)
 		(stroke
 			(width 0)
@@ -169,7 +193,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 95.25) (xy 121.92 95.25)
+			(xy 137.16 106.68) (xy 160.02 106.68)
 		)
 		(stroke
 			(width 0)
@@ -179,7 +203,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 105.41) (xy 124.46 50.8)
+			(xy 137.16 128.27) (xy 177.8 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5fb411-a665-4b1d-a3a3-17f439aa6c0e")
+	)
+	(wire
+		(pts
+			(xy 162.56 116.84) (xy 162.56 62.23)
 		)
 		(stroke
 			(width 0)
@@ -189,7 +223,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 95.25) (xy 63.5 73.66)
+			(xy 102.87 106.68) (xy 102.87 88.9)
 		)
 		(stroke
 			(width 0)
@@ -199,7 +233,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 43.18) (xy 99.06 43.18)
+			(xy 160.02 54.61) (xy 137.16 54.61)
 		)
 		(stroke
 			(width 0)
@@ -209,7 +243,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 95.25) (xy 121.92 43.18)
+			(xy 160.02 106.68) (xy 160.02 54.61)
 		)
 		(stroke
 			(width 0)
@@ -219,7 +253,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 73.66) (xy 106.68 73.66)
+			(xy 102.87 88.9) (xy 143.51 88.9)
 		)
 		(stroke
 			(width 0)
@@ -229,37 +263,27 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 49.53) (xy 137.16 49.53)
+			(xy 99.06 109.22) (xy 99.06 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "831e9fa9-3e15-4a2e-93ec-845d2d665bfa")
+		(uuid "8f3806d7-14cb-47d6-9f9b-b1aa9d1aeefa")
 	)
 	(wire
 		(pts
-			(xy 132.08 43.18) (xy 147.32 43.18)
+			(xy 162.56 116.84) (xy 177.8 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9526b9f7-1f06-45a3-9e6d-3d6da16923ac")
+		(uuid "8f612478-322f-4688-86a5-1be8654897b3")
 	)
 	(wire
 		(pts
-			(xy 99.06 107.95) (xy 127 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d97be2-257f-42f1-a4aa-2f355d7e1872")
-	)
-	(wire
-		(pts
-			(xy 69.85 95.25) (xy 63.5 95.25)
+			(xy 107.95 106.68) (xy 102.87 106.68)
 		)
 		(stroke
 			(width 0)
@@ -269,7 +293,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 53.34) (xy 99.06 53.34)
+			(xy 165.1 64.77) (xy 137.16 64.77)
 		)
 		(stroke
 			(width 0)
@@ -279,7 +303,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 107.95) (xy 127 53.34)
+			(xy 165.1 119.38) (xy 165.1 64.77)
 		)
 		(stroke
 			(width 0)
@@ -289,7 +313,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 43.18) (xy 69.85 43.18)
+			(xy 78.74 54.61) (xy 107.95 54.61)
 		)
 		(stroke
 			(width 0)
@@ -299,17 +323,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 43.18) (xy 132.08 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7fbfc03-2f25-4cec-ab12-d8c6a2fb461b")
-	)
-	(wire
-		(pts
-			(xy 106.68 60.96) (xy 99.06 60.96)
+			(xy 137.16 72.39) (xy 143.51 72.39)
 		)
 		(stroke
 			(width 0)
@@ -319,16 +333,16 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 60.96) (xy 106.68 60.96)
+			(xy 165.1 119.38) (xy 177.8 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f38aed02-602d-441b-a798-9fafe02b8d9e")
+		(uuid "eb0ad9cf-66cc-4e24-903b-69b6435f4043")
 	)
 	(label "GND"
-		(at 59.69 49.53 180)
+		(at 85.09 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -338,20 +352,9 @@
 		)
 		(uuid "0f68c994-4818-4c31-9991-b6dfba308076")
 	)
-	(label "GND"
-		(at 137.16 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "77796a81-aaa3-4141-954a-46189f5a72e2")
-	)
 	(global_label "GND"
 		(shape input)
-		(at 59.69 49.53 0)
+		(at 85.09 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -361,7 +364,7 @@
 		)
 		(uuid "bfbc659c-4ec8-4a7e-831d-65d10aa7d3a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.5457 49.53 0)
+			(at 91.9457 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -373,90 +376,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 152.4 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b170816-ddec-4952-ba76-19f36bfdf131")
-		(property "Reference" "J4"
-			(at 152.4 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw Terminal"
-			(at 152.4 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "emberone:7770-screw-terminal"
-			(at 152.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/581/Metric_PCB_Screw_Terminals.pdf"
-			(at 152.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "36-7770-ND"
-			(at 152.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "36-7770"
-			(at 152.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa3d8cab-de99-451a-93a8-51c29000cd22")
-		)
-		(instances
-			(project "emberone"
-				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 44.45 43.18 180)
+		(at 73.66 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -464,7 +384,7 @@
 		(dnp no)
 		(uuid "ab97c495-3352-4647-baaa-eb61f94c210f")
 		(property "Reference" "J1"
-			(at 44.45 40.64 0)
+			(at 73.66 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -472,7 +392,7 @@
 			)
 		)
 		(property "Value" "Screw Terminal"
-			(at 44.45 39.37 0)
+			(at 73.66 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -481,7 +401,7 @@
 			)
 		)
 		(property "Footprint" "emberone:7770-screw-terminal"
-			(at 44.45 43.18 0)
+			(at 73.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -490,7 +410,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/581/Metric_PCB_Screw_Terminals.pdf"
-			(at 44.45 43.18 0)
+			(at 73.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -499,7 +419,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 43.18 0)
+			(at 73.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -508,7 +428,7 @@
 			)
 		)
 		(property "DK" "36-7770-ND"
-			(at 44.45 43.18 0)
+			(at 73.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -517,7 +437,7 @@
 			)
 		)
 		(property "PARTNO" "36-7770"
-			(at 44.45 43.18 0)
+			(at 73.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -539,7 +459,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 44.45 49.53 180)
+		(at 73.66 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -547,7 +467,7 @@
 		(dnp no)
 		(uuid "b2ac7336-b3d7-4fcb-bd8d-93175539466a")
 		(property "Reference" "J2"
-			(at 44.45 46.99 0)
+			(at 73.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,7 +475,7 @@
 			)
 		)
 		(property "Value" "Screw Terminal"
-			(at 44.45 45.72 0)
+			(at 73.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,7 +484,7 @@
 			)
 		)
 		(property "Footprint" "emberone:7770-screw-terminal"
-			(at 44.45 49.53 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -573,7 +493,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/581/Metric_PCB_Screw_Terminals.pdf"
-			(at 44.45 49.53 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,7 +502,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 49.53 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,7 +511,7 @@
 			)
 		)
 		(property "DK" "36-7770-ND"
-			(at 44.45 49.53 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -600,7 +520,7 @@
 			)
 		)
 		(property "PARTNO" "36-7770"
-			(at 44.45 49.53 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,93 +540,9 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 152.4 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fccf03af-7181-4dc1-bed4-1b32a3c1bde6")
-		(property "Reference" "J5"
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw Terminal"
-			(at 152.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "emberone:7770-screw-terminal"
-			(at 152.4 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/581/Metric_PCB_Screw_Terminals.pdf"
-			(at 152.4 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "36-7770-ND"
-			(at 152.4 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "36-7770"
-			(at 152.4 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3754cf64-2626-4764-9b0e-4b0e5f63ed2c")
-		)
-		(instances
-			(project "emberone"
-				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
-		(at 69.85 39.37)
+		(at 107.95 50.8)
 		(size 29.21 25.4)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -716,7 +552,7 @@
 		)
 		(uuid "77c510ef-c2c8-433b-9442-e0d7684769dc")
 		(property "Sheetname" "Power"
-			(at 69.85 38.6584 0)
+			(at 107.95 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -725,7 +561,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 69.85 64.8466 0)
+			(at 107.696 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,7 +570,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 99.06 43.18 0)
+			(at 137.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +580,7 @@
 			(uuid "50196ad6-518d-460b-add9-edd0196992ec")
 		)
 		(pin "VIN" input
-			(at 69.85 43.18 180)
+			(at 107.95 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,7 +590,7 @@
 			(uuid "7ce50fdb-c21e-4a30-9d20-a38c4c7e3e09")
 		)
 		(pin "VOUT" input
-			(at 99.06 60.96 0)
+			(at 137.16 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,8 +599,8 @@
 			)
 			(uuid "a7c2d7e3-50ef-434c-b76c-e783bb989d1d")
 		)
-		(pin "SDA" input
-			(at 99.06 50.8 0)
+		(pin "SDA" bidirectional
+			(at 137.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +610,7 @@
 			(uuid "ee4879a0-f118-46a6-9ff5-ea70e3ff00f3")
 		)
 		(pin "SCL" input
-			(at 99.06 53.34 0)
+			(at 137.16 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,6 +618,16 @@
 				(justify right)
 			)
 			(uuid "684bfad8-2706-48f8-a7e1-3d0df73126d4")
+		)
+		(pin "6V" output
+			(at 107.95 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bc15b651-522f-4648-b7fb-b02d0f1a7c44")
 		)
 		(instances
 			(project "emberone"
@@ -792,8 +638,8 @@
 		)
 	)
 	(sheet
-		(at 69.85 91.44)
-		(size 29.21 26.67)
+		(at 107.95 102.87)
+		(size 29.21 28.448)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -804,7 +650,7 @@
 		)
 		(uuid "8fbe5865-2681-4e3d-9bfe-f9d833280d6f")
 		(property "Sheetname" "ASICs"
-			(at 69.85 90.7284 0)
+			(at 107.95 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -813,7 +659,7 @@
 			)
 		)
 		(property "Sheetfile" "asics.kicad_sch"
-			(at 69.85 118.6946 0)
+			(at 107.95 131.9026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,18 +667,8 @@
 				(justify left top)
 			)
 		)
-		(pin "SDA" input
-			(at 99.06 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "85ff5974-8f41-42ae-ad17-7643439cc394")
-		)
 		(pin "3V3" input
-			(at 99.06 95.25 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -841,18 +677,8 @@
 			)
 			(uuid "d7e4d1c9-3f50-4500-8412-fb50d4baafdc")
 		)
-		(pin "SCL" input
-			(at 99.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fc17f500-1fe6-4141-a978-7eb7fea14fbf")
-		)
 		(pin "VDD" input
-			(at 69.85 95.25 180)
+			(at 107.95 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,10 +687,138 @@
 			)
 			(uuid "87c387a3-6daf-47f6-ad63-ef9a93a1b2fb")
 		)
+		(pin "RX" output
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9ee02d65-ee56-40dc-88ec-36ca3181a98c")
+		)
+		(pin "TX" input
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ffb7a4c4-07c0-4e05-aa9a-20b95e7339c2")
+		)
+		(pin "RST" input
+			(at 137.16 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3d5bc810-e172-450f-a8b1-27e5adfdfea3")
+		)
+		(pin "VDDIO_BOOST" input
+			(at 107.95 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9006f9a1-b9fa-41ef-b99c-d3c5f8f4c071")
+		)
 		(instances
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 102.87)
+		(size 30.48 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "e89e3a77-546a-4a35-b100-669149b20581")
+		(property "Sheetname" "Data"
+			(at 177.8 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "data.kicad_sch"
+			(at 177.8 131.9026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 177.8 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf7310a5-14f9-4bea-aaf6-d4c6a8262a93")
+		)
+		(pin "SCL" output
+			(at 177.8 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "27f8bbc8-ce3a-4e8c-ba95-4c973970a5e1")
+		)
+		(pin "RST" output
+			(at 177.8 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9761358f-c4b7-4652-9158-d04f438ad44a")
+		)
+		(pin "TXD" output
+			(at 177.8 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "82cccfae-6e51-47dc-b910-c2f4cb4c01fd")
+		)
+		(pin "RXD" input
+			(at 177.8 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c53aad38-d46b-4c6d-b2ed-a0ca7139a54c")
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
+					(page "8")
 				)
 			)
 		)
