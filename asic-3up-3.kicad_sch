@@ -111,6 +111,116 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2211,6 +2321,12 @@
 		(uuid "ccf2d760-3fe2-4aef-946f-4068c51993d4")
 	)
 	(junction
+		(at 246.38 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccf7302b-5e98-41b4-8767-e62c4ec3f1ec")
+	)
+	(junction
 		(at 303.53 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2269,6 +2385,12 @@
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "e8f64d2b-aaa6-4ad7-8aad-9b4dda6dbe01")
+	)
+	(junction
+		(at 246.38 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9a8fd0b-1ced-436a-b609-6f320d8478d8")
 	)
 	(junction
 		(at 226.06 105.41)
@@ -3136,6 +3258,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 99.06) (xy 246.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4626f4a9-b954-439d-8270-b1c5714205c1")
+	)
+	(wire
+		(pts
 			(xy 354.33 194.31) (xy 354.33 196.85)
 		)
 		(stroke
@@ -3576,7 +3708,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 93.98) (xy 246.38 105.41)
+			(xy 246.38 93.98) (xy 246.38 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3693,6 +3825,16 @@
 			(type solid)
 		)
 		(uuid "7b4fb583-ac3c-466c-8271-c38b713baa17")
+	)
+	(wire
+		(pts
+			(xy 246.38 156.21) (xy 246.38 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb0ae82-69cf-4e02-bd5b-9752844dda56")
 	)
 	(wire
 		(pts
@@ -4676,7 +4818,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 149.86) (xy 246.38 161.29)
+			(xy 246.38 149.86) (xy 246.38 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7746,6 +7888,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 251.46 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d075ed6-ed94-4867-830d-2695d74bf220")
+		(property "Reference" "J11"
+			(at 253.746 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 254 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "emberone:5x9_powertab"
+			(at 251.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "powertab"
+			(at 251.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "585b77bc-af79-46d8-81ff-f49232e7c6d5")
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/75fd7cab-4b1e-4fa4-8631-02e52962bbf8"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 323.85 190.5 0)
 		(unit 1)
@@ -9405,6 +9614,73 @@
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/75fd7cab-4b1e-4fa4-8631-02e52962bbf8"
 					(reference "C251")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 251.46 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a30ede02-4fb5-4961-9181-12ce40a277ad")
+		(property "Reference" "J10"
+			(at 253.746 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 254 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "emberone:5x9_powertab"
+			(at 251.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "powertab"
+			(at 251.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1a7d93a-f759-4356-a1ca-aa117afccfaa")
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/75fd7cab-4b1e-4fa4-8631-02e52962bbf8"
+					(reference "J10")
 					(unit 1)
 				)
 			)

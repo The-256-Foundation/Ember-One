@@ -8589,7 +8589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:74438357082"
+		(property "Footprint" "emberone:74438357082"
 			(at 138.43 203.2 0)
 			(effects
 				(font

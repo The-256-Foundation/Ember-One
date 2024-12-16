@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 37.56 -53.54 0)
+		(at -2.09 -4.77 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d10d5705-77fe-4807-991f-6bb23047986c")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "BM1362AC"
-		(at 37.56 -52.04 0)
+		(at -0.47 9.39 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "96928670-d676-4948-9472-94f39251bc2a")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 37.56 -53.04 0)
+		(at -0.47 8.39 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 37.56 -53.04 0)
+		(at -0.47 8.39 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 37.56 -53.04 0)
+		(at -0.47 8.39 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -78,8 +78,19 @@
 		(layer "F.SilkS")
 		(uuid "4aa3aff3-1095-4480-8d69-e3f2b3d3d56c")
 	)
+	(fp_circle
+		(center -5.15 -4.01)
+		(end -4.738904 -4.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "41186e5a-aaf6-4826-8242-751884820b4e")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 37.56 -50.54 0)
+		(at -0.47 10.89 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b1d77841-2dcc-4ed3-bb5d-682d79e72d16")
@@ -284,7 +295,7 @@
 	)
 	(pad "25" smd rect
 		(at 0 -2.925)
-		(size 6.42 1.85)
+		(size 6.44 1.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "1b56a815-063a-424e-abeb-a2a5e9958f30")

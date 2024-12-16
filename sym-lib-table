@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "emberone")(type "KiCad")(uri "${KIPRJMOD}/emberone.kicad_sym")(options "")(descr ""))
   (lib (name "bitaxe")(type "KiCad")(uri "${KIPRJMOD}/bitaxe.kicad_sym")(options "")(descr ""))
+  (lib (name "aditBoard")(type "KiCad")(uri "${KIPRJMOD}/aditBoard.kicad_sym")(options "")(descr ""))
 )
