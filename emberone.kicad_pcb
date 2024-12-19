@@ -5172,7 +5172,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
 		(uuid "14efaf3e-c649-4ac8-9ef0-a5fa6353629c")
-		(at 185.71 175.27)
+		(at 186 175)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H6"
@@ -11268,7 +11268,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
 		(uuid "30766c62-23e9-4aa2-a8cc-51769a18b726")
-		(at 164.02 175.27)
+		(at 164 175)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H8"
@@ -25139,7 +25139,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
 		(uuid "5e705b2b-552e-455b-a140-2b7d57bc9f26")
-		(at 185.71 161.32)
+		(at 186 161)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H5"
@@ -45004,7 +45004,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
 		(uuid "aab4f651-1e68-4b84-a7ab-737a0c96bef5")
-		(at 142.01 175.22)
+		(at 142 175)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H10"
@@ -49109,7 +49109,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
 		(uuid "bdbfb2c0-4b14-4663-b801-cb6c77a952d8")
-		(at 163.85 161.32)
+		(at 164 161)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H7"
@@ -62249,7 +62249,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
 		(uuid "f14f5ba6-1395-4c33-98c4-b2ff0720a9eb")
-		(at 141.99 161.32)
+		(at 142 161)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H9"
@@ -103900,8 +103900,8 @@
 		)
 	)
 	(gr_rect
-		(start 123.435 82.7)
-		(end 244.965 196.9)
+		(start 113.72 82.74)
+		(end 235.25 196.94)
 		(stroke
 			(width 0.1)
 			(type default)
