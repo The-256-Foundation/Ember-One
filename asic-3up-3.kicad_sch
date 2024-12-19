@@ -3398,7 +3398,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 34.29) (xy 49.53 40.64)
+			(xy 63.5 34.29) (xy 63.5 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3548,7 +3548,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 64.77) (xy 73.66 64.77)
+			(xy 63.5 64.77) (xy 73.66 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4078,7 +4078,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 48.26) (xy 49.53 64.77)
+			(xy 63.5 48.26) (xy 63.5 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5808,7 +5808,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 34.29) (xy 80.01 34.29)
+			(xy 63.5 34.29) (xy 80.01 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8686,7 +8686,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 44.45 0)
+		(at 63.5 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8694,7 +8694,7 @@
 		(dnp no)
 		(uuid "46c31f7f-5cb2-4ce0-9d8c-27c5b69a71bc")
 		(property "Reference" "C21"
-			(at 50.8 42.545 0)
+			(at 64.77 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8703,7 +8703,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 50.8 48.514 0)
+			(at 64.77 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8712,7 +8712,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 49.53 44.45 0)
+			(at 63.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,7 +8721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 44.45 0)
+			(at 63.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8730,7 +8730,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 44.45 0)
+			(at 63.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8739,7 +8739,7 @@
 			)
 		)
 		(property "DK" "1276-1234-1-ND"
-			(at 49.53 44.45 0)
+			(at 63.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8748,7 +8748,7 @@
 			)
 		)
 		(property "PARTNO" "CL05A104KO5NNNC"
-			(at 49.53 44.45 0)
+			(at 63.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
