@@ -6240,17 +6240,6 @@
 		)
 		(uuid "e31b24fb-06be-4937-a83f-2d46cbaf3af6")
 	)
-	(label "1V2-0"
-		(at 105.41 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05de81ec-9788-48d7-ae69-025dce6ac713")
-	)
 	(label "CLKI"
 		(at 175.26 43.18 180)
 		(fields_autoplaced yes)
@@ -6272,17 +6261,6 @@
 			(justify left bottom)
 		)
 		(uuid "0d179168-6380-4f66-a612-02423b2870aa")
-	)
-	(label "GND0"
-		(at 105.41 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f41a6b6-245a-4eba-b0ac-8cb997060dcf")
 	)
 	(label "CI"
 		(at 219.71 222.25 0)
@@ -6306,6 +6284,17 @@
 		)
 		(uuid "18386046-e12d-4b16-8818-863451d880ca")
 	)
+	(label "GND2"
+		(at 73.66 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c4be65e-da10-4996-8f3a-7b6d5037467e")
+	)
 	(label "0V8-1"
 		(at 154.94 163.83 0)
 		(fields_autoplaced yes)
@@ -6316,17 +6305,6 @@
 			(justify left bottom)
 		)
 		(uuid "1d444086-361a-4a4c-89bc-9eeca748bdf3")
-	)
-	(label "GND0"
-		(at 146.05 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "20919879-0a8f-4c4f-9c3a-6393ca7db318")
 	)
 	(label "GND1"
 		(at 350.52 167.64 0)
@@ -6371,6 +6349,17 @@
 			(justify left bottom)
 		)
 		(uuid "357f6fe9-d1d8-4aad-84eb-871a1b47746f")
+	)
+	(label "1V2-2"
+		(at 73.66 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "382e5b77-687f-48f1-a7b1-ee96f97da05b")
 	)
 	(label "1V2-2"
 		(at 222.25 237.49 0)
@@ -6427,6 +6416,17 @@
 		)
 		(uuid "49402298-a5e0-4312-818c-70dce6a937c3")
 	)
+	(label "1V2-2"
+		(at 105.41 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a77017a-01a5-489b-8af3-9e83282bfc99")
+	)
 	(label "GND0"
 		(at 78.74 119.38 0)
 		(fields_autoplaced yes)
@@ -6482,6 +6482,17 @@
 		)
 		(uuid "58e08225-0bef-4d4c-b75d-ca6bc6b765b3")
 	)
+	(label "GND2"
+		(at 146.05 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c8ea1f0-d8f5-413d-a761-3d06b1ecfaa1")
+	)
 	(label "GND1"
 		(at 255.27 199.39 0)
 		(fields_autoplaced yes)
@@ -6515,18 +6526,7 @@
 		)
 		(uuid "67c3ac86-af86-4c76-861d-8cf3d2f5dd86")
 	)
-	(label "GND0"
-		(at 105.41 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "750871f3-1a2a-4c62-a6e7-9c52b94dd1fa")
-	)
-	(label "1V2-0"
+	(label "1V2-2"
 		(at 175.26 45.72 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6535,7 +6535,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "75739a21-1d96-4b26-bd1f-c6f16e779908")
+		(uuid "6ffcee34-929e-4ff5-9a10-3b8f57c0598e")
 	)
 	(label "GND1"
 		(at 279.4 153.67 180)
@@ -6547,17 +6547,6 @@
 			(justify right bottom)
 		)
 		(uuid "7b243a87-912d-43e9-a454-758bec0e81c1")
-	)
-	(label "GND0"
-		(at 97.79 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b9b456e-9f1b-4c83-bff3-a0a21bba27c8")
 	)
 	(label "GND0"
 		(at 350.52 119.38 0)
@@ -6592,17 +6581,6 @@
 		)
 		(uuid "881709e9-add3-4dcc-ba80-88184eb4c9bb")
 	)
-	(label "1V2-0"
-		(at 105.41 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8edc89af-5d23-4bbd-897b-4e045ca7ab1c")
-	)
 	(label "GND0"
 		(at 185.42 130.81 180)
 		(fields_autoplaced yes)
@@ -6613,6 +6591,17 @@
 			(justify right bottom)
 		)
 		(uuid "901823ca-8176-4959-8cc9-79d75f84097b")
+	)
+	(label "GND2"
+		(at 105.41 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9447abf9-2aa4-4a98-82f4-514c1ce42040")
 	)
 	(label "0V8-2"
 		(at 154.94 220.98 0)
@@ -6635,6 +6624,28 @@
 			(justify left bottom)
 		)
 		(uuid "9c34ccad-772d-4779-bbf6-b02ba3c9e24f")
+	)
+	(label "1V2-2"
+		(at 105.41 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5d26259-4bc3-4c0a-a505-bcd4002e9142")
+	)
+	(label "1V2-2"
+		(at 146.05 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6144fb8-b006-4761-a6cd-64019613fedf")
 	)
 	(label "RST_N"
 		(at 73.66 38.1 0)
@@ -6768,8 +6779,8 @@
 		)
 		(uuid "dcc62231-6096-4b24-a587-0a8af1b8385d")
 	)
-	(label "GND0"
-		(at 73.66 45.72 0)
+	(label "GND2"
+		(at 105.41 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6777,18 +6788,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e3c56f89-f898-46d7-8a70-ad3388b143a6")
-	)
-	(label "1V2-0"
-		(at 71.12 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e88cc93b-d32a-4838-94ac-f9f915cf728c")
+		(uuid "e263d5d5-d626-473b-a470-1f247b7b902a")
 	)
 	(label "GND0"
 		(at 306.07 133.35 0)
@@ -6811,6 +6811,17 @@
 			(justify left bottom)
 		)
 		(uuid "eb9b77d0-f219-4067-8caa-9f8f57c93b06")
+	)
+	(label "GND2"
+		(at 100.33 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5f70305-bb6d-4636-8c11-9df0fa61bfcc")
 	)
 	(label "GND2"
 		(at 350.52 234.95 0)
@@ -6844,17 +6855,6 @@
 			(justify left bottom)
 		)
 		(uuid "fadab1b8-5495-4615-8fcd-63bc98268ccd")
-	)
-	(label "1V2-0"
-		(at 146.05 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe851964-1189-4a87-8f87-93225b22f7f3")
 	)
 	(hierarchical_label "TX"
 		(shape input)
@@ -7140,7 +7140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 160.02 215.9 0)
 			(effects
 				(font
@@ -7295,7 +7295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 160.02 158.75 0)
 			(effects
 				(font
@@ -7361,7 +7361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 307.34 115.57 0)
 			(effects
 				(font
@@ -7427,7 +7427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 307.34 110.49 0)
 			(effects
 				(font
@@ -7770,7 +7770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 313.69 161.29 0)
 			(effects
 				(font
@@ -7837,7 +7837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 181.61 105.41 0)
 			(effects
 				(font
@@ -7903,7 +7903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 307.34 105.41 0)
 			(effects
 				(font
@@ -8038,7 +8038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 313.69 171.45 0)
 			(effects
 				(font
@@ -8417,7 +8417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 313.69 163.83 0)
 			(effects
 				(font
@@ -9173,7 +9173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 313.69 166.37 0)
 			(effects
 				(font
@@ -9308,7 +9308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 307.34 113.03 0)
 			(effects
 				(font
@@ -9441,7 +9441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 307.34 107.95 0)
 			(effects
 				(font
@@ -10014,7 +10014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 100.33 158.75 0)
 			(effects
 				(font
@@ -10218,7 +10218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 313.69 168.91 0)
 			(effects
 				(font
@@ -11067,7 +11067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 219.71 217.17 0)
 			(effects
 				(font
@@ -11362,7 +11362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 219.71 212.09 0)
 			(effects
 				(font
@@ -11651,7 +11651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 219.71 214.63 0)
 			(effects
 				(font
@@ -12126,7 +12126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 100.33 100.33 0)
 			(effects
 				(font
@@ -12366,7 +12366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 219.71 207.01 0)
 			(effects
 				(font
@@ -12502,7 +12502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 160.02 100.33 0)
 			(effects
 				(font
@@ -12569,7 +12569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 100.33 215.9 0)
 			(effects
 				(font
@@ -13212,7 +13212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 181.61 110.49 0)
 			(effects
 				(font
@@ -13374,7 +13374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 181.61 107.95 0)
 			(effects
 				(font
@@ -13910,7 +13910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 181.61 113.03 0)
 			(effects
 				(font
@@ -13977,7 +13977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 181.61 115.57 0)
 			(effects
 				(font
