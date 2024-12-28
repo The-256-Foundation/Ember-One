@@ -1,0 +1,232 @@
+(footprint "OSC-SMD_4P-L3.2-W2.5-BL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "Y1"
+		(at -2.88 -0.73 90)
+		(layer "F.SilkS")
+		(uuid "d6a4d1c0-9da3-4c50-8b5d-afc871341501")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "12MHz"
+		(at 0 4.88 0)
+		(layer "F.Fab")
+		(uuid "cbc394c2-5a40-4bef-a16b-2ae1073f2720")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "aditBoard:OSC-SMD_4P-L3.2-W2.5-BL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "998e8bbf-687d-4b45-81f1-00ea23c10631")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YXC-X322512MSB4SI_C9002.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ce56426-55c0-4caf-ba4e-2599ae5bf5ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12d9db7c-2d2a-434f-aaa6-7fa6027d7713")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTNO" "X322512MSB4SI"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2713425-b956-446a-8854-9ad26b4e8e06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C9002"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2b200ee-c6c3-49fd-9036-6a609550397a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.22 0.3)
+		(end -2.22 1.54)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c61f8397-839e-44d6-9b91-95c43fd6ec77")
+	)
+	(fp_line
+		(start -2.03 -1.65)
+		(end 2.03 -1.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b41e66dd-8739-4099-8161-8eee44aa8646")
+	)
+	(fp_line
+		(start -2.03 1.65)
+		(end -2.03 -1.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45010e36-b419-4a59-88f9-b5111f6fbc8d")
+	)
+	(fp_line
+		(start 2.03 -1.65)
+		(end 2.03 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c438dffc-ef4a-45d5-b803-5c002d3c4ab2")
+	)
+	(fp_line
+		(start 2.03 0)
+		(end 2.03 1.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a71f3393-b98a-4225-b11f-36dc89681873")
+	)
+	(fp_line
+		(start 2.03 1.65)
+		(end -2.03 1.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3dbbeef-f221-4c84-a76d-d1f673388320")
+	)
+	(fp_line
+		(start 2.03 1.65)
+		(end 2.03 1.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d09b8022-3786-4240-9156-1d5c6c850e0c")
+	)
+	(fp_rect
+		(start -2.14 -1.765)
+		(end 2.14 1.765)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "471c2c56-0af0-4f2c-b626-06804862f434")
+	)
+	(fp_circle
+		(center -1.6 1.25)
+		(end -1.57 1.25)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "da7baa5f-9561-4410-bbbb-b432509398f5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3772ca39-46e4-45c1-acc0-28cdadf5cdf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 0.88)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3cae907b-70e2-452a-b950-70b91db3442a")
+	)
+	(pad "2" smd rect
+		(at 1.1 0.88)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "71d56c02-8154-400e-9817-f75786538dbd")
+	)
+	(pad "3" smd rect
+		(at 1.1 -0.88)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ba661052-fbed-49a8-9797-fad85ff95598")
+	)
+	(pad "4" smd rect
+		(at -1.1 -0.88)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "601f9a5f-544e-4a3b-b1ce-d318fa94d7ce")
+	)
+	(model "/Users/skot/Work/Bitcoin/bitcart/aditBoard/aditBoard.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

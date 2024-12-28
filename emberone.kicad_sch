@@ -260,6 +260,12 @@
 		(uuid "a4f1e4a4-1e9a-406e-b5be-264822f540b9")
 	)
 	(junction
+		(at 222.25 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6a59637-575e-4c66-a03b-5b2717f09ebc")
+	)
+	(junction
 		(at 279.4 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -334,6 +340,16 @@
 			(type default)
 		)
 		(uuid "3162af06-2fa5-4332-9992-560216a8086f")
+	)
+	(wire
+		(pts
+			(xy 224.79 167.64) (xy 222.25 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33688d8d-355a-4c7a-95f1-a13c3df6c2a4")
 	)
 	(wire
 		(pts
@@ -537,6 +553,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 167.64) (xy 222.25 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "911521fd-37bf-4d66-a633-e566174897f6")
+	)
+	(wire
+		(pts
 			(xy 101.6 156.21) (xy 110.49 156.21)
 		)
 		(stroke
@@ -717,6 +743,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 78.74) (xy 238.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9fd1b4-52f7-40b2-a63f-4cd150b538b7")
+	)
+	(wire
+		(pts
 			(xy 121.92 82.55) (xy 151.13 82.55)
 		)
 		(stroke
@@ -817,16 +853,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 167.64) (xy 224.79 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed8604a5-27f9-41ac-a631-8a19404ab93b")
-	)
-	(wire
-		(pts
 			(xy 107.95 162.56) (xy 110.49 162.56)
 		)
 		(stroke
@@ -834,6 +860,17 @@
 			(type default)
 		)
 		(uuid "f2b90ce8-b67a-4315-8b13-667528dcbcac")
+	)
+	(label "5V"
+		(at 160.02 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ac5664a-37f3-47a9-9517-d63e9af45c12")
 	)
 	(label "GND"
 		(at 128.27 88.9 180)
@@ -845,17 +882,6 @@
 			(justify right bottom)
 		)
 		(uuid "0f68c994-4818-4c31-9991-b6dfba308076")
-	)
-	(label "6V"
-		(at 217.17 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2933a1da-634c-4235-8b0e-519273013587")
 	)
 	(label "RST"
 		(at 229.87 101.6 0)
@@ -901,8 +927,8 @@
 		)
 		(uuid "6151d3a2-42a3-4269-a5fe-324439940848")
 	)
-	(label "3V6"
-		(at 217.17 167.64 0)
+	(label "5V"
+		(at 102.87 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -910,18 +936,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6225154c-cb30-442f-8813-f08a57e7fb51")
-	)
-	(label "3V6"
-		(at 160.02 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "682f8cbc-2e56-426c-8714-eca74e22adee")
+		(uuid "6b91aa23-e303-4c62-a478-6859f1a17fd5")
 	)
 	(label "TX"
 		(at 229.87 99.06 0)
@@ -934,6 +949,17 @@
 		)
 		(uuid "70b1d24c-8c2d-4820-96d6-6eff83b5a2e2")
 	)
+	(label "5V"
+		(at 217.17 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f5e4462-7928-4dd8-a01d-1f8477f03238")
+	)
 	(label "6V"
 		(at 142.24 100.33 0)
 		(fields_autoplaced yes)
@@ -944,6 +970,17 @@
 			(justify left bottom)
 		)
 		(uuid "82e364ff-206d-4b0c-9555-5a42e50362ce")
+	)
+	(label "5V"
+		(at 273.05 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f713dc9-50b9-44db-82af-f662e5ffce77")
 	)
 	(label "TX"
 		(at 101.6 151.13 0)
@@ -1000,8 +1037,8 @@
 		)
 		(uuid "c35b4f88-c3c8-4fe2-b320-d233af63c5af")
 	)
-	(label "3V6"
-		(at 102.87 162.56 0)
+	(label "5V"
+		(at 229.87 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1009,18 +1046,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c8058646-4eb5-41ca-aa30-939618bb4d49")
-	)
-	(label "6V"
-		(at 273.05 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f687c751-2645-4b04-92b4-98a6d1e76fd3")
+		(uuid "ea6c9d0b-59f8-432f-8831-520db29285e2")
 	)
 	(label "GND"
 		(at 100.33 143.51 0)
@@ -2320,56 +2346,6 @@
 			)
 			(uuid "86eee231-80b4-451b-9fef-d329d62df434")
 		)
-		(pin "NRSTO" output
-			(at 309.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9ae1bb6c-810c-4e6a-9f98-6f65a97afba2")
-		)
-		(pin "CLKO" output
-			(at 309.88 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bbe9e049-55ea-42b2-a291-d45e1df04cfb")
-		)
-		(pin "RI" input
-			(at 309.88 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b8330bdb-a103-4094-a6d2-32477e7d9ba9")
-		)
-		(pin "BO" output
-			(at 309.88 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c666ef3c-e42a-4f29-8c8b-a3a70c54d0c9")
-		)
-		(pin "CO" output
-			(at 309.88 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7df09245-c320-442f-b842-eb8267e5b4b2")
-		)
 		(pin "VDDIO_IN0" input
 			(at 281.94 162.56 180)
 			(effects
@@ -2557,6 +2533,16 @@
 				(justify left)
 			)
 			(uuid "6ff812df-cb6a-472e-9cc2-8a79fb8c7ba9")
+		)
+		(pin "5V" output
+			(at 238.76 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0b60cc7a-e10e-4d00-bcf5-7822a41ac37a")
 		)
 		(instances
 			(project "emberone"
