@@ -333,16 +333,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 100.33) (xy 151.13 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3162af06-2fa5-4332-9992-560216a8086f")
-	)
-	(wire
-		(pts
 			(xy 224.79 167.64) (xy 222.25 167.64)
 		)
 		(stroke
@@ -550,6 +540,16 @@
 			(type default)
 		)
 		(uuid "8595e575-694f-46ee-be45-7d2aa414d606")
+	)
+	(wire
+		(pts
+			(xy 180.34 87.63) (xy 238.76 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e52ebda-cf51-4f0c-8cf7-9feff99f8a51")
 	)
 	(wire
 		(pts
@@ -959,17 +959,6 @@
 			(justify left bottom)
 		)
 		(uuid "7f5e4462-7928-4dd8-a01d-1f8477f03238")
-	)
-	(label "6V"
-		(at 142.24 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "82e364ff-206d-4b0c-9555-5a42e50362ce")
 	)
 	(label "5V"
 		(at 273.05 162.56 0)
@@ -2100,15 +2089,15 @@
 			)
 			(uuid "684bfad8-2706-48f8-a7e1-3d0df73126d4")
 		)
-		(pin "6V" output
-			(at 151.13 100.33 180)
+		(pin "EN" input
+			(at 180.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "bc15b651-522f-4648-b7fb-b02d0f1a7c44")
+			(uuid "78d5a515-5f2d-487a-81b1-67b133c7ade7")
 		)
 		(instances
 			(project "emberone"
@@ -2543,6 +2532,16 @@
 				(justify left)
 			)
 			(uuid "0b60cc7a-e10e-4d00-bcf5-7822a41ac37a")
+		)
+		(pin "PWR_EN" output
+			(at 238.76 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4c67b69e-c2bb-4aa5-a52e-01c48d61068c")
 		)
 		(instances
 			(project "emberone"

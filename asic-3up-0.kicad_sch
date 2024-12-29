@@ -4862,7 +4862,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 168.91) (xy 34.29 168.91)
+			(xy 26.67 168.91) (xy 34.29 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4912,7 +4912,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 110.49) (xy 34.29 110.49)
+			(xy 26.67 110.49) (xy 34.29 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5002,7 +5002,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 226.06) (xy 34.29 226.06)
+			(xy 26.67 226.06) (xy 34.29 226.06)
 		)
 		(stroke
 			(width 0)
@@ -5157,6 +5157,17 @@
 		)
 		(uuid "25d84920-9c5a-471e-898a-12d25682e9d0")
 	)
+	(label "VDDIO_IN2"
+		(at 26.67 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "290dbdfc-4b6d-48fc-84a7-4d60d762c588")
+	)
 	(label "1V2-2"
 		(at 69.85 226.06 0)
 		(fields_autoplaced yes)
@@ -5167,6 +5178,17 @@
 			(justify left bottom)
 		)
 		(uuid "2ac3b151-29ef-4a46-aa77-85c194fe95fb")
+	)
+	(label "VDDIO_IN0"
+		(at 92.71 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b46248f-fa65-43e1-81c7-2df3d9aa88fe")
 	)
 	(label "GND0"
 		(at 196.85 102.87 0)
@@ -5189,6 +5211,28 @@
 			(justify left bottom)
 		)
 		(uuid "3b4faee8-0e1f-47ce-9986-11843c538050")
+	)
+	(label "VDDIO_IN2"
+		(at 92.71 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c51f604-f88b-46e6-94a8-5c9e940dafd3")
+	)
+	(label "VDDIO_IN1"
+		(at 92.71 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f5d4ae0-e7a4-4c0c-a0ee-dfc4ca8936b3")
 	)
 	(label "0V8-0"
 		(at 132.08 110.49 0)
@@ -5443,6 +5487,17 @@
 		)
 		(uuid "d127848b-26c3-44cc-9d3d-645a39ce003f")
 	)
+	(label "VDDIO_IN0"
+		(at 26.67 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d289f6f5-9e94-4fde-888f-6acc501b8793")
+	)
 	(label "3V6"
 		(at 222.25 92.71 180)
 		(fields_autoplaced yes)
@@ -5464,6 +5519,17 @@
 			(justify right bottom)
 		)
 		(uuid "dcc62231-6096-4b24-a587-0a8af1b8385d")
+	)
+	(label "VDDIO_IN1"
+		(at 26.67 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e35a8edc-8f23-40f7-a070-d1d03ec2b5fd")
 	)
 	(label "1V2-0"
 		(at 199.39 130.81 0)
@@ -5511,7 +5577,7 @@
 	)
 	(hierarchical_label "VDDIO_IN0"
 		(shape input)
-		(at 31.75 110.49 180)
+		(at 26.67 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5535,7 +5601,7 @@
 	)
 	(hierarchical_label "VDDIO_IN1"
 		(shape input)
-		(at 31.75 168.91 180)
+		(at 26.67 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5559,7 +5625,7 @@
 	)
 	(hierarchical_label "VDDIO_IN2"
 		(shape input)
-		(at 31.75 226.06 180)
+		(at 26.67 226.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11007,7 +11073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "emberone:5x9_powertab"
+		(property "Footprint" "emberone:14x9_powertab_L"
 			(at 231.14 92.71 0)
 			(effects
 				(font
