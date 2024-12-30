@@ -2609,12 +2609,6 @@
 		(uuid "5258391d-657f-4099-8787-8301dd6ed80e")
 	)
 	(junction
-		(at 248.92 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54299040-fb02-4724-b1a4-31385bd5d93d")
-	)
-	(junction
 		(at 220.98 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4438,7 +4432,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 246.38) (xy 248.92 250.19)
+			(xy 248.92 243.84) (xy 248.92 250.19)
 		)
 		(stroke
 			(width 0)
@@ -4645,16 +4639,6 @@
 			(type default)
 		)
 		(uuid "9eb661c5-fc65-4750-b576-a63f121c654a")
-	)
-	(wire
-		(pts
-			(xy 248.92 243.84) (xy 248.92 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ec3bc2b-e312-4efd-be52-9c90fb788ced")
 	)
 	(wire
 		(pts
@@ -11702,73 +11686,6 @@
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/75fd7cab-4b1e-4fa4-8631-02e52962bbf8"
 					(reference "TP144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 254 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d38ef4ae-3659-48ef-917e-2264f82dd9e0")
-		(property "Reference" "J22"
-			(at 256.286 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 256.54 247.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "emberone:14x9_powertab_L"
-			(at 254 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "powertab"
-			(at 254 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2648e63a-b5ca-48ca-aad1-3984f3fb40ae")
-		)
-		(instances
-			(project "emberone"
-				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/75fd7cab-4b1e-4fa4-8631-02e52962bbf8"
-					(reference "J22")
 					(unit 1)
 				)
 			)

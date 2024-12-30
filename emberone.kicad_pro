@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|211930000|89685000|2bf4126b-c149-4ddd-953d-e928687b92c5|f994c0b5-3b3a-4fbc-a568-e61eda1922bc",
+        "hole_clearance|218030000|89685000|e282c4d7-cc1c-4730-91ca-0be859de3685|1413134b-19ab-4bb4-8765-d04511203953"
+      ],
       "meta": {
         "version": 2
       },
@@ -76,7 +79,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -89,7 +92,7 @@
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
