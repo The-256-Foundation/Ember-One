@@ -603,6 +603,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 82.55) (xy 275.59 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3c728c-51ac-4d83-9819-37dafb5e1f01")
+	)
+	(wire
+		(pts
 			(xy 279.4 165.1) (xy 281.94 165.1)
 		)
 		(stroke
@@ -893,6 +903,17 @@
 			(justify left bottom)
 		)
 		(uuid "355f0ca7-5d96-4328-abba-769a45cd269f")
+	)
+	(label "3V6"
+		(at 275.59 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36d1388d-9737-47a0-a67f-950ef7f14d31")
 	)
 	(label "3V3"
 		(at 186.69 82.55 180)
@@ -2542,6 +2563,16 @@
 				(justify left)
 			)
 			(uuid "4c67b69e-c2bb-4aa5-a52e-01c48d61068c")
+		)
+		(pin "VDD" input
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd369e8b-3458-4dd8-8200-54694c2a872d")
 		)
 		(instances
 			(project "emberone"
