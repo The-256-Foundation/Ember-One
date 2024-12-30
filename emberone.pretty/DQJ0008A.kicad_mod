@@ -286,6 +286,17 @@
 		(layer "F.Mask")
 		(uuid "ed7faabc-41f9-425d-8bef-852f30daaabb")
 	)
+	(fp_rect
+		(start -3.325 -2.7)
+		(end 3.325 2.675)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5a0d15fd-9f16-42f3-8989-0f06ec7c6c70")
+	)
 	(fp_line
 		(start -2.899999 -2.5)
 		(end 2.899999 -2.5)

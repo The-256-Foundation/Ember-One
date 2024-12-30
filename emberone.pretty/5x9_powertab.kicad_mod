@@ -68,6 +68,28 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -4.125 -2.075)
+		(end 4 2.075)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "1989dfc1-1514-40a7-b787-50c095985472")
+	)
+	(fp_rect
+		(start -4.5 -2.5)
+		(end 4.475 2.475)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "918d64a4-af29-460d-ad84-1e63ab4cdb39")
+	)
 	(fp_text user "${REFERENCE}"
 		(at -10.38 2.67 0)
 		(unlocked yes)
@@ -90,7 +112,7 @@
 	(pad "1" smd rect
 		(at 0 0)
 		(size 9 5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "dab5ce6d-da5f-4a1c-a7af-4b2458be3d5d")
 	)
