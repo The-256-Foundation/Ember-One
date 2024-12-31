@@ -556,204 +556,6 @@
 				)
 			)
 		)
-		(symbol "aditBoard:AP2112K-3.3TRG1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U4"
-				(at 0 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AP2112K-3.3TRG1"
-				(at 0 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "aditBoard:SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL"
-				(at 49.53 17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-AP2112K-3-3TRG1_C51118.pdf"
-				(at -8.89 1.27 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DK" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTNO" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C51118"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TSOT-23-5_RIT TSOT-23-5_RIT-M TSOT-23-5_RIT-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AP2112K-3.3TRG1_1_1"
-				(rectangle
-					(start -6.35 3.81)
-					(end 6.35 -3.81)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 6.35 270)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "aditBoard:RP2040"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2901,6 +2703,163 @@
 				)
 			)
 		)
+		(symbol "emberone:TLV1117LV33DCYR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TLV1117LV33DCYR"
+				(at -8.128 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "emberone:VREG_TLV1117LV33DCYR"
+				(at 2.54 -16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv1117lv.pdf"
+				(at 0.762 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DK" "296-28778-1-ND"
+				(at 1.016 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTNO" "TLV1117LV33DCYR"
+				(at 1.016 -23.876 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV1117LV33DCYR_1_0"
+				(rectangle
+					(start -6.35 7.62)
+					(end 6.35 0)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 5.08 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 5.08 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 5.08 180)
+					(length 2.54) hide
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "emberone:W25Q16JVUXIQ_TR"
 			(pin_names
 				(offset 0.254)
@@ -3188,12 +3147,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f49f5ef-cde5-49ee-b8ab-041e7e0f810c")
-	)
-	(junction
-		(at 123.19 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12e17b81-79a3-44bd-a2a5-2cf09e05749d")
 	)
 	(junction
 		(at 292.1 86.36)
@@ -3591,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 80.01) (xy 123.19 80.01)
+			(xy 114.3 80.01) (xy 125.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3748,16 +3701,6 @@
 			(type default)
 		)
 		(uuid "22f6e0da-a065-4f89-95f6-90d1c898a5fa")
-	)
-	(wire
-		(pts
-			(xy 123.19 82.55) (xy 123.19 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "246338e4-d83b-40aa-b28f-790f8ab53f9e")
 	)
 	(wire
 		(pts
@@ -4861,16 +4804,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 80.01) (xy 125.73 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b541cbe8-c632-4eb7-b854-dbb9cc65966d")
-	)
-	(wire
-		(pts
 			(xy 336.55 168.91) (xy 341.63 168.91)
 		)
 		(stroke
@@ -5311,16 +5244,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 82.55) (xy 123.19 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f92c3544-b7be-4b33-b3b5-049afa154c6d")
-	)
-	(wire
-		(pts
 			(xy 341.63 180.34) (xy 341.63 184.15)
 		)
 		(stroke
@@ -5378,17 +5301,6 @@
 			(type default)
 		)
 		(uuid "fff09bd0-6674-4204-8520-fcea96e4d821")
-	)
-	(text "RP2040 3V3 LDO"
-		(exclude_from_sim no)
-		(at 125.73 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "880f6bfd-beea-4b23-ada2-c26ca1e6f052")
 	)
 	(text "I2C Address: 0x4A"
 		(exclude_from_sim no)
@@ -6347,110 +6259,6 @@
 			(project ""
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/e89e3a77-546a-4a35-b100-669149b20581"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "aditBoard:AP2112K-3.3TRG1")
-		(at 134.62 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0960a73a-726a-4d6e-abaa-3874ba5a07b8")
-		(property "Reference" "U26"
-			(at 134.62 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP2112K-3.3TRG1"
-			(at 134.62 75.438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "aditBoard:SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL"
-			(at 184.15 63.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-AP2112K-3-3TRG1_C51118.pdf"
-			(at 125.73 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "AP2112K-3.3TRG1DICT-ND"
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "AP2112K-3.3TRG1"
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C51118"
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b818c70-fe19-400a-ba28-f5b40727ec05")
-		)
-		(pin "2"
-			(uuid "ec37bd1a-6c24-4b8e-bece-27574c90ff15")
-		)
-		(pin "3"
-			(uuid "948bc748-71be-41d6-ad96-d19fdf5a90d5")
-		)
-		(pin "4"
-			(uuid "4fd963e4-b32d-454f-bd9e-4e67f82cefb3")
-		)
-		(pin "5"
-			(uuid "11e42d56-f782-4bda-9e1d-da876d3d0642")
-		)
-		(instances
-			(project "emberone"
-				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/e89e3a77-546a-4a35-b100-669149b20581"
-					(reference "U26")
 					(unit 1)
 				)
 			)
@@ -7462,6 +7270,99 @@
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/e89e3a77-546a-4a35-b100-669149b20581"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "emberone:TLV1117LV33DCYR")
+		(at 134.62 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55ba5afb-6cbe-4b41-b1b6-4e10dc12cbc5")
+		(property "Reference" "U10"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV1117LV33DCYR"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "emberone:VREG_TLV1117LV33DCYR"
+			(at 137.16 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv1117lv.pdf"
+			(at 135.382 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-28778-1-ND"
+			(at 135.636 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "TLV1117LV33DCYR"
+			(at 135.636 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "04151545-281b-409a-80e8-4e453bd6c742")
+		)
+		(pin "1"
+			(uuid "3844d530-8aa4-452e-b75f-e13c06a0a03c")
+		)
+		(pin "2"
+			(uuid "97518774-5255-4ea2-a7ab-8dac8dccbc85")
+		)
+		(pin "4"
+			(uuid "96192a65-3344-4331-a781-ee0a07978172")
+		)
+		(instances
+			(project ""
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/e89e3a77-546a-4a35-b100-669149b20581"
+					(reference "U10")
 					(unit 1)
 				)
 			)
