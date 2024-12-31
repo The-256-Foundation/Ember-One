@@ -67,6 +67,17 @@
 		)
 	)
 	(fp_rect
+		(start -3.39 -3.8)
+		(end 3.36 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Paste")
+		(uuid "63532aac-11b1-481c-a86e-4611d232063b")
+	)
+	(fp_rect
 		(start -1.59 -0.265)
 		(end -2.79 -1.215)
 		(stroke
@@ -705,7 +716,7 @@
 	(pad "26" smd rect
 		(at -0.02 0 90)
 		(size 10 9)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "8b20fb66-74c2-475a-897e-a043d10c2861")
 	)
