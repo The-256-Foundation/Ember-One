@@ -190,15 +190,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "e9bd46a2-195d-4f8a-a422-b0d63115a811")
 	)
-	(model "/Users/skot/Work/Bitcoin/bitcart/aditBoard/aditBoard.3dshapes/SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL.wrl"
+	(model "${KIPRJMOD}/3d/SOT_RG1_DIO.step"
 		(offset
-			(xyz 0 -0 -0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 -90)
 		)
 	)
 )

@@ -6456,6 +6456,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 297.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
+			(at 297.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae578a81-39d4-45b3-8444-5829ec38e32f")
 		)
@@ -6613,6 +6631,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 312.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
+			(at 312.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32f47f7b-37d5-4c30-932e-145a6ae723b9")
 		)
@@ -6674,6 +6710,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
 			(at 215.9 80.01 0)
 			(effects
 				(font
@@ -6830,6 +6884,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 298.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 298.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
 			(at 298.45 80.01 0)
 			(effects
 				(font
@@ -7296,6 +7368,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 293.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
+			(at 293.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2e11878-0b88-4d6c-9099-74e10fd794d2")
 		)
@@ -7693,6 +7783,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 317.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-2KLRCT-ND"
+			(at 317.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-072KL"
 			(at 317.5 135.89 0)
 			(effects
 				(font
@@ -8187,6 +8295,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 313.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
+			(at 313.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fb2a921-6e5a-443f-ba74-ca66bec5fce6")
 		)
@@ -8336,6 +8462,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 303.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 303.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
 			(at 303.53 80.01 0)
 			(effects
 				(font
@@ -9046,6 +9190,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 308.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
+			(at 308.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e75baef-d112-4d15-9774-332c91841a7b")
 		)
@@ -9203,6 +9365,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 195.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
+			(at 195.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f0e50ff-e252-469c-83a1-73d287ac0deb")
 		)
@@ -9273,6 +9453,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-2KLRCT-ND"
+			(at 190.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-072KL"
+			(at 190.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b7f1bf7-8364-467c-9952-4fc77a663ab1")
 		)
@@ -9334,6 +9532,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
 			(at 210.82 80.01 0)
 			(effects
 				(font
@@ -9989,6 +10205,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 292.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
+			(at 292.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c772bd5-1278-4da7-a0d8-e8669c133818")
 		)
@@ -10279,6 +10513,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 200.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
+			(at 200.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa30520e-217b-44c3-b9fc-2615b6eb71f8")
 		)
@@ -10435,6 +10687,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-2KLRCT-ND"
+			(at 318.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-072KL"
+			(at 318.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f086daee-7913-4da6-8615-2a51847903bd")
 		)
@@ -10504,6 +10774,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 307.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
+			(at 307.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc85bf4f-120f-4477-9d44-7054dd0f942e")
 		)
@@ -10565,6 +10853,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
 			(at 205.74 80.01 0)
 			(effects
 				(font
@@ -10904,6 +11210,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 302.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-33.0LRCT-ND"
+			(at 302.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0733RL"
 			(at 302.26 135.89 0)
 			(effects
 				(font
