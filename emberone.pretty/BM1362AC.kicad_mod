@@ -871,4 +871,15 @@
 		(remove_unused_layers no)
 		(uuid "b25bfaa8-675e-4f19-a9e1-312ecc04b580")
 	)
+	(model "${KIPRJMOD}/3d/BM1362.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
