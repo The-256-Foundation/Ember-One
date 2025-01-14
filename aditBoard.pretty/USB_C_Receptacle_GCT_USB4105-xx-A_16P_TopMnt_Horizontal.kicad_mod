@@ -39,6 +39,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -52,6 +53,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -65,6 +67,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -333,8 +336,8 @@
 		(uuid "1771b6c5-e177-4374-830b-34a031962b6c")
 	)
 	(pad "A1B12" smd roundrect
-		(at -3.2 -3.68)
-		(size 0.6 1.15)
+		(at -3.2 -3.705)
+		(size 0.6 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "e44e1813-8654-4015-90d1-f94b3da5da04")
@@ -375,8 +378,8 @@
 		(uuid "404e5891-b4bd-4285-b4b4-618fed051d3c")
 	)
 	(pad "B1A12" smd roundrect
-		(at 3.2 -3.68)
-		(size 0.6 1.15)
+		(at 3.2 -3.705)
+		(size 0.6 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "9e326c0f-1f93-44e3-bef0-a3e38cfa9dc3")
