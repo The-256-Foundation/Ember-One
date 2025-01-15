@@ -2104,7 +2104,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at -1.27 2.54 270)
 				(length 2.54) hide
 				(name "NC"
@@ -2231,24 +2231,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at -19.05 15.24 0)
-				(length 2.54)
-				(name "COMP1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin unspecified line
 				(at -19.05 -11.43 0)
 				(length 2.54)
@@ -2314,24 +2296,6 @@
 					)
 				)
 				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -19.05 -22.86 0)
-				(length 2.54)
-				(name "COMP2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2800,6 +2764,42 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -19.05 15.24 0)
+				(length 2.54)
+				(name "COMP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -19.05 -22.86 0)
+				(length 2.54)
+				(name "COMP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin unspecified line

@@ -2303,6 +2303,10 @@
 		(uuid "fd3d2151-89d1-48dd-8120-b284b0080dfb")
 	)
 	(no_connect
+		(at 231.14 74.93)
+		(uuid "0f948291-c49e-49ec-8f57-7b7d414ab412")
+	)
+	(no_connect
 		(at 127 185.42)
 		(uuid "16e2636b-2320-4600-9a77-350e569fb967")
 	)
@@ -2335,8 +2339,16 @@
 		(uuid "641c1101-1159-4b2b-983a-ff5fe7d999d3")
 	)
 	(no_connect
+		(at 231.14 130.81)
+		(uuid "6e3dd2a5-1a73-4258-a4b7-3ab0295d5d85")
+	)
+	(no_connect
 		(at 267.97 140.97)
 		(uuid "6f27d751-6aed-44d9-b8d0-035616844a80")
+	)
+	(no_connect
+		(at 231.14 189.23)
+		(uuid "731fba08-3f5c-4033-b245-7a8f69465371")
 	)
 	(no_connect
 		(at 231.14 128.27)
@@ -2345,6 +2357,10 @@
 	(no_connect
 		(at 267.97 194.31)
 		(uuid "750b7cc4-f026-4bc4-b3d5-6ae52f4f40b3")
+	)
+	(no_connect
+		(at 231.14 186.69)
+		(uuid "826d12e1-093c-4707-bea8-307f81027d80")
 	)
 	(no_connect
 		(at 267.97 77.47)
@@ -2357,6 +2373,10 @@
 	(no_connect
 		(at 267.97 82.55)
 		(uuid "a531ba03-2a3c-47a8-b9b9-f5ec1703634e")
+	)
+	(no_connect
+		(at 231.14 133.35)
+		(uuid "a708d9e6-3c45-4817-b94f-e677177424b6")
 	)
 	(no_connect
 		(at 231.14 138.43)
@@ -2377,6 +2397,10 @@
 	(no_connect
 		(at 66.04 185.42)
 		(uuid "e46121cb-a5a8-48f2-a171-1c332fc39ec5")
+	)
+	(no_connect
+		(at 231.14 77.47)
+		(uuid "e90ebd8a-93d8-48d1-866c-419939b45b5a")
 	)
 	(no_connect
 		(at 231.14 72.39)
@@ -5238,7 +5262,7 @@
 		)
 		(uuid "4d3a5992-0c21-4e9c-a3a0-e2a8dd910878")
 	)
-	(label "3V6"
+	(label "VDD"
 		(at 354.33 66.04 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5491,7 +5515,7 @@
 		)
 		(uuid "d127848b-26c3-44cc-9d3d-645a39ce003f")
 	)
-	(label "3V6"
+	(label "VDD"
 		(at 245.11 46.99 180)
 		(fields_autoplaced yes)
 		(effects
