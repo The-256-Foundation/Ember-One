@@ -17134,6 +17134,114 @@
 			)
 		)
 	)
+	(footprint "emberone:70x90mm_heatsink"
+		(layer "F.Cu")
+		(uuid "5d01b39d-a37d-47a1-8f47-314a609ccd47")
+		(at 171.08 174.54)
+		(property "Reference" "U12"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "28c1ab3d-1815-4afe-be0c-7966da8229a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "70x90mm Heatsink"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5cf86c8-0ec6-44cc-9f54-ee35d25b1d52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "emberone:70x90mm_heatsink"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d390b8b-75ab-41f5-a4b8-25478e3411ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fa9d38a-ef4f-4b3c-a980-f7b4c09a7f59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "845fc425-d341-44b9-a941-133ed61f79a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4724305f-9fa6-421b-9bbd-6580e29f21d0")
+		(sheetname "Root")
+		(sheetfile "emberone.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -45 -35)
+			(end 45 35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "f6c4f577-9330-4305-9b9e-67987d330b5a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2b1d1dab-8ead-4235-8660-d52478ac4024")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KIPRJMOD}/3d/70x90_heatsink-Body.step"
+			(offset
+				(xyz 0 0 0.65)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(locked yes)
 		(layer "F.Cu")
