@@ -7245,7 +7245,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-1194-1-ND"
+		(property "DK" "399-C0805C821J5GACTUCT-ND"
 			(at 101.6 127 0)
 			(effects
 				(font
@@ -7254,7 +7254,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CC0805KRX7R9BB821"
+		(property "PARTNO" "C0805C821J5GACTU"
 			(at 101.6 127 0)
 			(effects
 				(font
@@ -9235,7 +9235,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-1194-1-ND"
+		(property "DK" "399-C0805C821J5GACTUCT-ND"
 			(at 143.51 120.65 0)
 			(effects
 				(font
@@ -9244,7 +9244,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CC0805KRX7R9BB821"
+		(property "PARTNO" "C0805C821J5GACTU"
 			(at 143.51 120.65 0)
 			(effects
 				(font
