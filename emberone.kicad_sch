@@ -5,9 +5,9 @@
 	(uuid "b036224c-4cdf-48cc-81df-19bc5283ebd2")
 	(paper "A3")
 	(title_block
-		(title "emberOne")
-		(date "2024-11-25")
-		(rev "2")
+		(title "emberOne/00")
+		(date "2025-02-25")
+		(rev "3")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -1493,12 +1493,12 @@
 		(at 350.52 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c92ddb8-a037-4610-b182-17b6f44332ca")
-		(property "Reference" "U11"
+		(property "Reference" "LOGO1"
 			(at 350.52 250.19 0)
 			(effects
 				(font
@@ -1546,7 +1546,7 @@
 		(instances
 			(project ""
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
-					(reference "U11")
+					(reference "LOGO1")
 					(unit 1)
 				)
 			)
@@ -1624,12 +1624,12 @@
 		(at 350.52 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4724305f-9fa6-421b-9bbd-6580e29f21d0")
-		(property "Reference" "U12"
+		(property "Reference" "EXTRA1"
 			(at 350.52 246.38 0)
 			(effects
 				(font
@@ -1677,7 +1677,7 @@
 		(instances
 			(project ""
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
-					(reference "U12")
+					(reference "EXTRA1")
 					(unit 1)
 				)
 			)

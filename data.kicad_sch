@@ -5,8 +5,9 @@
 	(uuid "3ac8d668-5c05-4a5b-95f3-bbef016125e7")
 	(paper "A3")
 	(title_block
-		(date "2024-11-25")
-		(rev "2")
+		(title "emberOne/00")
+		(date "2025-02-25")
+		(rev "3")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

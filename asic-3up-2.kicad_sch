@@ -5,8 +5,9 @@
 	(uuid "ad65bfc4-0ed7-49e2-a7db-f19084bf9761")
 	(paper "A3")
 	(title_block
-		(date "2024-11-25")
-		(rev "2")
+		(title "emberOne/00")
+		(date "2025-02-25")
+		(rev "3")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2306,6 +2307,12 @@
 		(uuid "d7ffb882-3f6f-4168-b514-1c24072388ab")
 	)
 	(junction
+		(at 201.93 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db94a38a-51c1-495a-a952-e137bd935619")
+	)
+	(junction
 		(at 356.87 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2348,6 +2355,12 @@
 		(uuid "f0079921-98c7-485a-b210-4c8df5c03307")
 	)
 	(junction
+		(at 184.15 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4ddf531-0a15-477c-95fb-29efbb7f373d")
+	)
+	(junction
 		(at 285.75 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2382,10 +2395,6 @@
 	(no_connect
 		(at 267.97 196.85)
 		(uuid "36764429-4feb-4381-a8fa-1cb3d4f71451")
-	)
-	(no_connect
-		(at 231.14 85.09)
-		(uuid "4c29c183-da0a-4b08-8cf8-28585b41691b")
 	)
 	(no_connect
 		(at 231.14 184.15)
@@ -3241,6 +3250,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 46.99) (xy 184.15 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba6f23a-f7f9-4857-8845-edbd7df46211")
+	)
+	(wire
+		(pts
 			(xy 267.97 125.73) (xy 321.31 125.73)
 		)
 		(stroke
@@ -3618,6 +3637,16 @@
 			(type default)
 		)
 		(uuid "718cc104-c0a3-4df8-b54f-98cd2cc5eb0e")
+	)
+	(wire
+		(pts
+			(xy 184.15 64.77) (xy 184.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ccf614-7e73-4718-add7-4e7d8e2ee1e1")
 	)
 	(wire
 		(pts
@@ -4751,6 +4780,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 64.77) (xy 201.93 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b2c0b4-531c-4cb6-8ee6-bc5681d90d94")
+	)
+	(wire
+		(pts
 			(xy 91.44 133.35) (xy 91.44 137.16)
 		)
 		(stroke
@@ -4758,6 +4797,16 @@
 			(type default)
 		)
 		(uuid "da6f4019-7e5d-49fd-9338-4dc5cec4667b")
+	)
+	(wire
+		(pts
+			(xy 223.52 85.09) (xy 231.14 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2a12aa-0bb5-46b0-aef9-1b1b35ff18a5")
 	)
 	(wire
 		(pts
@@ -5558,6 +5607,26 @@
 			(justify right bottom)
 		)
 		(uuid "dcc62231-6096-4b24-a587-0a8af1b8385d")
+	)
+	(label "1V2-0B"
+		(at 184.15 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de5de49d-3020-4dcb-bf71-0e3d9ec3a454")
+	)
+	(label "1V2-0B"
+		(at 223.52 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0f14dd6-fb34-4b56-96da-62066d1be53a")
 	)
 	(label "1V2-0"
 		(at 276.86 85.09 180)
@@ -7447,6 +7516,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 184.15 64.77 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c647e88-a4b5-422d-a570-541c92dedf87")
+		(property "Reference" "TP107"
+			(at 176.53 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 178.435 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 184.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90742dc0-3941-4976-bed2-c4d3a9fa7ada")
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/b7ad7cc6-371f-46f9-875b-8b04bdc75b20"
+					(reference "TP107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 346.71 72.39 0)
 		(unit 1)
@@ -8450,6 +8586,93 @@
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/b7ad7cc6-371f-46f9-875b-8b04bdc75b20"
 					(reference "R116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 184.15 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "7e6301fb-4b53-4c9b-b72a-b466876e1e95")
+		(property "Reference" "R67"
+			(at 184.912 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 184.912 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 185.166 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" ""
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" ""
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dc20017-cd21-4be7-a62b-9b1b9367e073")
+		)
+		(pin "2"
+			(uuid "4b319c57-5eca-45ca-9ac7-3599704a06f0")
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/b7ad7cc6-371f-46f9-875b-8b04bdc75b20"
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -10266,7 +10489,7 @@
 		(dnp no)
 		(uuid "cfc37aec-585b-44c2-bfcd-65eb46a96001")
 		(property "Reference" "TP124"
-			(at 166.37 64.77 90)
+			(at 167.386 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)

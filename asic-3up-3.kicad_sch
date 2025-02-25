@@ -5,8 +5,9 @@
 	(uuid "ad65bfc4-0ed7-49e2-a7db-f19084bf9761")
 	(paper "A3")
 	(title_block
-		(date "2024-11-25")
-		(rev "2")
+		(title "emberOne/00")
+		(date "2025-02-25")
+		(rev "3")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2565,6 +2566,12 @@
 		(uuid "14f0d1b6-ae95-4a26-8830-999d331e1c04")
 	)
 	(junction
+		(at 311.15 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15bcf5b6-039a-490c-8ef0-196a146ab817")
+	)
+	(junction
 		(at 73.66 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2721,12 +2728,6 @@
 		(uuid "68431dc5-bb72-42fc-9762-88faffd38c8d")
 	)
 	(junction
-		(at 273.05 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68597113-105c-4ec1-a1c5-a245648f137f")
-	)
-	(junction
 		(at 220.98 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2751,10 +2752,22 @@
 		(uuid "928e1dbb-49fa-44bd-a9c7-d456a3c372b7")
 	)
 	(junction
+		(at 278.13 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9be58249-970c-4fcf-afce-5b7e1b429b85")
+	)
+	(junction
 		(at 356.87 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f9a1769-32a0-44b2-bb82-ca326e5fa22a")
+	)
+	(junction
+		(at 290.83 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a07eee8d-334f-422f-971a-a03eadb35961")
 	)
 	(junction
 		(at 91.44 163.83)
@@ -2923,10 +2936,6 @@
 	(no_connect
 		(at 267.97 237.49)
 		(uuid "36764429-4feb-4381-a8fa-1cb3d4f71451")
-	)
-	(no_connect
-		(at 267.97 125.73)
-		(uuid "4c29c183-da0a-4b08-8cf8-28585b41691b")
 	)
 	(no_connect
 		(at 231.14 224.79)
@@ -3190,7 +3199,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 113.03) (xy 267.97 113.03)
+			(xy 278.13 113.03) (xy 267.97 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3280,7 +3289,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 143.51) (xy 273.05 120.65)
+			(xy 278.13 143.51) (xy 278.13 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3620,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 143.51) (xy 273.05 143.51)
+			(xy 248.92 143.51) (xy 278.13 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3647,6 +3656,16 @@
 			(type solid)
 		)
 		(uuid "41a88d5c-de34-44f0-9f5a-57323014cc3a")
+	)
+	(wire
+		(pts
+			(xy 311.15 87.63) (xy 311.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41bfd0c3-15d0-47d5-b8f6-66e2a9179da3")
 	)
 	(wire
 		(pts
@@ -3867,6 +3886,16 @@
 			(type default)
 		)
 		(uuid "4bc84004-d287-4250-bd66-9b74ae3dd9b4")
+	)
+	(wire
+		(pts
+			(xy 290.83 105.41) (xy 311.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c296def-b2d6-44dd-8775-1c867b12a066")
 	)
 	(wire
 		(pts
@@ -4370,7 +4399,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 120.65) (xy 273.05 120.65)
+			(xy 267.97 120.65) (xy 278.13 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4727,6 +4756,16 @@
 			(type default)
 		)
 		(uuid "9eb661c5-fc65-4750-b576-a63f121c654a")
+	)
+	(wire
+		(pts
+			(xy 311.15 105.41) (xy 311.15 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f226a7e-d51d-4db0-a072-4df5d11d70d9")
 	)
 	(wire
 		(pts
@@ -5480,7 +5519,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 120.65) (xy 273.05 113.03)
+			(xy 278.13 120.65) (xy 278.13 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5497,6 +5536,16 @@
 			(type default)
 		)
 		(uuid "d3b5b1b2-a76f-4c4f-9f43-43a28c43f36c")
+	)
+	(wire
+		(pts
+			(xy 267.97 125.73) (xy 276.86 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c6255d-5ae5-460a-adff-885a0ef48488")
 	)
 	(wire
 		(pts
@@ -6218,6 +6267,16 @@
 		)
 		(uuid "4fc5277a-6eef-4239-9c7f-e9a74c08e3c4")
 	)
+	(label "1V2-0B"
+		(at 311.15 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "521266c5-737f-4731-b81b-02626ad136a4")
+	)
 	(label "3V3"
 		(at 106.68 34.29 0)
 		(effects
@@ -6547,6 +6606,16 @@
 			(justify right bottom)
 		)
 		(uuid "dcc62231-6096-4b24-a587-0a8af1b8385d")
+	)
+	(label "1V2-0B"
+		(at 276.86 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de133a2f-bd13-46f2-b17b-c7c6a7023f1f")
 	)
 	(label "GND2"
 		(at 105.41 52.07 0)
@@ -8335,6 +8404,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 311.15 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "49cd972a-46c5-4150-879f-a09109d8d2f3")
+		(property "Reference" "R68"
+			(at 310.388 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 310.388 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 310.134 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" ""
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" ""
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ceef728-889c-4fc9-8d0b-90cd4e1e6313")
+		)
+		(pin "2"
+			(uuid "f9489b1f-cff1-4d7a-bcd8-a88d083621c8")
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/75fd7cab-4b1e-4fa4-8631-02e52962bbf8"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bitaxe:MCP1824")
 		(at 76.2 222.25 0)
 		(unit 1)
@@ -8752,6 +8909,72 @@
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/75fd7cab-4b1e-4fa4-8631-02e52962bbf8"
 					(reference "C249")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 311.15 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "67a29396-fc53-4d1b-9766-9d90655a021d")
+		(property "Reference" "TP108"
+			(at 318.77 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 316.865 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 311.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df0286ac-755a-4104-9803-2d106a3f2310")
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/75fd7cab-4b1e-4fa4-8631-02e52962bbf8"
+					(reference "TP108")
 					(unit 1)
 				)
 			)
