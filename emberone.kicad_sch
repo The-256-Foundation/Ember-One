@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b036224c-4cdf-48cc-81df-19bc5283ebd2")
 	(paper "A3")
 	(title_block
@@ -12,7 +12,9 @@
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -79,17 +81,6 @@
 			)
 			(symbol "Conn_01x01_1_1"
 				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -1.27)
 					(stroke
@@ -98,6 +89,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -119,6 +121,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire
@@ -273,7 +276,6 @@
 	)
 	(label "GND"
 		(at 59.69 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -284,7 +286,6 @@
 	)
 	(label "GND"
 		(at 137.16 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -650,6 +651,10 @@
 	(sheet
 		(at 69.85 39.37)
 		(size 29.21 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -679,53 +684,53 @@
 		)
 		(pin "3V3" input
 			(at 99.06 43.18 0)
+			(uuid "50196ad6-518d-460b-add9-edd0196992ec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "50196ad6-518d-460b-add9-edd0196992ec")
 		)
 		(pin "VIN" input
 			(at 69.85 43.18 180)
+			(uuid "7ce50fdb-c21e-4a30-9d20-a38c4c7e3e09")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7ce50fdb-c21e-4a30-9d20-a38c4c7e3e09")
 		)
 		(pin "VOUT" input
 			(at 99.06 60.96 0)
+			(uuid "a7c2d7e3-50ef-434c-b76c-e783bb989d1d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a7c2d7e3-50ef-434c-b76c-e783bb989d1d")
 		)
 		(pin "SDA" input
 			(at 99.06 50.8 0)
+			(uuid "ee4879a0-f118-46a6-9ff5-ea70e3ff00f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ee4879a0-f118-46a6-9ff5-ea70e3ff00f3")
 		)
 		(pin "SCL" input
 			(at 99.06 53.34 0)
+			(uuid "684bfad8-2706-48f8-a7e1-3d0df73126d4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "684bfad8-2706-48f8-a7e1-3d0df73126d4")
 		)
 		(instances
 			(project "emberone"
@@ -738,6 +743,10 @@
 	(sheet
 		(at 69.85 91.44)
 		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -767,33 +776,33 @@
 		)
 		(pin "SDA" input
 			(at 99.06 105.41 0)
+			(uuid "85ff5974-8f41-42ae-ad17-7643439cc394")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "85ff5974-8f41-42ae-ad17-7643439cc394")
 		)
 		(pin "3V3" input
 			(at 99.06 95.25 0)
+			(uuid "d7e4d1c9-3f50-4500-8412-fb50d4baafdc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d7e4d1c9-3f50-4500-8412-fb50d4baafdc")
 		)
 		(pin "SCL" input
 			(at 99.06 107.95 0)
+			(uuid "fc17f500-1fe6-4141-a978-7eb7fea14fbf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fc17f500-1fe6-4141-a978-7eb7fea14fbf")
 		)
 		(instances
 			(project "emberone"
@@ -808,4 +817,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
