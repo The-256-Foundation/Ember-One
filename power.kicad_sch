@@ -8987,7 +8987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "emberone:LINX_CONSMA001-SMD-G"
+		(property "Footprint" "emberone:SAMTEC_MMCX-P-P-H-ST-TH1"
 			(at 344.17 127 0)
 			(effects
 				(font
@@ -9005,7 +9005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" ""
 			(at 344.17 127 0)
 			(effects
 				(font
@@ -9014,7 +9014,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CONSMA001-SMD-G"
+		(property "PARTNO" "MMCX-P-P-H-ST-TH1"
 			(at 344.17 127 0)
 			(effects
 				(font
@@ -9023,7 +9023,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "CONSMA001-SMD-G-ND"
+		(property "DK" "SAM10618-ND"
 			(at 344.17 127 0)
 			(effects
 				(font
