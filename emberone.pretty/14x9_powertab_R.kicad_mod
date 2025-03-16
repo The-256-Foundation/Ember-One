@@ -1,7 +1,7 @@
 (footprint "14x9_powertab_R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -4.98 -5.26 0)
@@ -21,19 +21,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cd689c95-2994-45a3-9e42-995c8e7edc18")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d335a74e-cfc3-4d89-ac2e-e1d64409a4c4")
 		(effects
 			(font
 				(size 1 1)
@@ -69,24 +56,13 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -6.225 -3.775)
-		(end 6.275 3.775)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "85f463d2-534d-4978-8d21-294bdf401b7a")
-	)
-	(fp_rect
 		(start -6.95 -4.475)
 		(end 6.975 4.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "d3d16687-f30a-437c-9eca-df9fbad698aa")
 	)
@@ -116,4 +92,5 @@
 		(thermal_bridge_angle 45)
 		(uuid "e94a5e47-9a69-4f88-970c-8657c0fca4ab")
 	)
+	(embedded_fonts no)
 )

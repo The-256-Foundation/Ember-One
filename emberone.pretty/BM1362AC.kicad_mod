@@ -340,17 +340,6 @@
 		(uuid "f4260a35-9682-468d-873e-e672d0dcbb9d")
 	)
 	(fp_rect
-		(start -3.39 -3.8)
-		(end 3.36 3.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "B.Paste")
-		(uuid "63532aac-11b1-481c-a86e-4611d232063b")
-	)
-	(fp_rect
 		(start -4.65 -4.075)
 		(end 4.575 4.125)
 		(stroke
