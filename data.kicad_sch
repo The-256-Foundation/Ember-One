@@ -2832,201 +2832,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "emberone:SN74AHCT1G125DCKR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -4.572 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SN74AHCT1G125DCKR"
-				(at 1.016 -6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "emberone:DCK5"
-				(at 1.778 -10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf"
-				(at -0.508 -8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTNO" "SN74AHCT1G125DCKR"
-				(at 1.016 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DK" "296-4709-1-ND"
-				(at 0.762 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SN74AHCT1G125DCKR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DCK5 DCK5-M DCK5-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SN74AHCT1G125DCKR_0_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SN74AHCT1G125DCKR_1_1"
-				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -4.445)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -1.27 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "emberone:TLV1117LV33DCYR"
 			(pin_names
 				(offset 1.016)
@@ -3817,7 +3622,7 @@
 		(uuid "a203018d-3351-4e90-8e4a-79c47f2167a9")
 	)
 	(no_connect
-		(at 337.82 116.84)
+		(at 292.1 118.11)
 		(uuid "a33a6423-6d8c-4612-ab88-21228d9d8635")
 	)
 	(no_connect
@@ -3940,7 +3745,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 114.3) (xy 346.71 114.3)
+			(xy 292.1 115.57) (xy 295.91 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3990,16 +3795,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 111.76) (xy 304.8 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a812448-7d33-4094-83d8-9456979cbf54")
-	)
-	(wire
-		(pts
 			(xy 314.96 95.25) (xy 314.96 96.52)
 		)
 		(stroke
@@ -4027,16 +3822,6 @@
 			(type default)
 		)
 		(uuid "1d06503b-c386-4b8b-b388-6fec1d45aec4")
-	)
-	(wire
-		(pts
-			(xy 300.99 116.84) (xy 304.8 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d2adebd-2802-4790-bef8-24e4c694db59")
 	)
 	(wire
 		(pts
@@ -4190,16 +3975,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 119.38) (xy 314.96 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ecea1a5-47a3-4233-960c-84827ca21699")
-	)
-	(wire
-		(pts
 			(xy 146.05 93.98) (xy 114.3 93.98)
 		)
 		(stroke
@@ -4277,16 +4052,6 @@
 			(type default)
 		)
 		(uuid "41757619-1990-4251-9903-7d0bf6bb5e7d")
-	)
-	(wire
-		(pts
-			(xy 306.07 119.38) (xy 304.8 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42ae81ab-8fd4-4fc3-98d5-5d736343891f")
 	)
 	(wire
 		(pts
@@ -4420,7 +4185,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 116.84) (xy 322.58 116.84)
+			(xy 274.32 118.11) (xy 276.86 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4520,16 +4285,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 113.03) (xy 285.75 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ecec557-163b-48bd-9a81-5a7af2b59895")
-	)
-	(wire
-		(pts
 			(xy 257.81 86.36) (xy 257.81 87.63)
 		)
 		(stroke
@@ -4540,7 +4295,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 115.57) (xy 285.75 115.57)
+			(xy 274.32 115.57) (xy 276.86 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4697,16 +4452,6 @@
 			(type default)
 		)
 		(uuid "738dcc1b-4680-4522-a72a-122cb3f6e236")
-	)
-	(wire
-		(pts
-			(xy 300.99 114.3) (xy 322.58 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7552ae25-d6e3-4bab-aa7b-a8f3417e17e9")
 	)
 	(wire
 		(pts
@@ -4960,16 +4705,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 119.38) (xy 314.96 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "976859e9-33ae-4db2-9c4c-c7600d2a10ea")
-	)
-	(wire
-		(pts
 			(xy 327.66 156.21) (xy 323.85 156.21)
 		)
 		(stroke
@@ -5077,16 +4812,6 @@
 			(type default)
 		)
 		(uuid "a3a0931a-15ae-4f48-b545-bbafbb495fe4")
-	)
-	(wire
-		(pts
-			(xy 304.8 119.38) (xy 304.8 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a48c3d0e-bc9c-445c-b9fb-ff4d6ac29b47")
 	)
 	(wire
 		(pts
@@ -5909,7 +5634,7 @@
 		(uuid "2b302630-defa-408a-a19a-3e667074b4c0")
 	)
 	(label "GND"
-		(at 346.71 114.3 180)
+		(at 295.91 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6268,16 +5993,6 @@
 		)
 		(uuid "cd6ee599-0200-400a-9ff5-b695a7c0931b")
 	)
-	(label "GND"
-		(at 304.8 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d3a675f5-8883-4852-8140-42dc37c88548")
-	)
 	(label "3V3"
 		(at 199.39 113.03 0)
 		(effects
@@ -6299,7 +6014,7 @@
 		(uuid "d593101a-a1d9-408f-b630-2fdebf8b7240")
 	)
 	(label "5V"
-		(at 314.96 116.84 0)
+		(at 274.32 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6338,16 +6053,6 @@
 		)
 		(uuid "e0885b69-530e-428b-9a2a-bfc88d90c910")
 	)
-	(label "5V"
-		(at 304.8 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ea0b6840-de34-46d8-85e8-e9e699fbbd87")
-	)
 	(label "SWCLK"
 		(at 190.5 179.07 0)
 		(effects
@@ -6377,16 +6082,6 @@
 			(justify right bottom)
 		)
 		(uuid "ed1beb37-2ca4-463e-be1e-a2d328152945")
-	)
-	(label "GND"
-		(at 281.94 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ee6649c4-a615-4334-82ef-73a3b981b604")
 	)
 	(label "3V3"
 		(at 355.6 148.59 180)
@@ -7684,7 +7379,7 @@
 	)
 	(symbol
 		(lib_id "athvfd:SK6812SIDE-A-RVS")
-		(at 330.2 115.57 0)
+		(at 284.48 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7692,7 +7387,7 @@
 		(dnp no)
 		(uuid "4dca252d-6da6-4f3b-a281-a191f9cbb29e")
 		(property "Reference" "U9"
-			(at 326.39 111.76 0)
+			(at 280.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7700,7 +7395,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 331.978 119.38 0)
+			(at 286.258 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +7403,7 @@
 			)
 		)
 		(property "Footprint" "emberone:LED-SMD_4P-L4.0-W1.6-L"
-			(at 340.106 126.492 0)
+			(at 294.386 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7717,7 +7412,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
-			(at 328.422 124.206 0)
+			(at 282.702 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7726,7 +7421,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 114.3 0)
+			(at 276.86 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,7 +7430,7 @@
 			)
 		)
 		(property "LCSC" "C2890037"
-			(at 338.328 128.524 0)
+			(at 292.608 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,215 +8245,6 @@
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/e89e3a77-546a-4a35-b100-669149b20581"
 					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 309.88 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a8fe3c9-acdc-4b7f-8d21-24f8df206af3")
-		(property "Reference" "C114"
-			(at 305.562 121.412 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 314.198 121.412 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 302.26 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 309.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 297.18 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C307331"
-			(at 294.64 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part" "Basic Part"
-			(at 292.1 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "CL05A104KO5NNNC"
-			(at 309.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "1276-1234-1-ND"
-			(at 309.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae8af575-6240-46e6-b2bd-8ef66038206b")
-		)
-		(pin "2"
-			(uuid "5063478e-86a5-41fd-98b9-7de6c8f69e27")
-		)
-		(instances
-			(project "emberone"
-				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/e89e3a77-546a-4a35-b100-669149b20581"
-					(reference "C114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "emberone:SN74AHCT1G125DCKR")
-		(at 293.37 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bfc65dc-6d3f-440c-ad92-8c074218cd64")
-		(property "Reference" "U12"
-			(at 293.37 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74AHCT1G125DCKR"
-			(at 293.37 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "emberone:DCK5"
-			(at 295.148 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf"
-			(at 292.862 122.682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 293.37 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "SN74AHCT1G125DCKR"
-			(at 294.386 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "296-4709-1-ND"
-			(at 294.132 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57293c54-8270-40ae-b3b2-03c28a944bdb")
-		)
-		(pin "3"
-			(uuid "06697ecc-1a1a-4bfa-91de-9107a531d0a1")
-		)
-		(pin "1"
-			(uuid "92a19868-9d22-4499-9945-136102f705a1")
-		)
-		(pin "4"
-			(uuid "496aeb37-87ec-42ab-aea4-08c04acc02ee")
-		)
-		(pin "5"
-			(uuid "01662281-dcc8-4c6d-8c4f-465aa024cb73")
-		)
-		(instances
-			(project ""
-				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/e89e3a77-546a-4a35-b100-669149b20581"
-					(reference "U12")
 					(unit 1)
 				)
 			)
