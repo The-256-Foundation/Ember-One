@@ -7571,7 +7571,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "311-3342-1-ND"
+		(property "Value" "0.1uF"
 			(at 350.52 191.77 0)
 			(effects
 				(font
@@ -8384,7 +8384,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "311-3342-1-ND"
+		(property "Value" "0.1uF"
 			(at 350.52 156.21 0)
 			(effects
 				(font
