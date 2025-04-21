@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "emberOne/00")
-		(date "2025-02-25")
-		(rev "3")
+		(date "2025-04-21")
+		(rev "4")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -657,6 +657,520 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMAJ6.0A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ6.0A"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W unidirectional Transient Voltage Suppressor, 6.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ6.0A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ6.0A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power_Protection:TPD1E05U06DYA"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPD1E05U06DYA"
+				(at 1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-523"
+				(at 2.54 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "1-Channel ESD Protection for Super-Speed USB 3.0 Interface, SOD-523"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ESD protection USB 3.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOD*523*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPD1E05U06DYA_0_1"
+				(rectangle
+					(start -3.048 1.905)
+					(end 3.048 -3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.032) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -2.032) (xy -0.635 -1.397) (xy -0.635 -2.667) (xy -1.905 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -2.667) (xy -1.905 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0.762) (xy -0.762 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.508 0.635) (xy 0.508 -0.635) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -0.762 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -2.032) (xy -2.54 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -2.032) (xy 0.635 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 0.762) (xy -0.762 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.032)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 2.032 -1.397) (xy 2.032 -2.667) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.667) (xy 0.762 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 0) (xy -1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 0) (xy -1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.032) (xy 0.635 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.032) (xy 0.635 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.032) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TPD1E05U06DYA_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3506,6 +4020,12 @@
 		(uuid "c49806e4-eae4-482e-b86c-5d6035a0c118")
 	)
 	(junction
+		(at 87.63 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c97e6c21-f63c-4cab-82ce-8fba33ced7f0")
+	)
+	(junction
 		(at 303.53 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3655,16 +4175,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 137.16) (xy 125.73 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02722cae-b909-4c83-a0e0-6f2509a40c85")
-	)
-	(wire
-		(pts
 			(xy 111.76 157.48) (xy 111.76 162.56)
 		)
 		(stroke
@@ -3695,6 +4205,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 139.7) (xy 123.19 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06507fad-e523-4ba7-b83a-19c360749a52")
+	)
+	(wire
+		(pts
 			(xy 116.84 119.38) (xy 130.81 119.38)
 		)
 		(stroke
@@ -3722,6 +4242,16 @@
 			(type default)
 		)
 		(uuid "0980870e-8dfc-4c3f-970b-5f43b71031fe")
+	)
+	(wire
+		(pts
+			(xy 91.44 163.83) (xy 97.79 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af07c81-227c-4b06-82e2-d97b4bcbe0a3")
 	)
 	(wire
 		(pts
@@ -3895,6 +4425,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 148.59) (xy 104.14 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "239969a5-ce8d-4eee-a0c4-7da85a4826d8")
+	)
+	(wire
+		(pts
 			(xy 172.72 175.26) (xy 172.72 180.34)
 		)
 		(stroke
@@ -3975,6 +4515,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 148.59) (xy 104.14 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ebffe95-e5cf-4746-946b-e7400971aa5d")
+	)
+	(wire
+		(pts
 			(xy 146.05 93.98) (xy 114.3 93.98)
 		)
 		(stroke
@@ -4045,6 +4595,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 153.67) (xy 91.44 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4085bcd3-1d36-4fa8-b858-5fbf7c2b8386")
+	)
+	(wire
+		(pts
 			(xy 280.67 86.36) (xy 280.67 87.63)
 		)
 		(stroke
@@ -4072,6 +4632,16 @@
 			(type default)
 		)
 		(uuid "440b7900-afe8-4c20-850d-8c1dd424ab6d")
+	)
+	(wire
+		(pts
+			(xy 87.63 114.3) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a89ea6-0481-41c8-b712-3f21447656c1")
 	)
 	(wire
 		(pts
@@ -4142,6 +4712,16 @@
 			(type default)
 		)
 		(uuid "4a29d499-7b1a-4066-9ad7-5d5f4bf38915")
+	)
+	(wire
+		(pts
+			(xy 106.68 154.94) (xy 106.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d2c198d-1a21-4999-8d53-4f88b2e95a95")
 	)
 	(wire
 		(pts
@@ -4385,6 +4965,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 154.94) (xy 106.68 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec6b5b1-3648-4642-a094-5650b94a16d5")
+	)
+	(wire
+		(pts
 			(xy 198.12 120.65) (xy 203.2 120.65)
 		)
 		(stroke
@@ -4405,7 +4995,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 114.3) (xy 127 114.3)
+			(xy 82.55 114.3) (xy 87.63 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4785,6 +5375,26 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 114.3) (xy 87.63 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef192f1-1aa7-4cb5-a0cc-c316e432984f")
+	)
+	(wire
+		(pts
+			(xy 87.63 129.54) (xy 87.63 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f02e6ee-0712-48ce-a60c-0842d66a7da8")
+	)
+	(wire
+		(pts
 			(xy 284.48 134.62) (xy 280.67 134.62)
 		)
 		(stroke
@@ -4812,6 +5422,16 @@
 			(type default)
 		)
 		(uuid "a3a0931a-15ae-4f48-b545-bbafbb495fe4")
+	)
+	(wire
+		(pts
+			(xy 104.14 137.16) (xy 125.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e9ece7-d1ca-44a7-9a30-4d4b5f601914")
 	)
 	(wire
 		(pts
@@ -5195,16 +5815,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 139.7) (xy 123.19 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3e07c9f-531d-4da2-8519-849a23097ae0")
-	)
-	(wire
-		(pts
 			(xy 152.4 177.8) (xy 158.75 177.8)
 		)
 		(stroke
@@ -5252,6 +5862,16 @@
 			(type default)
 		)
 		(uuid "da475877-0889-4d0d-9404-5cf6fecdcbd5")
+	)
+	(wire
+		(pts
+			(xy 97.79 163.83) (xy 97.79 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db91296a-115a-4e8f-b5be-b9e07e3a3986")
 	)
 	(wire
 		(pts
@@ -5893,6 +6513,16 @@
 		)
 		(uuid "adb5f178-c891-48de-aae6-c0bf3efccc2c")
 	)
+	(label "GND"
+		(at 92.71 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3bee66d-c467-42a1-89cc-76838983e9b3")
+	)
 	(label "3V3"
 		(at 238.76 83.82 0)
 		(effects
@@ -5992,6 +6622,16 @@
 			(justify left bottom)
 		)
 		(uuid "cd6ee599-0200-400a-9ff5-b695a7c0931b")
+	)
+	(label "GND"
+		(at 87.63 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d15202f3-2b23-4315-8e8b-a78fb6e97cdf")
 	)
 	(label "3V3"
 		(at 199.39 113.03 0)
@@ -6255,7 +6895,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape output)
-		(at 106.68 114.3 180)
+		(at 82.55 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7229,7 +7869,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -7238,7 +7878,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -7344,7 +7984,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 204.47 91.44 0)
 			(effects
 				(font
@@ -7353,7 +7993,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 204.47 91.44 0)
 			(effects
 				(font
@@ -7572,13 +8212,12 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 350.52 191.77 0)
+			(at 356.87 194.818 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -7636,6 +8275,79 @@
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/e89e3a77-546a-4a35-b100-669149b20581"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:TPD1E05U06DYA")
+		(at 91.44 148.59 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c27e05c-84c4-4a5f-8275-de832397e988")
+		(property "Reference" "U11"
+			(at 93.98 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E05U06DYA"
+			(at 88.392 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 95.885 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf"
+			(at 97.79 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1-Channel ESD Protection for Super-Speed USB 3.0 Interface, SOD-523"
+			(at 91.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65ee2cb5-1ea5-4986-97db-c32c52c02e5c")
+		)
+		(pin "1"
+			(uuid "6f40e945-d90d-4e16-a2f2-4163d5a7c07e")
+		)
+		(instances
+			(project ""
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/e89e3a77-546a-4a35-b100-669149b20581"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -7723,7 +8435,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 326.39 91.44 0)
 			(effects
 				(font
@@ -7732,7 +8444,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 326.39 91.44 0)
 			(effects
 				(font
@@ -7838,7 +8550,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 269.24 91.44 0)
 			(effects
 				(font
@@ -7847,7 +8559,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 269.24 91.44 0)
 			(effects
 				(font
@@ -8120,7 +8832,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 303.53 91.44 0)
 			(effects
 				(font
@@ -8129,7 +8841,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 303.53 91.44 0)
 			(effects
 				(font
@@ -8332,7 +9044,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 280.67 91.44 90)
 			(effects
 				(font
@@ -8341,7 +9053,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 280.67 91.44 0)
 			(effects
 				(font
@@ -8385,13 +9097,12 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 350.52 156.21 0)
+			(at 356.616 159.258 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -9000,6 +9711,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:TPD1E05U06DYA")
+		(at 97.79 154.94 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1a5baf0-2258-4fb7-b11c-4e14614e80e6")
+		(property "Reference" "U12"
+			(at 100.076 150.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E05U06DYA"
+			(at 94.742 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 102.235 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf"
+			(at 104.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1-Channel ESD Protection for Super-Speed USB 3.0 Interface, SOD-523"
+			(at 97.79 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "002bbe12-fc7b-4294-b5b7-db1414c23d43")
+		)
+		(pin "1"
+			(uuid "2819d406-44dd-40b5-b072-c2ff72ab09dd")
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/e89e3a77-546a-4a35-b100-669149b20581"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bitaxe:TMP1075DGKR")
 		(at 336.55 189.23 0)
 		(unit 1)
@@ -9099,6 +9883,94 @@
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/e89e3a77-546a-4a35-b100-669149b20581"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ6.0A")
+		(at 87.63 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5b15472-798b-40ee-b422-e79bb79ead3f")
+		(property "Reference" "D5"
+			(at 90.17 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ6.0A"
+			(at 90.17 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1150/SMBJP6KE6.8%28C%29A-SMBJP6KE550%28C%29A%28DO-214AA%29.pdf"
+			(at 87.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "SMBJP6KE6.8A-TP"
+			(at 87.63 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "SMBJP6KE6.8A-TPMSCT-ND"
+			(at 87.63 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea057476-8a48-4316-b14e-6be03790cdc3")
+		)
+		(pin "2"
+			(uuid "ed8ed236-f7b7-4dc5-9804-6a8461642109")
+		)
+		(instances
+			(project "emberone"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/e89e3a77-546a-4a35-b100-669149b20581"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9316,7 +10188,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -9325,7 +10197,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -9431,7 +10303,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 314.96 91.44 0)
 			(effects
 				(font
@@ -9440,7 +10312,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 314.96 91.44 0)
 			(effects
 				(font
@@ -9746,7 +10618,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 292.1 91.44 0)
 			(effects
 				(font
@@ -9755,7 +10627,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 292.1 91.44 0)
 			(effects
 				(font
@@ -10216,7 +11088,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 172.72 184.15 0)
 			(effects
 				(font
@@ -10225,7 +11097,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 172.72 184.15 0)
 			(effects
 				(font

@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "emberOne/00")
-		(date "2025-02-25")
-		(rev "3")
+		(date "2025-04-21")
+		(rev "4")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -8332,7 +8332,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 49.53 44.45 0)
 			(effects
 				(font
@@ -8341,7 +8341,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 49.53 44.45 0)
 			(effects
 				(font
@@ -8565,7 +8565,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "49cd972a-46c5-4150-879f-a09109d8d2f3")
@@ -8795,7 +8795,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 363.22 111.76 0)
 			(effects
 				(font
@@ -8804,7 +8804,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 363.22 111.76 0)
 			(effects
 				(font
@@ -10042,7 +10042,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 161.29 53.34 0)
 			(effects
 				(font
@@ -10051,7 +10051,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 161.29 53.34 0)
 			(effects
 				(font
@@ -12215,7 +12215,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 363.22 227.33 0)
 			(effects
 				(font
@@ -12224,7 +12224,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 363.22 227.33 0)
 			(effects
 				(font
@@ -13421,7 +13421,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 118.11 44.45 0)
 			(effects
 				(font
@@ -13430,7 +13430,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 118.11 44.45 0)
 			(effects
 				(font
@@ -13944,7 +13944,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 363.22 167.64 0)
 			(effects
 				(font
@@ -13953,7 +13953,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 363.22 167.64 0)
 			(effects
 				(font

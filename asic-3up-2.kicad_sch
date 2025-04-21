@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "emberOne/00")
-		(date "2025-02-25")
-		(rev "3")
+		(date "2025-04-21")
+		(rev "4")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -7632,7 +7632,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 346.71 72.39 0)
 			(effects
 				(font
@@ -7641,7 +7641,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 346.71 72.39 0)
 			(effects
 				(font
@@ -8592,7 +8592,7 @@
 		(at 171.45 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "7e6301fb-4b53-4c9b-b72a-b466876e1e95")
@@ -10267,7 +10267,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 346.71 187.96 0)
 			(effects
 				(font
@@ -10276,7 +10276,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 346.71 187.96 0)
 			(effects
 				(font
@@ -11543,7 +11543,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 346.71 120.65 0)
 			(effects
 				(font
@@ -11552,7 +11552,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 346.71 120.65 0)
 			(effects
 				(font

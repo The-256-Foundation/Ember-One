@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "emberOne/00")
-		(date "2025-02-25")
-		(rev "3")
+		(date "2025-04-21")
+		(rev "4")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
