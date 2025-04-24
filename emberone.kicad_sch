@@ -631,6 +631,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 107.95) (xy 238.76 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd3a615-ca1c-41da-b976-fda4d8981e67")
+	)
+	(wire
+		(pts
 			(xy 252.73 149.86) (xy 281.94 149.86)
 		)
 		(stroke
@@ -828,6 +838,16 @@
 			(type default)
 		)
 		(uuid "71ad9c8c-f332-4af3-839e-3be23cdcfe7a")
+	)
+	(wire
+		(pts
+			(xy 229.87 110.49) (xy 238.76 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b1bb52-801b-4ea2-b752-9bb420df1839")
 	)
 	(wire
 		(pts
@@ -1041,6 +1061,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 163.83) (xy 149.86 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a64cd7-f1d7-4d2c-a074-b3189119cb4d")
+	)
+	(wire
+		(pts
 			(xy 224.79 165.1) (xy 222.25 165.1)
 		)
 		(stroke
@@ -1219,6 +1249,16 @@
 		)
 		(uuid "f2b90ce8-b67a-4315-8b13-667528dcbcac")
 	)
+	(wire
+		(pts
+			(xy 138.43 166.37) (xy 149.86 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "facc57a7-8dc2-4255-9b71-14d33f57739d")
+	)
 	(label "5V"
 		(at 160.02 162.56 0)
 		(effects
@@ -1228,6 +1268,16 @@
 			(justify left bottom)
 		)
 		(uuid "0ac5664a-37f3-47a9-9517-d63e9af45c12")
+	)
+	(label "TEMP_N"
+		(at 149.86 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b5ba448-5f50-4c94-9946-453e0c695277")
 	)
 	(label "GND"
 		(at 128.27 88.9 180)
@@ -1279,6 +1329,16 @@
 		)
 		(uuid "3f941866-ca76-42ef-8afe-f75f973e141c")
 	)
+	(label "TEMP_P"
+		(at 229.87 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41e80485-9a23-4521-ba53-923e7d357bd6")
+	)
 	(label "RX"
 		(at 229.87 96.52 0)
 		(effects
@@ -1318,6 +1378,26 @@
 			(justify left bottom)
 		)
 		(uuid "7f5e4462-7928-4dd8-a01d-1f8477f03238")
+	)
+	(label "TEMP_N"
+		(at 229.87 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8633e798-3f52-4e91-b367-bd119200c284")
+	)
+	(label "TEMP_P"
+		(at 149.86 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f5b8543-7bf2-48c6-8db4-883406906a89")
 	)
 	(label "5V"
 		(at 273.05 162.56 0)
@@ -3007,6 +3087,26 @@
 				(justify left)
 			)
 		)
+		(pin "TEMP_N" output
+			(at 138.43 163.83 0)
+			(uuid "7a6be018-2fd9-4e37-99e4-1ab939fb2965")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP_P" output
+			(at 138.43 166.37 0)
+			(uuid "4b6dd7fc-1de0-431f-a50e-a4c0a37dc516")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
@@ -3452,7 +3552,7 @@
 	)
 	(sheet
 		(at 238.76 76.2)
-		(size 30.48 27.94)
+		(size 30.48 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3476,7 +3576,7 @@
 			)
 		)
 		(property "Sheetfile" "data.kicad_sch"
-			(at 238.76 105.2326 0)
+			(at 238.76 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,6 +3672,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "TEMP_N" input
+			(at 238.76 107.95 180)
+			(uuid "e5d88ac2-5f7e-46b9-8a9b-14e2fbb8d2ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TEMP_P" input
+			(at 238.76 110.49 180)
+			(uuid "2891d50d-66e9-4c16-a24c-9e37e073949e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

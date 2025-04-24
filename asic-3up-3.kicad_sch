@@ -2948,10 +2948,6 @@
 		(uuid "4fea4aab-5d07-4b9a-858c-7c6d3a3c1dee")
 	)
 	(no_connect
-		(at 242.57 227.33)
-		(uuid "57b97fa2-d60f-499d-a8fe-1f2c05c98ada")
-	)
-	(no_connect
 		(at 66.04 168.91)
 		(uuid "641c1101-1159-4b2b-983a-ff5fe7d999d3")
 	)
@@ -2986,10 +2982,6 @@
 	(no_connect
 		(at 242.57 171.45)
 		(uuid "ae8a0ec9-2beb-40a9-8b6c-f5d6b1a7294e")
-	)
-	(no_connect
-		(at 242.57 229.87)
-		(uuid "b2a758c2-cea9-4e1c-ba15-4a53230aad1b")
 	)
 	(no_connect
 		(at 279.4 173.99)
@@ -3652,6 +3644,16 @@
 			(type default)
 		)
 		(uuid "39e83296-95ce-49db-a701-d3f6a83d6226")
+	)
+	(wire
+		(pts
+			(xy 238.76 229.87) (xy 242.57 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae0e0bb-ee0f-4436-b9bf-c9a80f9b3fb0")
 	)
 	(wire
 		(pts
@@ -5845,6 +5847,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 227.33) (xy 242.57 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6382faa-d10c-4888-b078-beaf3ef28679")
+	)
+	(wire
+		(pts
 			(xy 242.57 105.41) (xy 203.2 105.41)
 		)
 		(stroke
@@ -6950,6 +6962,17 @@
 		)
 		(uuid "72c04f90-0a1e-4512-8799-d5aaba1dba03")
 	)
+	(hierarchical_label "TEMP_N"
+		(shape output)
+		(at 238.76 229.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74869524-9ca1-4cc7-8f7d-ba5fea11df6d")
+	)
 	(hierarchical_label "VDDIO_IN2"
 		(shape input)
 		(at 45.72 220.98 180)
@@ -6960,6 +6983,17 @@
 			(justify right)
 		)
 		(uuid "7b469dc4-ce00-4850-a17c-3670009a3a57")
+	)
+	(hierarchical_label "TEMP_P"
+		(shape output)
+		(at 238.76 227.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e653704-05e7-4b93-8b62-8bdf63b0519f")
 	)
 	(hierarchical_label "BO"
 		(shape output)
