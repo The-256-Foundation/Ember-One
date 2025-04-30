@@ -11,3 +11,6 @@ A 100W open source ASIC Bitcoin mining hashboard.
 The emberOne/00 is based on the BM1362 from the Bitmain Antminer S19j Pro. It should reach about 3.5 TH/s
 
 ![](doc/render.jpg)
+
+## Building
+The emberOne/00 _can_ be hand built. It's difficult, but you can do it with mininimal equipment and patience. Check out these [assembly tips](assembly.md)
