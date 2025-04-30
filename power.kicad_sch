@@ -7569,7 +7569,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 218.186 90.17 90)
 			(effects
 				(font
@@ -7604,7 +7604,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-0.0HRCT-ND"
+		(property "DK" "311-10.0HRCT-ND"
 			(at 214.63 91.44 0)
 			(effects
 				(font
@@ -7613,7 +7613,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0603FR-070RL"
+		(property "PARTNO" "RC0603FR-0710RL"
 			(at 214.63 91.44 0)
 			(effects
 				(font
@@ -8011,9 +8011,9 @@
 		(at 316.23 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "38fe3375-10b3-4d1b-b139-b668e0cc95be")
 		(property "Reference" "R28"
 			(at 320.04 146.812 0)
@@ -8358,9 +8358,9 @@
 		(at 313.69 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4af47ad1-8594-4315-95d7-9361a65ae8bb")
 		(property "Reference" "C28"
 			(at 316.992 78.486 0)
@@ -8726,9 +8726,9 @@
 		(at 313.69 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "631df926-b3ec-4691-91b2-d9df02777b32")
 		(property "Reference" "R27"
 			(at 317.246 89.154 0)
@@ -9167,9 +9167,9 @@
 		(at 344.17 127 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "70054f8b-269d-4d8c-a753-5669b01f3724")
 		(property "Reference" "J19"
 			(at 341.122 127.254 0)
@@ -9440,7 +9440,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 218.186 93.98 90)
 			(effects
 				(font
@@ -9475,7 +9475,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-0.0HRCT-ND"
+		(property "DK" "311-10.0HRCT-ND"
 			(at 214.63 95.25 0)
 			(effects
 				(font
@@ -9484,7 +9484,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0603FR-070RL"
+		(property "PARTNO" "RC0603FR-0710RL"
 			(at 214.63 95.25 0)
 			(effects
 				(font
@@ -10732,9 +10732,9 @@
 		(at 316.23 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b8a7190c-00c0-45ab-8d66-5843351c16b0")
 		(property "Reference" "C29"
 			(at 319.532 137.16 0)

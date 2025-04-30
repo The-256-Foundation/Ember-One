@@ -162,7 +162,7 @@
 			(hidednponfab no)
 			(sketchdnponfab no)
 			(crossoutdnponfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
@@ -1197,7 +1197,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "03adc390-4b99-4ffd-8eaa-58f3b3e69507")
 		)
 		(pad "26" thru_hole circle
 			(at -1.14 3.1 180)
@@ -1208,7 +1208,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "d8d887ba-e155-446c-8c31-331c485d2118")
 		)
 		(pad "26" thru_hole circle
 			(at -1.132856 0.11 180)
@@ -1219,7 +1219,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "4760104d-7b3d-44a8-8c7f-a764534a6f64")
 		)
 		(pad "26" thru_hole circle
 			(at -1.127144 2.08 180)
@@ -1230,7 +1230,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "00222dfc-f87a-4c3f-a05c-eba409fa8cc2")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 -0.93 180)
@@ -1241,7 +1241,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "3c93d1fe-ac6a-47ad-8ccb-f5dc558bb235")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 1.03 180)
@@ -1252,7 +1252,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "a632a1fd-7aa7-4585-b972-b0dcf678323e")
 		)
 		(pad "26" smd rect
 			(at -0.02 0 270)
@@ -1262,7 +1262,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "d854ad2d-8122-4c31-aa3d-624cb5cfd508")
 		)
 		(pad "26" smd rect
 			(at 0 1.105 270)
@@ -1272,7 +1272,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "b888eff5-a459-4135-926a-efeb2196e570")
 		)
 		(pad "26" thru_hole circle
 			(at 0.044288 0.11 180)
@@ -1283,7 +1283,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "f7200826-0b46-4835-9f1f-42150eb2e364")
 		)
 		(pad "26" thru_hole circle
 			(at 0.05 2.08 180)
@@ -1294,7 +1294,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "73db0cd1-880d-40c6-b832-9174775b63fc")
 		)
 		(pad "26" thru_hole circle
 			(at 1.09 2.06 180)
@@ -1305,7 +1305,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "c88f7fba-4ff6-4ee2-984e-d7b71ecffbe3")
 		)
 		(pad "26" thru_hole circle
 			(at 1.1 3.09 180)
@@ -1316,7 +1316,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "0889d79c-9b2b-44a3-ba2e-5d33e9bb9942")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 -0.93 180)
@@ -1328,7 +1328,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "2c6aa55f-7c96-420b-b526-14ff38ba4b34")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 1.01 180)
@@ -1339,7 +1339,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "2d44bfd5-54ee-4402-b4c9-1b4f095dfbcd")
 		)
 		(pad "26" thru_hole circle
 			(at 1.111428 0.11 180)
@@ -1350,7 +1350,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "9cb05fab-5dc2-4a96-8d0f-2d19834a14bc")
 		)
 		(pad "26" thru_hole circle
 			(at 2.304288 0.11 180)
@@ -1361,7 +1361,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "03957722-5c52-421a-a321-56741f7be7c8")
 		)
 		(pad "26" thru_hole circle
 			(at 2.31 2.08 180)
@@ -1372,7 +1372,7 @@
 			(net 49 "/stack5/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "de7e52cb-af5c-4890-bd41-2302a7b01163")
+			(uuid "43de5848-0b56-434d-8d31-a7b7411d50f2")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/BM1362.step"
@@ -3121,7 +3121,7 @@
 		(path "/b7ad7cc6-371f-46f9-875b-8b04bdc75b20/affecf03-5ea2-4d38-8bab-1e6cc9d42f3c")
 		(sheetname "/stack6/")
 		(sheetfile "asic-3up-2.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -7 -4.5)
 			(end 6.825 4.475)
@@ -3163,7 +3163,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "780170cc-3d21-4d99-9c37-49aa2c7c627b")
+			(uuid "10067b08-881f-49bf-83d2-8aaaa812de0f")
 		)
 		(embedded_fonts no)
 	)
@@ -4933,7 +4933,7 @@
 		(path "/77c510ef-c2c8-433b-9442-e0d7684769dc/631df926-b3ec-4691-91b2-d9df02777b32")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -6460,7 +6460,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "bb43d819-4de2-4453-aea3-7348e49dc115")
 		)
 		(pad "26" thru_hole circle
 			(at -1.14 3.1)
@@ -6471,7 +6471,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "60d8ceb9-211d-4b79-a2e4-2261cdf80642")
 		)
 		(pad "26" thru_hole circle
 			(at -1.132856 0.11)
@@ -6482,7 +6482,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "21e2ff1c-65d3-4a0e-857a-d5e467e5f759")
 		)
 		(pad "26" thru_hole circle
 			(at -1.127144 2.08)
@@ -6493,7 +6493,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "721d1d96-dcfe-4f05-9675-0910a36347f1")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 -0.93)
@@ -6504,7 +6504,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "ff1d1431-1ebd-4f2d-a171-c072cd5a9c86")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 1.03)
@@ -6515,7 +6515,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "7497de8e-3d19-42bf-aa69-bb681b49f447")
 		)
 		(pad "26" smd rect
 			(at -0.02 0 90)
@@ -6525,7 +6525,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "78e03542-c191-4805-b3f9-96f3582ccb9a")
 		)
 		(pad "26" smd rect
 			(at 0 1.105 90)
@@ -6535,7 +6535,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "7dbe8337-77f9-4b4f-bfcf-86de8d1468e3")
 		)
 		(pad "26" thru_hole circle
 			(at 0.044288 0.11)
@@ -6546,7 +6546,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "bb2fcfb6-797a-41dd-8bea-232cfb6add67")
 		)
 		(pad "26" thru_hole circle
 			(at 0.05 2.08)
@@ -6557,7 +6557,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "114c1cd0-2377-4a74-8098-3500a18d37dd")
 		)
 		(pad "26" thru_hole circle
 			(at 1.09 2.06)
@@ -6568,7 +6568,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "667a2506-0adb-48d6-b46d-d26fb6e5a532")
 		)
 		(pad "26" thru_hole circle
 			(at 1.1 3.09)
@@ -6579,7 +6579,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "39afe634-35e3-4a5c-aa35-7520c8db73a1")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 -0.93)
@@ -6591,7 +6591,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "a35a90bb-d26f-4c6a-a59c-4dfbf9430de8")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 1.01)
@@ -6602,7 +6602,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "72e889e2-94f6-42fd-873d-4ba01977e9f8")
 		)
 		(pad "26" thru_hole circle
 			(at 1.111428 0.11)
@@ -6613,7 +6613,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "7bdb2c86-8580-4de5-b222-301d4733bf60")
 		)
 		(pad "26" thru_hole circle
 			(at 2.304288 0.11)
@@ -6624,7 +6624,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "2933d1d2-209d-405e-ac27-1b682de78433")
 		)
 		(pad "26" thru_hole circle
 			(at 2.31 2.08)
@@ -6635,7 +6635,7 @@
 			(net 59 "/stack6/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "68c2fdcc-38b2-4a7e-bd46-40edde07225d")
+			(uuid "bbda2f3a-6b3d-4ba8-9a61-0fe02905de4f")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/BM1362.step"
@@ -7311,7 +7311,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "0e0f69c5-2ca0-4c94-b599-25e6946b1d21")
 		)
 		(pad "26" thru_hole circle
 			(at -1.14 3.1)
@@ -7322,7 +7322,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "b91ec1a0-cfa3-40c2-b065-0e58c174cbfc")
 		)
 		(pad "26" thru_hole circle
 			(at -1.132856 0.11)
@@ -7333,7 +7333,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "ebd00629-788a-4821-986b-1b42f6e107bc")
 		)
 		(pad "26" thru_hole circle
 			(at -1.127144 2.08)
@@ -7344,7 +7344,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "f37747f0-57fb-4acb-833c-cc99773c11a0")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 -0.93)
@@ -7355,7 +7355,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "2d7aac26-9229-47b1-8a25-dc1c33ace89d")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 1.03)
@@ -7366,7 +7366,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "9482614b-c4a3-45a3-94a6-38ac3c3ec650")
 		)
 		(pad "26" smd rect
 			(at -0.02 0 90)
@@ -7376,7 +7376,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "36f43e59-4da3-4752-98eb-908228bf23bb")
 		)
 		(pad "26" smd rect
 			(at 0 1.105 90)
@@ -7386,7 +7386,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "ed602c4e-f335-4509-86a7-e6cb6b1cfac8")
 		)
 		(pad "26" thru_hole circle
 			(at 0.044288 0.11)
@@ -7397,7 +7397,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "bd43f46b-b418-43be-b451-4933ec1af302")
 		)
 		(pad "26" thru_hole circle
 			(at 0.05 2.08)
@@ -7408,7 +7408,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "b3b75df0-4651-4a85-9bc0-0ae31d3d5f2d")
 		)
 		(pad "26" thru_hole circle
 			(at 1.09 2.06)
@@ -7419,7 +7419,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "ea5ed6b8-8778-4147-a976-06d096e0f65f")
 		)
 		(pad "26" thru_hole circle
 			(at 1.1 3.09)
@@ -7430,7 +7430,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "cf1b1106-ef50-4202-adbd-3c3d6cebe517")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 -0.93)
@@ -7442,7 +7442,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "842c6501-0b24-44d2-9c19-1fe233ac1614")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 1.01)
@@ -7453,7 +7453,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "8e15403c-edbe-401a-9b23-9521865cb8ea")
 		)
 		(pad "26" thru_hole circle
 			(at 1.111428 0.11)
@@ -7464,7 +7464,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "b6b4b6cf-faa3-458f-b855-e6c211b69d60")
 		)
 		(pad "26" thru_hole circle
 			(at 2.304288 0.11)
@@ -7475,7 +7475,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "9c89bdae-4261-4d77-9bc6-20632f3712ba")
 		)
 		(pad "26" thru_hole circle
 			(at 2.31 2.08)
@@ -7486,7 +7486,7 @@
 			(net 35 "/stack4/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "c0c47ae6-0713-4fbd-87c3-6082f2540e0a")
+			(uuid "8a799d66-4886-42da-a190-fa8913bba795")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/BM1362.step"
@@ -7814,7 +7814,7 @@
 		(path "/77c510ef-c2c8-433b-9442-e0d7684769dc/38fe3375-10b3-4d1b-b139-b668e0cc95be")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -10541,7 +10541,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "ca4242ef-8d6b-453f-8db6-74dc07f040a3")
 		)
 		(pad "26" thru_hole circle
 			(at -1.14 3.1 180)
@@ -10552,7 +10552,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "c288e160-bc82-46f7-ad7d-09bf12ad75cc")
 		)
 		(pad "26" thru_hole circle
 			(at -1.132856 0.11 180)
@@ -10563,7 +10563,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "eb5a17c0-5f53-45a1-b16b-8025dee72b48")
 		)
 		(pad "26" thru_hole circle
 			(at -1.127144 2.08 180)
@@ -10574,7 +10574,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "1b53a76f-a318-4518-b764-a11594013c17")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 -0.93 180)
@@ -10585,7 +10585,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "6844ccdd-13ba-4747-bf37-b2e4b9604fc3")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 1.03 180)
@@ -10596,7 +10596,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "55f6c534-a75b-478a-a351-fbf08a166d76")
 		)
 		(pad "26" smd rect
 			(at -0.02 0 270)
@@ -10606,7 +10606,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "35cf31a1-a46d-47b6-a54f-84084cd9b4ed")
 		)
 		(pad "26" smd rect
 			(at 0 1.105 270)
@@ -10616,7 +10616,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "5f073b56-fa80-46d8-8a18-145bc481272d")
 		)
 		(pad "26" thru_hole circle
 			(at 0.044288 0.11 180)
@@ -10627,7 +10627,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "a9a5bdc4-ef3d-4d3c-809c-9323534b81b4")
 		)
 		(pad "26" thru_hole circle
 			(at 0.05 2.08 180)
@@ -10638,7 +10638,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "1990e61c-2429-44aa-aa72-864c13cefb2c")
 		)
 		(pad "26" thru_hole circle
 			(at 1.09 2.06 180)
@@ -10649,7 +10649,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "6e23446b-6a85-48aa-94c7-3089790424c6")
 		)
 		(pad "26" thru_hole circle
 			(at 1.1 3.09 180)
@@ -10660,7 +10660,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "53dc6760-f4d9-47cf-9d7d-79853957b846")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 -0.93 180)
@@ -10672,7 +10672,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "911d6206-e6cb-4ddb-a7a4-14ceb19a95e3")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 1.01 180)
@@ -10683,7 +10683,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "6d9bb502-6235-4e29-9a3b-3c499e3daab3")
 		)
 		(pad "26" thru_hole circle
 			(at 1.111428 0.11 180)
@@ -10694,7 +10694,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "3b98a196-f5cf-49a7-b121-30f99ec2576a")
 		)
 		(pad "26" thru_hole circle
 			(at 2.304288 0.11 180)
@@ -10705,7 +10705,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "3f9d03f5-1d5a-4beb-bac2-bac63bb10e00")
 		)
 		(pad "26" thru_hole circle
 			(at 2.31 2.08 180)
@@ -10716,7 +10716,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "34dc2f27-2fe2-4e49-bfd8-d66dbd8b0c9c")
+			(uuid "494e5c03-44a8-402f-abe7-c9fc0754bad7")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/BM1362.step"
@@ -11659,7 +11659,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "6efe3f29-0b9b-45a7-bee5-f2fad1644df1")
 		)
 		(pad "26" thru_hole circle
 			(at -1.14 3.1 180)
@@ -11670,7 +11670,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "6a33bdd6-fc0d-44d3-9a34-d71f6e79c686")
 		)
 		(pad "26" thru_hole circle
 			(at -1.132856 0.11 180)
@@ -11681,7 +11681,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "03b57952-569c-4984-8841-68e29730720d")
 		)
 		(pad "26" thru_hole circle
 			(at -1.127144 2.08 180)
@@ -11692,7 +11692,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "4be73d20-03c9-4672-8217-477799a0440f")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 -0.93 180)
@@ -11703,7 +11703,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "76256b2c-4f4a-405b-bb73-51c633c958d8")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 1.03 180)
@@ -11714,7 +11714,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "dfd4f590-c8e7-4181-961b-e7ff7bad9ffe")
 		)
 		(pad "26" smd rect
 			(at -0.02 0 270)
@@ -11724,7 +11724,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "f1c55de8-b241-4476-902e-eb1024152d5e")
 		)
 		(pad "26" smd rect
 			(at 0 1.105 270)
@@ -11734,7 +11734,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "207b447c-b877-4069-8f36-ef52548624e1")
 		)
 		(pad "26" thru_hole circle
 			(at 0.044288 0.11 180)
@@ -11745,7 +11745,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "5f12327e-1caa-467e-9077-e026d316d583")
 		)
 		(pad "26" thru_hole circle
 			(at 0.05 2.08 180)
@@ -11756,7 +11756,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "965bf018-7ac7-4adc-b9b3-3d9385f8f0bf")
 		)
 		(pad "26" thru_hole circle
 			(at 1.09 2.06 180)
@@ -11767,7 +11767,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "9c27bfc9-628c-43f7-bbe4-ce15d001da6f")
 		)
 		(pad "26" thru_hole circle
 			(at 1.1 3.09 180)
@@ -11778,7 +11778,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "376bb0c8-3672-4c3d-ac39-aaae06e2c41c")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 -0.93 180)
@@ -11790,7 +11790,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "8775947f-3b03-4731-935d-8d1efd6e0fc2")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 1.01 180)
@@ -11801,7 +11801,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "ea30744c-2bc8-4e2a-bf5e-7fa4bbfd1171")
 		)
 		(pad "26" thru_hole circle
 			(at 1.111428 0.11 180)
@@ -11812,7 +11812,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "5d1d0bb6-a515-492e-8961-ae3ea0428639")
 		)
 		(pad "26" thru_hole circle
 			(at 2.304288 0.11 180)
@@ -11823,7 +11823,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "574272a2-0655-4eb8-a973-6010dffa9133")
 		)
 		(pad "26" thru_hole circle
 			(at 2.31 2.08 180)
@@ -11834,7 +11834,7 @@
 			(net 48 "/stack5/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "df63b2c3-1606-4d8d-89a7-7d03952fb612")
+			(uuid "c9a60b96-6fb1-42e8-996b-277911fddb05")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/BM1362.step"
@@ -12738,7 +12738,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "178c9711-5613-4161-8bbf-36b605cf213c")
 		)
 		(pad "26" thru_hole circle
 			(at -1.14 3.1)
@@ -12749,7 +12749,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "a0f27ae4-82cb-40f4-a2ba-aa745b94bc35")
 		)
 		(pad "26" thru_hole circle
 			(at -1.132856 0.11)
@@ -12760,7 +12760,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "27293e31-79e4-4693-81b4-3191a6e85e9f")
 		)
 		(pad "26" thru_hole circle
 			(at -1.127144 2.08)
@@ -12771,7 +12771,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "c25de8ac-7e9f-4948-bcc6-f03ee9acf8fc")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 -0.93)
@@ -12782,7 +12782,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "a99d65b5-d747-4ed8-b617-ec4aa3671f64")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 1.03)
@@ -12793,7 +12793,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "dd80d6ea-5717-4044-a85a-a0f74b132612")
 		)
 		(pad "26" smd rect
 			(at -0.02 0 90)
@@ -12803,7 +12803,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "9dd723e9-6baa-48ba-beb6-a360f5f0ce99")
 		)
 		(pad "26" smd rect
 			(at 0 1.105 90)
@@ -12813,7 +12813,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "09e02462-99bf-4660-b569-350eee8163d8")
 		)
 		(pad "26" thru_hole circle
 			(at 0.044288 0.11)
@@ -12824,7 +12824,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "b5a5fe63-b83b-49b5-bbce-714b877b74bb")
 		)
 		(pad "26" thru_hole circle
 			(at 0.05 2.08)
@@ -12835,7 +12835,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "034dc418-7aa0-4d78-97ae-3aff9be089a2")
 		)
 		(pad "26" thru_hole circle
 			(at 1.09 2.06)
@@ -12846,7 +12846,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "f99cb168-87a7-46d1-ad3d-01da4b02659c")
 		)
 		(pad "26" thru_hole circle
 			(at 1.1 3.09)
@@ -12857,7 +12857,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "9a9cd33e-ef81-4b24-bd93-2ac004cdd627")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 -0.93)
@@ -12869,7 +12869,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "f276b872-3fb8-45fe-b903-487fce5812b8")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 1.01)
@@ -12880,7 +12880,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "06f9cf70-46f0-415b-b2c0-eb10536c6867")
 		)
 		(pad "26" thru_hole circle
 			(at 1.111428 0.11)
@@ -12891,7 +12891,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "58e2d833-1c92-414b-aee6-99fe5108aeb9")
 		)
 		(pad "26" thru_hole circle
 			(at 2.304288 0.11)
@@ -12902,7 +12902,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "0a62cb06-d85d-4454-a3a8-62ab75184734")
 		)
 		(pad "26" thru_hole circle
 			(at 2.31 2.08)
@@ -12913,7 +12913,7 @@
 			(net 34 "/stack4/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "e69c7849-043a-4c11-9a38-23ba1c6e6a9e")
+			(uuid "ea362580-2405-49c4-b22f-b710076f0419")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/BM1362.step"
@@ -12987,7 +12987,7 @@
 		(path "/dea5684e-9ec9-4967-b9ef-d4ee852a3fa0/43d280e3-d9df-4c20-a5ad-7978e9c60c3b")
 		(sheetname "/stack4/")
 		(sheetfile "asic-3up-0.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -4.5 -2.5)
 			(end 4.475 2.475)
@@ -13029,7 +13029,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "6073e18a-cc43-4c92-a39c-56a3724b4926")
+			(uuid "124a9c38-3ebe-4886-923e-b89c0ab52c88")
 		)
 		(embedded_fonts no)
 	)
@@ -13092,7 +13092,7 @@
 		(path "/dea5684e-9ec9-4967-b9ef-d4ee852a3fa0/8b67bf75-5456-47aa-88bb-53d59d1d9552")
 		(sheetname "/stack4/")
 		(sheetfile "asic-3up-0.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -4.5 -2.5)
 			(end 4.475 2.475)
@@ -13134,7 +13134,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "704623d9-8200-4d06-90a8-560078a9ba2a")
+			(uuid "f2c944b8-b9d4-4909-83c2-f47192bdd4b6")
 		)
 		(embedded_fonts no)
 	)
@@ -13587,7 +13587,7 @@
 		(path "/dea5684e-9ec9-4967-b9ef-d4ee852a3fa0/e0b4da22-8da7-47b7-9f3f-46a567781d6d")
 		(sheetname "/stack4/")
 		(sheetfile "asic-3up-0.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -7 -4.5)
 			(end 6.825 4.475)
@@ -13629,7 +13629,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "def0b053-6afa-478f-9a41-19f66d558682")
+			(uuid "13d91902-c05e-4dcd-83a4-5820ca2df170")
 		)
 		(embedded_fonts no)
 	)
@@ -16344,7 +16344,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "8e8cccfa-1d31-4ade-a33a-fc08b62bfd0d")
 		)
 		(pad "26" thru_hole circle
 			(at -1.14 3.1)
@@ -16355,7 +16355,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "31f1d2a6-b330-4425-bc0d-fcefe67cbb5e")
 		)
 		(pad "26" thru_hole circle
 			(at -1.132856 0.11)
@@ -16366,7 +16366,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "daa244a5-027a-47ac-a836-0bc506450b37")
 		)
 		(pad "26" thru_hole circle
 			(at -1.127144 2.08)
@@ -16377,7 +16377,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "1248ac46-9542-4497-b6bf-7971815100e0")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 -0.93)
@@ -16388,7 +16388,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "10f2024b-916b-440e-9778-6de079542e80")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 1.03)
@@ -16399,7 +16399,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "e72486f6-1b29-46ed-b96e-5f5c59f41b15")
 		)
 		(pad "26" smd rect
 			(at -0.02 0 90)
@@ -16409,7 +16409,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "92490bc9-063e-4ef3-9233-8e2ff6e82656")
 		)
 		(pad "26" smd rect
 			(at 0 1.105 90)
@@ -16419,7 +16419,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "1fad2e38-583f-4723-8fb5-e44b15f03e62")
 		)
 		(pad "26" thru_hole circle
 			(at 0.044288 0.11)
@@ -16430,7 +16430,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "b2aacb92-3d99-497c-97f9-6e39c8abad33")
 		)
 		(pad "26" thru_hole circle
 			(at 0.05 2.08)
@@ -16441,7 +16441,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "6fdb90f5-6b9f-4593-ab5e-857c1bde3d98")
 		)
 		(pad "26" thru_hole circle
 			(at 1.09 2.06)
@@ -16452,7 +16452,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "a6ce9d54-18d4-4525-a2e2-7cb55fd4c3a2")
 		)
 		(pad "26" thru_hole circle
 			(at 1.1 3.09)
@@ -16463,7 +16463,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "5d71a237-d2f6-489b-92e9-25d99c82fbb9")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 -0.93)
@@ -16475,7 +16475,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "12b20c4c-4805-4b17-8ce8-ec1fc480f3c3")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 1.01)
@@ -16486,7 +16486,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "0c19945e-cc6e-46d3-9f88-d06d0aec595d")
 		)
 		(pad "26" thru_hole circle
 			(at 1.111428 0.11)
@@ -16497,7 +16497,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "05b85b68-34e5-4b44-8051-d409f5514c6e")
 		)
 		(pad "26" thru_hole circle
 			(at 2.304288 0.11)
@@ -16508,7 +16508,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "5b0707a7-a905-42e7-957e-7ee08d661311")
 		)
 		(pad "26" thru_hole circle
 			(at 2.31 2.08)
@@ -16519,7 +16519,7 @@
 			(net 33 "/stack4/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "37146ed3-e55c-4302-ae58-004e611dd4c2")
+			(uuid "3f1e9668-88bc-4fbd-a518-52e681c1db7d")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/BM1362.step"
@@ -16593,7 +16593,7 @@
 		(path "/75fd7cab-4b1e-4fa4-8631-02e52962bbf8/5d075ed6-ed94-4867-830d-2695d74bf220")
 		(sheetname "/stack7/")
 		(sheetfile "asic-3up-3.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -4.5 -2.5)
 			(end 4.475 2.475)
@@ -16635,7 +16635,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "99994ced-ad3e-4ee9-9fc2-ae96a52b8082")
+			(uuid "a2a85636-ea61-4f6e-ad72-28e23e826944")
 		)
 		(embedded_fonts no)
 	)
@@ -17088,7 +17088,7 @@
 		(path "/75fd7cab-4b1e-4fa4-8631-02e52962bbf8/a30ede02-4fb5-4961-9181-12ce40a277ad")
 		(sheetname "/stack7/")
 		(sheetfile "asic-3up-3.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -4.5 -2.5)
 			(end 4.475 2.475)
@@ -17130,7 +17130,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "8d2b82fd-9d3f-46ea-8e7c-5eee60e5c29f")
+			(uuid "85a23887-b114-437f-9d04-e2d57ea8bb7f")
 		)
 		(embedded_fonts no)
 	)
@@ -17880,7 +17880,7 @@
 		(path "/b7ad7cc6-371f-46f9-875b-8b04bdc75b20/926e8d19-f361-4813-b4b1-76354b201a37")
 		(sheetname "/stack6/")
 		(sheetfile "asic-3up-2.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -6.95 -4.475)
 			(end 6.975 4.5)
@@ -17922,7 +17922,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "ead25a85-9d5b-43a5-b3ef-0bee81bf0848")
+			(uuid "4190980d-761c-4047-9713-8732f3794439")
 		)
 		(embedded_fonts no)
 	)
@@ -17985,7 +17985,7 @@
 		(path "/b7ad7cc6-371f-46f9-875b-8b04bdc75b20/531209c7-ce7e-4097-9ea2-4c66ef458599")
 		(sheetname "/stack6/")
 		(sheetfile "asic-3up-2.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -4.5 -2.5)
 			(end 4.475 2.475)
@@ -18027,7 +18027,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "1229a725-60de-467f-8ced-fd6fbb9f5d03")
+			(uuid "7a41c847-1554-4fd7-81fe-12c067ff98ee")
 		)
 		(embedded_fonts no)
 	)
@@ -18692,7 +18692,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "2d735b1b-2d03-47db-802f-051b264f7a34")
 		)
 		(pad "26" thru_hole circle
 			(at -1.14 3.1 180)
@@ -18703,7 +18703,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "f98ef8c2-f415-4a9f-b9d9-fd1e037307b9")
 		)
 		(pad "26" thru_hole circle
 			(at -1.132856 0.11 180)
@@ -18714,7 +18714,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "ac56d008-b64a-473c-87e7-07e816fac44b")
 		)
 		(pad "26" thru_hole circle
 			(at -1.127144 2.08 180)
@@ -18725,7 +18725,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "56093089-8420-41ad-bb56-8ff990cefa39")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 -0.93 180)
@@ -18736,7 +18736,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "f0f7e2db-e6fb-4718-9659-904911307029")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 1.03 180)
@@ -18747,7 +18747,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "8ed3ec77-cb43-49a0-bd79-548bfb0b8d8f")
 		)
 		(pad "26" smd rect
 			(at -0.02 0 270)
@@ -18757,7 +18757,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "d0dbe911-9def-4401-b0d5-2a86457154c9")
 		)
 		(pad "26" smd rect
 			(at 0 1.105 270)
@@ -18767,7 +18767,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "c61c3152-9ba3-4e98-83b8-b3990b526e14")
 		)
 		(pad "26" thru_hole circle
 			(at 0.044288 0.11 180)
@@ -18778,7 +18778,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "f0e0733d-3b42-4aaf-ae55-a8f214a6f103")
 		)
 		(pad "26" thru_hole circle
 			(at 0.05 2.08 180)
@@ -18789,7 +18789,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "76f47951-ee8f-49d3-80db-193a0a755dd0")
 		)
 		(pad "26" thru_hole circle
 			(at 1.09 2.06 180)
@@ -18800,7 +18800,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "bad5163c-fd4b-464c-a62e-b384f4ee29cb")
 		)
 		(pad "26" thru_hole circle
 			(at 1.1 3.09 180)
@@ -18811,7 +18811,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "b90e84ef-f94e-40a0-8f28-c66076162b4a")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 -0.93 180)
@@ -18823,7 +18823,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "76198eda-89c4-4bf8-8f1f-f332b6716b4f")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 1.01 180)
@@ -18834,7 +18834,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "9138eb17-1e45-48fb-982f-23b0b7aedc7a")
 		)
 		(pad "26" thru_hole circle
 			(at 1.111428 0.11 180)
@@ -18845,7 +18845,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "61a22b14-166f-4a3e-984d-3a5d252618ce")
 		)
 		(pad "26" thru_hole circle
 			(at 2.304288 0.11 180)
@@ -18856,7 +18856,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "d10fdee9-7f15-46f5-b8d2-df5858970155")
 		)
 		(pad "26" thru_hole circle
 			(at 2.31 2.08 180)
@@ -18867,7 +18867,7 @@
 			(net 66 "/stack7/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4d31e429-b0e2-485a-85cf-c379e643c633")
+			(uuid "1a13a279-b739-43b2-8876-0870fbbf2a73")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/BM1362.step"
@@ -19359,7 +19359,7 @@
 		(path "/dea5684e-9ec9-4967-b9ef-d4ee852a3fa0/e08d842b-135f-43a5-b424-bece47d05595")
 		(sheetname "/stack4/")
 		(sheetfile "asic-3up-0.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -7 -4.5)
 			(end 6.825 4.475)
@@ -19401,7 +19401,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "bac286bf-6ddf-44eb-b11d-21ee3f83daa2")
+			(uuid "fd7985e0-37d2-4e1c-9d41-a3db263c8a1c")
 		)
 		(embedded_fonts no)
 	)
@@ -20079,7 +20079,7 @@
 		(path "/b7ad7cc6-371f-46f9-875b-8b04bdc75b20/3a456211-96ef-490d-8d7d-ef1992a3d20f")
 		(sheetname "/stack6/")
 		(sheetfile "asic-3up-2.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -4.5 -2.5)
 			(end 4.475 2.475)
@@ -20121,7 +20121,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "18a35fc1-b241-4819-ad1e-257f4cf95cd0")
+			(uuid "22e9d257-ca1f-4833-a5f8-49534bc15515")
 		)
 		(embedded_fonts no)
 	)
@@ -21053,7 +21053,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "40a6ea5b-0d07-41cf-8d79-dc2e91c50369")
 		)
 		(pad "26" thru_hole circle
 			(at -1.14 3.1)
@@ -21064,7 +21064,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "49ac684f-7b57-4c9f-b54e-e83327584af0")
 		)
 		(pad "26" thru_hole circle
 			(at -1.132856 0.11)
@@ -21075,7 +21075,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "3a23c01f-0b04-42af-aa43-677307a3dcbc")
 		)
 		(pad "26" thru_hole circle
 			(at -1.127144 2.08)
@@ -21086,7 +21086,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "7a788dd3-2776-451e-8735-af202a0ed909")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 -0.93)
@@ -21097,7 +21097,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "ed1f56a3-5c03-47d5-bedc-5f2ba14aaa37")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 1.03)
@@ -21108,7 +21108,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "8823627f-d837-4c68-b730-ffd10257f628")
 		)
 		(pad "26" smd rect
 			(at -0.02 0 90)
@@ -21118,7 +21118,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "ba47c827-e129-4b46-8543-094febb6d2bc")
 		)
 		(pad "26" smd rect
 			(at 0 1.105 90)
@@ -21128,7 +21128,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "8a5c0e76-0102-4c23-8500-4b91dbc0138b")
 		)
 		(pad "26" thru_hole circle
 			(at 0.044288 0.11)
@@ -21139,7 +21139,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "b0106ed6-56ae-419b-81a3-83fe515b59ad")
 		)
 		(pad "26" thru_hole circle
 			(at 0.05 2.08)
@@ -21150,7 +21150,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "799692ce-10bf-4613-bb33-643ad485c777")
 		)
 		(pad "26" thru_hole circle
 			(at 1.09 2.06)
@@ -21161,7 +21161,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "a6eddc01-f26e-4cc0-97e7-d7d333fda006")
 		)
 		(pad "26" thru_hole circle
 			(at 1.1 3.09)
@@ -21172,7 +21172,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "a48b4874-287f-40b6-9f13-337497d69ce4")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 -0.93)
@@ -21184,7 +21184,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "99c75104-0bf1-4fb0-963c-7f147cfe691b")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 1.01)
@@ -21195,7 +21195,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "27906d98-dbea-467d-911a-08f9664b79b1")
 		)
 		(pad "26" thru_hole circle
 			(at 1.111428 0.11)
@@ -21206,7 +21206,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "44710379-33e2-4c64-a336-de6d3f3eefba")
 		)
 		(pad "26" thru_hole circle
 			(at 2.304288 0.11)
@@ -21217,7 +21217,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "1a2a8a58-7079-46d7-9ef0-111e4ced260a")
 		)
 		(pad "26" thru_hole circle
 			(at 2.31 2.08)
@@ -21228,7 +21228,7 @@
 			(net 57 "/stack6/GND0")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "41f010d6-8db4-49a9-b76d-6e8d14ee23b5")
+			(uuid "9e6ac887-e77c-48b9-be7d-067e8eeb6c1b")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/BM1362.step"
@@ -22488,7 +22488,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "ab7535f0-6a7a-4c9d-aff0-a966cf94c196")
 		)
 		(pad "26" thru_hole circle
 			(at -1.14 3.1)
@@ -22499,7 +22499,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "747c1a41-eb03-4ee7-9af7-2511025763c9")
 		)
 		(pad "26" thru_hole circle
 			(at -1.132856 0.11)
@@ -22510,7 +22510,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "07579854-991b-436f-8de1-fb8a49d66eaa")
 		)
 		(pad "26" thru_hole circle
 			(at -1.127144 2.08)
@@ -22521,7 +22521,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "d033e12f-3a4b-43c0-aee2-7d2357c64126")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 -0.93)
@@ -22532,7 +22532,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "4d0032f5-ced2-42e9-91e1-11c7d302f885")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 1.03)
@@ -22543,7 +22543,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "ee99d4c2-aee2-443b-9195-498a70860456")
 		)
 		(pad "26" smd rect
 			(at -0.02 0 90)
@@ -22553,7 +22553,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "a85506e1-9bfb-4d09-adb0-834903a8ec8e")
 		)
 		(pad "26" smd rect
 			(at 0 1.105 90)
@@ -22563,7 +22563,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "aee854a1-d77c-49b9-a055-c2ef28f6b818")
 		)
 		(pad "26" thru_hole circle
 			(at 0.044288 0.11)
@@ -22574,7 +22574,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "947cc2c2-d50d-4d73-b356-0d71a9680422")
 		)
 		(pad "26" thru_hole circle
 			(at 0.05 2.08)
@@ -22585,7 +22585,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "9d63611d-e337-4ad1-9e66-a7393093fe79")
 		)
 		(pad "26" thru_hole circle
 			(at 1.09 2.06)
@@ -22596,7 +22596,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "cc52d838-297a-4451-bc87-f11be2f4e0ba")
 		)
 		(pad "26" thru_hole circle
 			(at 1.1 3.09)
@@ -22607,7 +22607,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "da4f2d47-326f-4013-85b2-93881bf90f1f")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 -0.93)
@@ -22619,7 +22619,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "c202a8bd-2db2-4f6f-a023-dc8d4d7c8942")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 1.01)
@@ -22630,7 +22630,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "a7efd871-b456-4e62-a89b-c12319c5e5cd")
 		)
 		(pad "26" thru_hole circle
 			(at 1.111428 0.11)
@@ -22641,7 +22641,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "ae55c67a-ac5e-4a15-b378-96d255926e37")
 		)
 		(pad "26" thru_hole circle
 			(at 2.304288 0.11)
@@ -22652,7 +22652,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "0aeeede4-ca0c-40e2-91c4-905bdb9fa610")
 		)
 		(pad "26" thru_hole circle
 			(at 2.31 2.08)
@@ -22663,7 +22663,7 @@
 			(net 58 "/stack6/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "4f14e20a-cb42-46e8-86df-94e3c18a9f00")
+			(uuid "107ad9de-d6f3-46aa-b831-d5bc19545150")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/BM1362.step"
@@ -22696,7 +22696,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f9057587-dcf2-466d-b3e2-e34fd56bb9c9")
@@ -22733,7 +22733,7 @@
 				)
 			)
 		)
-		(property "DK" "311-0.0HRCT-ND"
+		(property "DK" "311-10.0HRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22746,7 +22746,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0603FR-070RL"
+		(property "PARTNO" "RC0603FR-0710RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24381,7 +24381,7 @@
 		(path "/77c510ef-c2c8-433b-9442-e0d7684769dc/70054f8b-269d-4d8c-a753-5669b01f3724")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -0.25 -1.75)
 			(end 0.25 -1.75)
@@ -24536,7 +24536,7 @@
 			(pinfunction "Ext")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "ee7f051d-172c-41ad-9b14-287da4bc3461")
+			(uuid "da0ce2fc-c999-4106-82c5-69fb9a077c61")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27 90)
@@ -24548,7 +24548,7 @@
 			(pinfunction "Ext")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "ee7f051d-172c-41ad-9b14-287da4bc3461")
+			(uuid "030cbfac-1367-467f-8359-c761d2f8e0fe")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27 90)
@@ -24560,7 +24560,7 @@
 			(pinfunction "Ext")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "ee7f051d-172c-41ad-9b14-287da4bc3461")
+			(uuid "0bc1af1d-c48e-4ec4-a47d-249c89be0e0b")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/MMCX-P-P-H-ST-TH1.step"
@@ -25464,7 +25464,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "e440b1f5-0fee-44a1-9105-98956e65ad87")
 		)
 		(pad "26" thru_hole circle
 			(at -1.14 3.1 180)
@@ -25475,7 +25475,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "45a77252-b2d0-4b5c-a4d7-4f12e315b4bf")
 		)
 		(pad "26" thru_hole circle
 			(at -1.132856 0.11 180)
@@ -25486,7 +25486,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "546e963e-1707-4868-84f5-33d14195ce7d")
 		)
 		(pad "26" thru_hole circle
 			(at -1.127144 2.08 180)
@@ -25497,7 +25497,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "b0d78302-62cb-4b3c-b33f-a45e0201e78c")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 -0.93 180)
@@ -25508,7 +25508,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "6d14b63d-ff5e-40b1-a0fe-5b9e4e97fa5c")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 1.03 180)
@@ -25519,7 +25519,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "dda568b4-7e1f-4d2e-be23-3a067ddc3e07")
 		)
 		(pad "26" smd rect
 			(at -0.02 0 270)
@@ -25529,7 +25529,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "9d01631c-b79e-4b8d-ad00-4cb3e21e429d")
 		)
 		(pad "26" smd rect
 			(at 0 1.105 270)
@@ -25539,7 +25539,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "62c8d700-3c2f-4b0d-ae55-46a0808b8227")
 		)
 		(pad "26" thru_hole circle
 			(at 0.044288 0.11 180)
@@ -25550,7 +25550,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "bf78160c-70b5-430c-9ebb-9c25cab7ac58")
 		)
 		(pad "26" thru_hole circle
 			(at 0.05 2.08 180)
@@ -25561,7 +25561,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "2ea28d9f-a9ce-449d-896f-62c2f19430c4")
 		)
 		(pad "26" thru_hole circle
 			(at 1.09 2.06 180)
@@ -25572,7 +25572,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "89d66180-f7ed-4c17-aa50-16f895c24840")
 		)
 		(pad "26" thru_hole circle
 			(at 1.1 3.09 180)
@@ -25583,7 +25583,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "b06b315f-a6f7-4432-b494-eaaf99b22c2b")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 -0.93 180)
@@ -25595,7 +25595,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "4980a7c2-adfe-421e-8dc5-72841825881a")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 1.01 180)
@@ -25606,7 +25606,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "48a6e8a1-32db-467e-a2b3-04c08da14f13")
 		)
 		(pad "26" thru_hole circle
 			(at 1.111428 0.11 180)
@@ -25617,7 +25617,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "b0023d1b-b73d-4499-a9fd-42a141c66404")
 		)
 		(pad "26" thru_hole circle
 			(at 2.304288 0.11 180)
@@ -25628,7 +25628,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "9e44db38-646d-4402-9bc3-6d8589553e72")
 		)
 		(pad "26" thru_hole circle
 			(at 2.31 2.08 180)
@@ -25639,7 +25639,7 @@
 			(net 67 "/stack7/GND1")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "9db4235d-2228-4102-9b64-cf2de129798c")
+			(uuid "46c64ac3-76d4-4f08-8f08-fe4d2973001f")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/BM1362.step"
@@ -27445,7 +27445,7 @@
 		(path "/1041e984-4167-4ef3-8410-dcacf0440a69/ca1583ac-0e1e-4c22-a195-d2b499194c81")
 		(sheetname "/stack5/")
 		(sheetfile "asic-3up-1.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -6.95 -4.475)
 			(end 6.975 4.5)
@@ -27487,7 +27487,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "07d1dc8b-3088-4e0c-a548-4df7e4cdb1cd")
+			(uuid "70264e2d-ae26-4313-a9de-d28f99bc8c16")
 		)
 		(embedded_fonts no)
 	)
@@ -28393,7 +28393,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "09d0b760-cf54-4869-970d-99d7937780da")
 		)
 		(pad "26" thru_hole circle
 			(at -1.14 3.1 180)
@@ -28404,7 +28404,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "0c205cbb-29bf-4f4a-ba07-b8c48b347f1c")
 		)
 		(pad "26" thru_hole circle
 			(at -1.132856 0.11 180)
@@ -28415,7 +28415,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "d731b6a3-1a70-408d-9d2e-78f5ff49a82f")
 		)
 		(pad "26" thru_hole circle
 			(at -1.127144 2.08 180)
@@ -28426,7 +28426,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "c3187e10-c751-4a38-a269-0ed8f0dd786c")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 -0.93 180)
@@ -28437,7 +28437,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "c5332b96-f6ec-4351-ba8d-6238474938b5")
 		)
 		(pad "26" thru_hole circle
 			(at -1.11 1.03 180)
@@ -28448,7 +28448,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "49e564bf-31bb-46a2-a9aa-a5de86778632")
 		)
 		(pad "26" smd rect
 			(at -0.02 0 270)
@@ -28458,7 +28458,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "5d440b7c-d179-489a-bd72-08cc5a4c1d20")
 		)
 		(pad "26" smd rect
 			(at 0 1.105 270)
@@ -28468,7 +28468,7 @@
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "755db40b-1415-4194-943c-01608ebcec18")
 		)
 		(pad "26" thru_hole circle
 			(at 0.044288 0.11 180)
@@ -28479,7 +28479,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "3df644f7-2f39-4bb1-90be-047387c8e615")
 		)
 		(pad "26" thru_hole circle
 			(at 0.05 2.08 180)
@@ -28490,7 +28490,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "571367f7-d2fd-4067-b995-14b784865bed")
 		)
 		(pad "26" thru_hole circle
 			(at 1.09 2.06 180)
@@ -28501,7 +28501,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "5b074884-e5a2-49b9-a297-04101eda388a")
 		)
 		(pad "26" thru_hole circle
 			(at 1.1 3.09 180)
@@ -28512,7 +28512,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "6e3b8283-d1d0-4cad-92d5-2fa280778dfb")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 -0.93 180)
@@ -28524,7 +28524,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "3b7eaa06-6be9-4ab1-9fc4-1733d9d76b6f")
 		)
 		(pad "26" thru_hole circle
 			(at 1.11 1.01 180)
@@ -28535,7 +28535,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "36265582-a792-4dba-977f-f973df56e835")
 		)
 		(pad "26" thru_hole circle
 			(at 1.111428 0.11 180)
@@ -28546,7 +28546,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "0788e14e-4522-4eb4-92d1-eee2cb9df555")
 		)
 		(pad "26" thru_hole circle
 			(at 2.304288 0.11 180)
@@ -28557,7 +28557,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "8e8bde0c-bbcf-48e0-b21c-ea85ce874ff8")
 		)
 		(pad "26" thru_hole circle
 			(at 2.31 2.08 180)
@@ -28568,7 +28568,7 @@
 			(net 50 "/stack5/GND2")
 			(pinfunction "VSS")
 			(pintype "unspecified")
-			(uuid "b4d81071-129e-4f58-a6d6-bec13929a595")
+			(uuid "464944ae-e867-45ab-9e99-3309b46c4f06")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/BM1362.step"
@@ -28909,7 +28909,7 @@
 		(path "/dea5684e-9ec9-4967-b9ef-d4ee852a3fa0/82fbeed2-e087-4942-9674-8542b4c80b13")
 		(sheetname "/stack4/")
 		(sheetfile "asic-3up-0.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -6.95 -4.475)
 			(end 6.975 4.5)
@@ -28951,7 +28951,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "243c58a0-2cbe-457b-97af-9192d40c9a3b")
+			(uuid "c35e28f6-5b27-424f-9165-97e4e57d9445")
 		)
 		(embedded_fonts no)
 	)
@@ -29980,7 +29980,7 @@
 		(path "/1041e984-4167-4ef3-8410-dcacf0440a69/4574fc77-1009-4542-ab8b-c280593874d0")
 		(sheetname "/stack5/")
 		(sheetfile "asic-3up-1.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -4.5 -2.5)
 			(end 4.475 2.475)
@@ -30022,7 +30022,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0e1dbbb9-7113-4634-8da4-ecc0d2200e66")
+			(uuid "db79c7a9-8ee6-40a9-8df4-4dfc6994099b")
 		)
 		(embedded_fonts no)
 	)
@@ -30567,7 +30567,7 @@
 		(path "/77c510ef-c2c8-433b-9442-e0d7684769dc/4af47ad1-8594-4315-95d7-9361a65ae8bb")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 0.735)
 			(end 0.261252 0.735)
@@ -31496,7 +31496,7 @@
 		(path "/1041e984-4167-4ef3-8410-dcacf0440a69/5e741a29-ecf5-4931-8719-d0182051f08f")
 		(sheetname "/stack5/")
 		(sheetfile "asic-3up-1.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -4.5 -2.5)
 			(end 4.475 2.475)
@@ -31538,7 +31538,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "38b32199-ad9e-44da-8a42-76abd50cd7f2")
+			(uuid "7c222ae7-c4e1-436c-9e4d-2ee044ee5afe")
 		)
 		(embedded_fonts no)
 	)
@@ -35522,7 +35522,7 @@
 		(path "/77c510ef-c2c8-433b-9442-e0d7684769dc/b8a7190c-00c0-45ab-8d66-5843351c16b0")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 0.735)
 			(end 0.261252 0.735)
@@ -41055,7 +41055,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "27b568cb-c7ea-45bf-9193-4d93b36fd233")
@@ -41092,7 +41092,7 @@
 				)
 			)
 		)
-		(property "DK" "311-0.0HRCT-ND"
+		(property "DK" "311-10.0HRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41105,7 +41105,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0603FR-070RL"
+		(property "PARTNO" "RC0603FR-0710RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41552,7 +41552,7 @@
 		(path "/75fd7cab-4b1e-4fa4-8631-02e52962bbf8/7f2f1832-04ec-444c-88e8-053989d5b60d")
 		(sheetname "/stack7/")
 		(sheetfile "asic-3up-3.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -7 -4.5)
 			(end 6.825 4.475)
@@ -41594,7 +41594,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "95379374-9323-42a9-b47e-7fb84c160ffd")
+			(uuid "fc5bba5c-d0b7-4495-ac2f-337c653b11d8")
 		)
 		(embedded_fonts no)
 	)
@@ -43722,7 +43722,7 @@
 		(path "/1041e984-4167-4ef3-8410-dcacf0440a69/0a2535da-ccc5-4a67-89eb-0ff7d807cf71")
 		(sheetname "/stack5/")
 		(sheetfile "asic-3up-1.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -7 -4.5)
 			(end 6.825 4.475)
@@ -43764,7 +43764,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "26a76f2a-276b-4f8c-a7ce-343a208a1a70")
+			(uuid "fbf706b5-7248-4b32-92ed-30221e2a02aa")
 		)
 		(embedded_fonts no)
 	)
@@ -43775,10 +43775,9 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP95"
-			(at 0 1.648 0)
+			(at -1.99 1.37 0)
 			(layer "B.SilkS")
-			(hide yes)
-			(uuid "8dc0de5e-6f1e-409c-bdcf-61221037e57b")
+			(uuid "bcdec4a4-63a5-43d5-b4c5-d3e48d528bc0")
 			(effects
 				(font
 					(size 1 1)
@@ -43790,7 +43789,7 @@
 		(property "Value" "TestPoint"
 			(at 0 -1.75 0)
 			(layer "B.Fab")
-			(uuid "36b60bbb-4104-4610-a218-558a1d6e227d")
+			(uuid "c0b16d71-e0b9-49d4-a563-932ade9fc661")
 			(effects
 				(font
 					(size 1 1)
@@ -43804,7 +43803,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "334017c7-2e83-46a1-813b-19ea047005a5")
+			(uuid "27d02db8-70b1-430e-a180-2e6ebf6f24a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43818,7 +43817,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "47b45d7c-1dea-43c1-9ed3-61c1946b9ec6")
+			(uuid "46de7675-edd1-44df-b066-ec021073262a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60735,7 +60734,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP123"
-			(at 1.65 -1.73 0)
+			(at -3.27 -0.09 0)
 			(layer "B.SilkS")
 			(uuid "72e721fb-0288-44a3-9350-e68cd9cebcf3")
 			(effects
@@ -74890,7 +74889,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
-			(at -1.972107 3.4 0)
+			(at 2.2 -0.09 0)
 			(layer "B.SilkS")
 			(uuid "9ae295b9-7aa6-4b7f-9234-54973b69509f")
 			(effects
@@ -79045,7 +79044,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
-			(at 1.93 0.88 0)
+			(at 2.19 -0.12 0)
 			(layer "B.SilkS")
 			(uuid "747474ef-3c7b-49b0-a330-a7e68df6870e")
 			(effects
@@ -81107,7 +81106,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
-			(at 1.9 0.83 0)
+			(at 2.16 -0.46 0)
 			(layer "B.SilkS")
 			(uuid "a366b68d-25f5-47da-91d2-e94e21063e30")
 			(effects
@@ -99723,9 +99722,8 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP96"
-			(at 0 1.648 0)
+			(at 2.73 -0.02 0)
 			(layer "B.SilkS")
-			(hide yes)
 			(uuid "72ed094b-49d6-401f-9e72-311da3e0ab69")
 			(effects
 				(font
