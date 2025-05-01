@@ -14,3 +14,6 @@ The emberOne/00 is based on the BM1362 from the Bitmain Antminer S19j Pro. It sh
 
 ## Building
 The emberOne/00 _can_ be hand built. It's difficult, but you can do it with mininimal equipment and patience. Check out these [assembly tips](assembly.md)
+
+## Hacking
+emberOne design files are built using the incredible, FOSS PCB CAD software [KiCad](https://kicad.org). Please fork, hack and release!
