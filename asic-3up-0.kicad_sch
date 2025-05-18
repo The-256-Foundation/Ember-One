@@ -7083,6 +7083,14 @@
 				)
 			)
 		)
+		(property "PARTNO" "BM1362AC"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "b539cf38-14db-4252-83ad-43b4f88e98e7")
 		)
@@ -8886,6 +8894,14 @@
 				)
 			)
 		)
+		(property "PARTNO" "BM1362AC"
+			(at 248.92 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "636678cb-1772-4514-8159-ddaeccc24e9e")
 		)
@@ -9124,6 +9140,14 @@
 			)
 		)
 		(property "Manufacturer" "Bitmain"
+			(at 248.92 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
 			(at 248.92 190.5 0)
 			(effects
 				(font

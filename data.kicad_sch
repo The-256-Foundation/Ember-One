@@ -7494,6 +7494,14 @@
 				)
 			)
 		)
+		(property "PARTNO" "SK6812SIDE-A-RVS"
+			(at 284.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "c92a76c3-a3a4-4693-af39-4aa6c724db56")
 		)
