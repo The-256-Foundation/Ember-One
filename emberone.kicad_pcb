@@ -156,7 +156,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -17904,13 +17903,13 @@
 	(footprint "emberone:7770-screw-terminal"
 		(layer "F.Cu")
 		(uuid "5a3b5824-75e0-4edd-83c7-998a65d5c157")
-		(at 166.795549 84.75)
+		(at 166 84.75)
 		(property "Reference" "J1"
 			(at 5 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0a092fee-3844-48d9-bc0f-08d5b7a65fc6")
+			(uuid "80be976b-358a-4b7a-8de0-caae9531d618")
 			(effects
 				(font
 					(size 1 1)
@@ -17922,7 +17921,7 @@
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "fb1f2a5e-cf78-467d-a49c-0aa9f707ba85")
+			(uuid "44bc4c47-a751-4607-93e0-5e80af4f1db8")
 			(effects
 				(font
 					(size 1 1)
@@ -17934,7 +17933,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ab9da16-2e49-44aa-81ab-1d19ed9d7e16")
+			(uuid "a6af0476-c5a0-42a1-8c51-6244d5a01ecf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17946,7 +17945,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15d26667-0a4b-451e-b487-492c160f4fe2")
+			(uuid "056c35d2-5dbc-4951-b9d6-bed57e77d0c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41727,13 +41726,13 @@
 	(footprint "emberone:7770-screw-terminal"
 		(layer "F.Cu")
 		(uuid "da4dced0-7fa1-4814-b168-36971a9ac6cd")
-		(at 195.274249 84.8)
+		(at 187 85)
 		(property "Reference" "J2"
 			(at 5 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "30cd5f63-e942-4ee4-99ce-bff4ec6a38fe")
+			(uuid "b45eb81e-e057-4253-a72d-36cbe20aca09")
 			(effects
 				(font
 					(size 1 1)
@@ -41745,7 +41744,7 @@
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "d6c679f0-5007-44c7-903a-822effabec71")
+			(uuid "d2cebae5-8d26-4fc2-88ce-0a2de70c29e0")
 			(effects
 				(font
 					(size 1 1)
@@ -41757,7 +41756,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63da4301-dfd8-4d41-90de-c21ad4d89ec7")
+			(uuid "85b113f3-52f3-48c4-a32b-c3e93c7f2cab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41769,7 +41768,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3fc2769d-e8ed-433e-ba37-e8c44eb61744")
+			(uuid "b89c1e01-cbbe-4519-9ce7-503da961e554")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103904,7 +103903,7 @@
 		(uuid "fbb1f27e-5fbd-4ffb-924f-0814b3d29e2c")
 	)
 	(gr_text "100W\n12-24\nVDC"
-		(at 181.25 89.99 0)
+		(at 177 90 0)
 		(layer "F.SilkS")
 		(uuid "020161b5-80f2-48b1-8b2b-0633e2ee208e")
 		(effects
@@ -104002,6 +104001,43 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Edge.Cuts")
+		(uuid "0891c7f3-d223-4fd2-81aa-9d30c088d460")
+		(pts
+			(xy 117.5 83.5) (xy 163.5 81)
+		)
+		(height -12.5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "46.0000 mm"
+			(at 140.5 69.85 0)
+			(layer "Edge.Cuts")
+			(uuid "0891c7f3-d223-4fd2-81aa-9d30c088d460")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(segment
