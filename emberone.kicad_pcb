@@ -17903,7 +17903,7 @@
 	(footprint "emberone:7770-screw-terminal"
 		(layer "F.Cu")
 		(uuid "5a3b5824-75e0-4edd-83c7-998a65d5c157")
-		(at 166 84.75)
+		(at 166 85)
 		(property "Reference" "J1"
 			(at 5 0 0)
 			(unlocked yes)
@@ -103789,8 +103789,8 @@
 		)
 	)
 	(gr_circle
-		(center 166.81 92.69)
-		(end 168.56 92.69)
+		(center 165.75 92.69)
+		(end 167.5 92.69)
 		(stroke
 			(width 0.4)
 			(type default)
@@ -103800,8 +103800,8 @@
 		(uuid "0a2398ea-b490-41fd-acbc-d420e092547e")
 	)
 	(gr_circle
-		(center 195.2787 92.74)
-		(end 197.0287 92.74)
+		(center 187 92.74)
+		(end 188.75 92.74)
 		(stroke
 			(width 0.4)
 			(type default)
@@ -103978,7 +103978,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 195.3087 93.78 0)
+		(at 187.03 93.78 0)
 		(layer "F.SilkS")
 		(uuid "dd9420aa-185d-41a2-9274-55b04a429756")
 		(effects
@@ -103991,7 +103991,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 166.84 93.73 0)
+		(at 165.78 93.73 0)
 		(layer "F.SilkS")
 		(uuid "dee7321d-afdd-42fb-bc50-0877cfa327c1")
 		(effects
