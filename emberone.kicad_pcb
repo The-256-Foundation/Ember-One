@@ -17903,7 +17903,7 @@
 	(footprint "emberone:7770-screw-terminal"
 		(layer "F.Cu")
 		(uuid "5a3b5824-75e0-4edd-83c7-998a65d5c157")
-		(at 166 85)
+		(at 166.006118 84.767704)
 		(property "Reference" "J1"
 			(at 5 0 0)
 			(unlocked yes)
@@ -41726,7 +41726,7 @@
 	(footprint "emberone:7770-screw-terminal"
 		(layer "F.Cu")
 		(uuid "da4dced0-7fa1-4814-b168-36971a9ac6cd")
-		(at 187 85)
+		(at 187.016378 84.775714)
 		(property "Reference" "J2"
 			(at 5 0 0)
 			(unlocked yes)
@@ -104001,43 +104001,6 @@
 				(bold yes)
 			)
 			(justify bottom)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Edge.Cuts")
-		(uuid "0891c7f3-d223-4fd2-81aa-9d30c088d460")
-		(pts
-			(xy 117.5 83.5) (xy 163.5 81)
-		)
-		(height -12.5)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "46.0000 mm"
-			(at 140.5 69.85 0)
-			(layer "Edge.Cuts")
-			(uuid "0891c7f3-d223-4fd2-81aa-9d30c088d460")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 	)
 	(segment
