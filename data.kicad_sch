@@ -6345,6 +6345,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Winbond Elec"
+			(at 133.35 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c4fed5aa-bf5d-4cb4-a713-8ff42c27bfa2")
 		)
@@ -6463,6 +6471,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 111.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "19f4d5bc-1f90-42a8-883f-6f29b525e07c")
 		)
@@ -6548,6 +6564,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 336.55 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -6638,7 +6662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH(风华)"
+		(property "Manufacturer" "Murata Electronics"
 			(at 144.78 203.2 0)
 			(effects
 				(font
@@ -6750,7 +6774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" "YAGEO"
 			(at 207.01 123.19 0)
 			(effects
 				(font
@@ -6883,6 +6907,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 275.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ccf4f06a-6348-4c4e-ab71-bb13f0de27d7")
 		)
@@ -6969,6 +7001,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 275.59 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7063,6 +7103,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 121.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7202,7 +7250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 193.04 78.74 0)
 			(effects
 				(font
@@ -7317,7 +7365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 204.47 78.74 0)
 			(effects
 				(font
@@ -7438,6 +7486,22 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "OPSCO Optoelectronics"
+			(at 284.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "SK6812SIDE-A-RVS"
+			(at 284.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "c92a76c3-a3a4-4693-af39-4aa6c724db56")
 		)
@@ -7529,6 +7593,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -7626,6 +7698,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 350.52 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "06810fc9-8f10-4233-8259-2e833ab552ee")
 		)
@@ -7696,7 +7776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 326.39 78.74 0)
 			(effects
 				(font
@@ -7811,7 +7891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 269.24 78.74 0)
 			(effects
 				(font
@@ -8017,6 +8097,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "ECS Inc."
+			(at 133.35 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2fdc4e6c-9fad-42a5-8db6-aa7589d450dd")
 		)
@@ -8093,7 +8181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 303.53 78.74 0)
 			(effects
 				(font
@@ -8235,6 +8323,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 114.3 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "11e6b0d6-8e21-478c-b2e3-e571b99f9165")
 		)
@@ -8305,7 +8401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 280.67 78.74 0)
 			(effects
 				(font
@@ -8439,6 +8535,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 350.52 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "532e6bdf-66b9-47bb-891a-de4d5a359a6d")
 		)
@@ -8534,6 +8638,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8691,6 +8803,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 280.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d2c71d81-3a00-4123-9ee9-baf8c4b85384")
 		)
@@ -8758,7 +8878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Taiyo Yuden"
 			(at 246.38 78.74 0)
 			(effects
 				(font
@@ -8939,7 +9059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Taiyo Yuden"
 			(at 217.17 78.74 0)
 			(effects
 				(font
@@ -9071,6 +9191,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 336.55 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "0bd47e9a-355b-44cf-8e89-2e18a48562d6")
 		)
@@ -9187,6 +9315,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "GCT"
+			(at 146.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A1B12"
 			(uuid "2b4b288f-9465-40ab-8a17-527729248dc4")
 		)
@@ -9289,7 +9425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 78.74 0)
 			(effects
 				(font
@@ -9404,7 +9540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 314.96 78.74 0)
 			(effects
 				(font
@@ -9537,6 +9673,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 284.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "28c8f259-7d7c-4ffa-be18-0b60e96b530b")
 		)
@@ -9604,7 +9748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" "YAGEO"
 			(at 207.01 120.65 0)
 			(effects
 				(font
@@ -9719,7 +9863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 292.1 78.74 0)
 			(effects
 				(font
@@ -9858,6 +10002,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Raspberry Pi"
+			(at 228.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10119,6 +10271,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 113.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cc9fb9a0-137e-45f1-8e5b-ada88c29fa57")
 		)
@@ -10189,7 +10349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 172.72 171.45 0)
 			(effects
 				(font
@@ -10305,7 +10465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH(风华)"
+		(property "Manufacturer" "Murata Electronics"
 			(at 121.92 203.2 0)
 			(effects
 				(font
