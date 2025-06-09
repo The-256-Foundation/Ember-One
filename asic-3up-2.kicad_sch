@@ -2145,12 +2145,6 @@
 		(uuid "58d4c1cc-6ed0-47ce-be8f-5e0da88e100c")
 	)
 	(junction
-		(at 248.92 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b8b0e48-9050-46c9-bb64-a5803f94f8a0")
-	)
-	(junction
 		(at 228.6 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2287,12 +2281,6 @@
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "d0dc6b4b-1423-4e3b-93eb-e87e9aef7882")
-	)
-	(junction
-		(at 248.92 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d49f4064-80bf-4005-837d-b0e88f4f598b")
 	)
 	(junction
 		(at 270.51 72.39)
@@ -3376,7 +3364,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 205.74) (xy 248.92 209.55)
+			(xy 248.92 203.2) (xy 248.92 214.63)
 		)
 		(stroke
 			(width 0)
@@ -4233,16 +4221,6 @@
 			(type solid)
 		)
 		(uuid "b278d133-1a5a-4412-802a-23cffff97b1a")
-	)
-	(wire
-		(pts
-			(xy 248.92 203.2) (xy 248.92 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b47c6190-5de9-43be-b9c6-54228361456f")
 	)
 	(wire
 		(pts
@@ -5113,16 +5091,6 @@
 			(type default)
 		)
 		(uuid "f6844ba4-3afe-4757-a8cd-a8efc004b356")
-	)
-	(wire
-		(pts
-			(xy 248.92 209.55) (xy 248.92 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f80a1fbc-fedc-4cee-93d9-3c9cbe1262be")
 	)
 	(wire
 		(pts
@@ -9078,73 +9046,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 254 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "926e8d19-f361-4813-b4b1-76354b201a37")
-		(property "Reference" "J17"
-			(at 256.286 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 256.54 210.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "emberone:14x9_powertab_R"
-			(at 254 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "powertab"
-			(at 254 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf498755-7019-4aaf-b3da-2888a9a89f73")
-		)
-		(instances
-			(project "emberone"
-				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/b7ad7cc6-371f-46f9-875b-8b04bdc75b20"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "emberone:BM1362AC_MODE0")
 		(at 248.92 182.88 0)
 		(unit 1)
@@ -9805,73 +9706,6 @@
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/b7ad7cc6-371f-46f9-875b-8b04bdc75b20"
 					(reference "R109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 254 205.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "affecf03-5ea2-4d38-8bab-1e6cc9d42f3c")
-		(property "Reference" "J16"
-			(at 256.286 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 256.54 207.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "emberone:14x9_powertab_L"
-			(at 254 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "powertab"
-			(at 254 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69785dcd-8a80-4ee1-b220-742bf36f8124")
-		)
-		(instances
-			(project "emberone"
-				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/b7ad7cc6-371f-46f9-875b-8b04bdc75b20"
-					(reference "J16")
 					(unit 1)
 				)
 			)
