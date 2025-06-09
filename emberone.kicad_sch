@@ -2121,7 +2121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "emberone:7770-screw-terminal"
+		(property "Footprint" "emberone:7790-RA-screw-terminal"
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -2130,7 +2130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/581/Metric_PCB_Screw_Terminals.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p69.pdf"
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -2148,7 +2148,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "36-7770-ND"
+		(property "DK" "36-7790-ND"
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -2157,7 +2157,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "36-7770"
+		(property "PARTNO" "7790"
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -2204,7 +2204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "emberone:7770-screw-terminal"
+		(property "Footprint" "emberone:7790-RA-screw-terminal"
 			(at 116.84 88.9 0)
 			(effects
 				(font
@@ -2231,7 +2231,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "36-7770-ND"
+		(property "DK" "36-7790-ND"
 			(at 116.84 88.9 0)
 			(effects
 				(font
@@ -2240,7 +2240,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "36-7770"
+		(property "PARTNO" "7790"
 			(at 116.84 88.9 0)
 			(effects
 				(font
