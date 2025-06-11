@@ -9092,7 +9092,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-10.0HRCT-ND"
 			(at 313.69 149.86 0)
 			(effects
 				(font
@@ -9101,7 +9101,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0603FR-0710RL"
 			(at 313.69 149.86 0)
 			(effects
 				(font
@@ -9177,7 +9177,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-10.0HRCT-ND"
 			(at 298.45 106.68 0)
 			(effects
 				(font
@@ -9186,7 +9186,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0603FR-0710RL"
 			(at 298.45 106.68 0)
 			(effects
 				(font
@@ -9893,7 +9893,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-10.0HRCT-ND"
 			(at 328.93 99.06 0)
 			(effects
 				(font
@@ -9902,7 +9902,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0603FR-0710RL"
 			(at 328.93 99.06 0)
 			(effects
 				(font
@@ -10535,7 +10535,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-10.0HRCT-ND"
 			(at 331.47 138.43 0)
 			(effects
 				(font
@@ -10544,7 +10544,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0603FR-0710RL"
 			(at 331.47 138.43 0)
 			(effects
 				(font
@@ -10888,7 +10888,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-0.0HRCT-ND"
 			(at 331.47 144.78 0)
 			(effects
 				(font
@@ -10897,7 +10897,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0603FR-070RL"
 			(at 331.47 144.78 0)
 			(effects
 				(font
@@ -11323,7 +11323,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-10.0HRCT-ND"
 			(at 298.45 110.49 0)
 			(effects
 				(font
@@ -11332,7 +11332,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0603FR-0710RL"
 			(at 298.45 110.49 0)
 			(effects
 				(font
@@ -11672,7 +11672,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1169-1-ND"
+		(property "DK" "445-2320-1-ND"
 			(at 302.26 156.21 0)
 			(effects
 				(font
@@ -11681,7 +11681,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL21B102KCANNNC"
+		(property "PARTNO" "C2012C0G2A102J060AA"
 			(at 302.26 156.21 0)
 			(effects
 				(font
@@ -11757,7 +11757,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-0.0HRCT-ND"
 			(at 328.93 102.87 0)
 			(effects
 				(font
@@ -11766,7 +11766,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0603FR-070RL"
 			(at 328.93 102.87 0)
 			(effects
 				(font
@@ -12277,7 +12277,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1169-1-ND"
+		(property "DK" "445-2320-1-ND"
 			(at 285.75 107.95 0)
 			(effects
 				(font
@@ -12286,7 +12286,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL21B102KCANNNC"
+		(property "PARTNO" "C2012C0G2A102J060AA"
 			(at 285.75 107.95 0)
 			(effects
 				(font
@@ -12449,7 +12449,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-10.0HRCT-ND"
 			(at 313.69 163.83 0)
 			(effects
 				(font
@@ -12458,7 +12458,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0603FR-0710RL"
 			(at 313.69 163.83 0)
 			(effects
 				(font

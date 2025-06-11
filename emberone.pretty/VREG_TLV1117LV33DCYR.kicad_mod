@@ -1,7 +1,7 @@
 (footprint "VREG_TLV1117LV33DCYR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.025 -4.754 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ff3ef59f-087e-462f-9cba-66dd9dc8541a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -109,7 +97,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "7e94b99a-b226-403f-90d2-71a134ba69b4")
 	)
@@ -280,38 +268,35 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "521bafbf-00c4-45e9-bf84-fc0694480f59")
 	)
 	(pad "1" smd rect
 		(at -2.9 -2.3)
 		(size 2.15 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e0b45fa7-9bfc-4749-b586-ecfec7843a2a")
 	)
 	(pad "2" smd rect
 		(at -2.9 0)
 		(size 2.15 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "05b20d95-6e91-41b6-bc88-5df990e8d79b")
 	)
 	(pad "3" smd rect
 		(at -2.9 2.3)
 		(size 2.15 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eeebadca-a34c-41eb-8d7d-e0f9559c3bb6")
 	)
 	(pad "4" smd rect
 		(at 2.9 0)
 		(size 2.15 3.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "988f77a9-a457-4de5-aa19-26e04e135b62")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d/TLV1117LV33DCYR.step"
 		(offset
 			(xyz 0 0 0)

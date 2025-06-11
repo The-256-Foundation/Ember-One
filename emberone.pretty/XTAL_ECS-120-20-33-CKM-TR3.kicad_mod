@@ -1,7 +1,7 @@
 (footprint "XTAL_ECS-120-20-33-CKM-TR3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.6 -2.4 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9d6b8702-6380-48f2-88ed-afa2adfd1a2a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -89,7 +77,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "1e72b39e-9f31-4447-90e7-705c8116f415")
 	)
@@ -180,38 +168,35 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "24cd642d-c189-4273-9b73-6955a76de8be")
 	)
 	(pad "1" smd rect
 		(at -1.15 0.9)
 		(size 1.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4330604e-f001-468c-9445-5b0eb8690f45")
 	)
 	(pad "2" smd rect
 		(at 1.15 0.9)
 		(size 1.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "51006a20-5a7d-40f7-ba15-353e1bc490f7")
 	)
 	(pad "3" smd rect
 		(at 1.15 -0.9)
 		(size 1.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a0f20f85-1cb3-48b3-9e1a-95fac538db23")
 	)
 	(pad "4" smd rect
 		(at -1.15 -0.9)
 		(size 1.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2fd87bb7-79c2-4788-896e-8823f084ae12")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d/Crystal_3225.step"
 		(offset
 			(xyz 0 0 0)

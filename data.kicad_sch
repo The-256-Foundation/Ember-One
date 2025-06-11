@@ -8148,7 +8148,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "49.9k"
 			(at 179.07 105.4101 0)
 			(effects
 				(font
@@ -8184,7 +8184,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-49.9KLRCT-ND"
 			(at 176.53 106.68 0)
 			(effects
 				(font
@@ -8193,7 +8193,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0749K9L"
 			(at 176.53 106.68 0)
 			(effects
 				(font
@@ -10240,7 +10240,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-071KL"
 			(at 168.91 130.81 0)
 			(effects
 				(font
@@ -10249,7 +10249,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-1.00KLRCT-ND"
 			(at 168.91 130.81 0)
 			(effects
 				(font
@@ -10884,7 +10884,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "49.9"
 			(at 291.465 217.17 90)
 			(effects
 				(font
@@ -10919,7 +10919,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-49.9LRCT-ND"
 			(at 287.02 218.44 0)
 			(effects
 				(font
@@ -10928,7 +10928,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0749R9L"
 			(at 287.02 218.44 0)
 			(effects
 				(font
@@ -11245,7 +11245,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "49.9"
 			(at 291.465 222.25 90)
 			(effects
 				(font
@@ -11280,7 +11280,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-49.9LRCT-ND"
 			(at 287.02 223.52 0)
 			(effects
 				(font
@@ -11289,7 +11289,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0749R9L"
 			(at 287.02 223.52 0)
 			(effects
 				(font
@@ -12279,7 +12279,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-1024-1-ND"
 			(at 302.26 220.98 0)
 			(effects
 				(font
@@ -12288,7 +12288,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CC0402JRNPO9BN101"
 			(at 302.26 220.98 0)
 			(effects
 				(font
