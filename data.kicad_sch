@@ -8272,15 +8272,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25744"
-			(at 57.15 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "311-10.0KLRCT-ND"
 			(at 57.15 191.77 0)
 			(effects
@@ -8291,6 +8282,15 @@
 			)
 		)
 		(property "PARTNO" "RC0402FR-0710KL"
+			(at 57.15 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 57.15 191.77 0)
 			(effects
 				(font
@@ -8483,15 +8483,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1570"
-			(at 88.9 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 88.9 236.22 0)
 			(effects
@@ -8511,6 +8502,15 @@
 			)
 		)
 		(property "DK" "490-5935-1-ND"
+			(at 88.9 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1570"
 			(at 88.9 254 0)
 			(effects
 				(font
@@ -8595,15 +8595,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25105"
-			(at 209.55 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 212.09 123.19 0)
 			(effects
@@ -8623,6 +8614,15 @@
 			)
 		)
 		(property "DK" "311-33.0LRCT-ND"
+			(at 194.31 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25105"
 			(at 194.31 123.19 0)
 			(effects
 				(font
@@ -8997,7 +8997,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25905"
+		(property "LCSC" "C25905"
 			(at 82.55 121.92 0)
 			(effects
 				(font
@@ -9085,15 +9085,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
-			(at 193.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 193.04 73.66 0)
 			(effects
@@ -9113,6 +9104,15 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
+			(at 193.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -9200,15 +9200,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 204.47 73.66 0)
 			(effects
@@ -9228,6 +9219,15 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
+			(at 204.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 204.47 91.44 0)
 			(effects
 				(font
@@ -9499,6 +9499,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 375.92 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad39903c-a2fa-4e7c-96f6-dee093612a81")
 		)
@@ -9660,6 +9669,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 363.22 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7822e35-75bc-4c81-9b7d-059408ab68ae")
 		)
@@ -9739,15 +9757,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
-			(at 326.39 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 326.39 73.66 0)
 			(effects
@@ -9767,6 +9776,15 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
+			(at 326.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 326.39 91.44 0)
 			(effects
 				(font
@@ -9854,15 +9872,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
-			(at 269.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 269.24 73.66 0)
 			(effects
@@ -9882,6 +9891,15 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
+			(at 269.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 269.24 91.44 0)
 			(effects
 				(font
@@ -10121,7 +10139,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C9002"
+		(property "DK" "50-ECS-120-20-33-CKM-TR3CT-ND"
 			(at 77.47 247.65 0)
 			(effects
 				(font
@@ -10130,7 +10148,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "50-ECS-120-20-33-CKM-TR3CT-ND"
+		(property "LCSC" "C9002"
 			(at 77.47 247.65 0)
 			(effects
 				(font
@@ -10222,15 +10240,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 153.67 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" ""
 			(at 151.13 130.81 0)
 			(effects
@@ -10250,6 +10259,15 @@
 			)
 		)
 		(property "DK" "311-1.00KLRCT-ND"
+			(at 168.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106235"
 			(at 168.91 130.81 0)
 			(effects
 				(font
@@ -10337,15 +10355,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
-			(at 303.53 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 303.53 73.66 0)
 			(effects
@@ -10365,6 +10374,15 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
+			(at 303.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 303.53 91.44 0)
 			(effects
 				(font
@@ -10461,7 +10479,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C52923"
+		(property "LCSC" "C52923"
 			(at 114.3 86.36 0)
 			(effects
 				(font
@@ -10549,15 +10567,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
-			(at 280.67 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 280.67 73.66 0)
 			(effects
@@ -10577,6 +10586,15 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
+			(at 280.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 280.67 91.44 0)
 			(effects
 				(font
@@ -10673,6 +10691,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 350.52 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "532e6bdf-66b9-47bb-891a-de4d5a359a6d")
 		)
@@ -10761,7 +10788,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C52923"
+		(property "LCSC" "C52923"
 			(at 152.4 86.36 0)
 			(effects
 				(font
@@ -10929,15 +10956,6 @@
 			)
 		)
 		(property "PARTNO" "RC0402FR-0749R9L"
-			(at 287.02 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
 			(at 287.02 218.44 0)
 			(effects
 				(font
@@ -11177,15 +11195,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C52923"
-			(at 246.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 246.38 73.66 0)
 			(effects
@@ -11205,6 +11214,15 @@
 			)
 		)
 		(property "DK" "587-5514-1-ND"
+			(at 246.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 246.38 91.44 0)
 			(effects
 				(font
@@ -11290,15 +11308,6 @@
 			)
 		)
 		(property "PARTNO" "RC0402FR-0749R9L"
-			(at 287.02 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
 			(at 287.02 223.52 0)
 			(effects
 				(font
@@ -11452,15 +11461,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C52923"
-			(at 217.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 217.17 73.66 0)
 			(effects
@@ -11480,6 +11480,15 @@
 			)
 		)
 		(property "DK" "587-5514-1-ND"
+			(at 217.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 217.17 91.44 0)
 			(effects
 				(font
@@ -11738,7 +11747,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2988369"
+		(property "LCSC" "C2988369"
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -11858,15 +11867,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
-			(at 257.81 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 257.81 73.66 0)
 			(effects
@@ -11886,6 +11886,15 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
+			(at 257.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -11973,15 +11982,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
-			(at 314.96 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 314.96 73.66 0)
 			(effects
@@ -12001,6 +12001,15 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
+			(at 314.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 314.96 91.44 0)
 			(effects
 				(font
@@ -12173,15 +12182,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25105"
-			(at 209.55 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 212.09 120.65 0)
 			(effects
@@ -12201,6 +12201,15 @@
 			)
 		)
 		(property "DK" "311-33.0LRCT-ND"
+			(at 194.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25105"
 			(at 194.31 120.65 0)
 			(effects
 				(font
@@ -12376,15 +12385,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 292.1 73.66 0)
 			(effects
@@ -12404,6 +12404,15 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
+			(at 292.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 292.1 91.44 0)
 			(effects
 				(font
@@ -12481,15 +12490,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2040"
-			(at 228.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "2648-SC0914(13)CT-ND"
 			(at 228.6 151.13 0)
 			(effects
@@ -12500,6 +12500,15 @@
 			)
 		)
 		(property "PARTNO" "SC0914(13)"
+			(at 228.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2040"
 			(at 228.6 151.13 0)
 			(effects
 				(font
@@ -12758,7 +12767,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25905"
+		(property "LCSC" "C25905"
 			(at 73.66 119.38 0)
 			(effects
 				(font
@@ -12846,15 +12855,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
-			(at 118.11 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 118.11 191.77 0)
 			(effects
@@ -12874,6 +12874,15 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
+			(at 118.11 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 118.11 209.55 0)
 			(effects
 				(font
@@ -12962,15 +12971,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1570"
-			(at 66.04 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part" "Basic Part"
 			(at 66.04 236.22 0)
 			(effects
@@ -12990,6 +12990,15 @@
 			)
 		)
 		(property "DK" "490-5935-1-ND"
+			(at 66.04 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1570"
 			(at 66.04 254 0)
 			(effects
 				(font
