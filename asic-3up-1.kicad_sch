@@ -5890,7 +5890,7 @@
 		(dnp no)
 		(uuid "061e6015-6f61-4630-a2ac-ac4bf6f850fd")
 		(property "Reference" "TP105"
-			(at 166.37 181.61 90)
+			(at 167.386 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6112,7 @@
 		(dnp no)
 		(uuid "0bd2e26e-d654-4428-95e9-a2018b723c64")
 		(property "Reference" "TP104"
-			(at 166.37 124.46 90)
+			(at 167.386 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,6 +6326,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT1" "LDK120M08R"
+			(at 137.16 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "525d8e2e-0bca-4e6e-82d4-721720527355")
 		)
@@ -6413,6 +6422,15 @@
 			)
 		)
 		(property "DK" "MCP1824T-0802E/OTCT-ND"
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT1" "LDK120M08R"
 			(at 137.16 125.73 0)
 			(effects
 				(font
@@ -7333,6 +7351,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT1" "LDK120M12R"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b3ea740-8f0b-4382-9d21-c227dd0d23f6")
 		)
@@ -7506,6 +7533,15 @@
 			)
 		)
 		(property "DK" "MCP1824T-1202E/OTCT-ND"
+			(at 76.2 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT1" "LDK120M12R"
 			(at 76.2 182.88 0)
 			(effects
 				(font
@@ -8228,7 +8264,7 @@
 		(dnp no)
 		(uuid "70fb17bb-23f9-47df-a2da-56d16102b377")
 		(property "Reference" "TP101"
-			(at 106.68 124.46 90)
+			(at 107.95 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9840,6 +9876,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT1" "LDK120M12R"
+			(at 76.2 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6252d3e-a0fa-46fd-85f1-3622091b3a8c")
 		)
@@ -9963,7 +10008,7 @@
 		(dnp no)
 		(uuid "b87bd103-88d9-4ab7-90c4-42bf4fdaad32")
 		(property "Reference" "TP100"
-			(at 106.68 66.04 90)
+			(at 107.696 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10358,7 +10403,7 @@
 		(dnp no)
 		(uuid "cfc37aec-585b-44c2-bfcd-65eb46a96001")
 		(property "Reference" "TP103"
-			(at 166.37 66.04 90)
+			(at 167.386 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10513,7 +10558,7 @@
 		(dnp no)
 		(uuid "d11d445f-e5ab-4012-a8fb-613ab1898bec")
 		(property "Reference" "TP102"
-			(at 106.68 181.61 90)
+			(at 107.696 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11154,6 +11199,15 @@
 			)
 		)
 		(property "DK" "MCP1824T-0802E/OTCT-ND"
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT1" "LDK120M08R"
 			(at 137.16 67.31 0)
 			(effects
 				(font

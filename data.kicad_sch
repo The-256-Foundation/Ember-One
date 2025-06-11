@@ -4441,6 +4441,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "BOOT"
+		(exclude_from_sim no)
+		(at 156.464 134.366 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4521afb3-cbbd-4689-a0b6-1f9ecc39041b")
+	)
 	(text "Accessory Port"
 		(exclude_from_sim no)
 		(at 286.512 178.054 0)
@@ -4484,6 +4494,16 @@
 			(justify left bottom)
 		)
 		(uuid "ca2aa9bd-baea-4bf9-94eb-e22dbd016b64")
+	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 156.21 116.332 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f846bac4-7546-4eaf-b941-4fd8691ec5b6")
 	)
 	(junction
 		(at 77.47 260.35)

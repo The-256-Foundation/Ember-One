@@ -686,6 +686,12 @@
           "label": "JLC Part",
           "name": "JLC Part",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALT1",
+          "name": "ALT1",
+          "show": true
         }
       ],
       "filter_string": "",

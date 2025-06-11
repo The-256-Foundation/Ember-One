@@ -6030,6 +6030,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT1" "LDK120M08R"
+			(at 137.16 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3dbf25bb-6f8a-46ae-a224-44d944b52783")
 		)
@@ -6117,6 +6126,15 @@
 			)
 		)
 		(property "DK" "MCP1824T-0802E/OTCT-ND"
+			(at 137.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT1" "LDK120M08R"
 			(at 137.16 132.08 0)
 			(effects
 				(font
@@ -7104,6 +7122,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT1" "LDK120M12R"
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9306642-3931-41aa-99e4-ad60a218363a")
 		)
@@ -7190,6 +7217,15 @@
 			)
 		)
 		(property "DK" "MCP1824T-1202E/OTCT-ND"
+			(at 76.2 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT1" "LDK120M12R"
 			(at 76.2 189.23 0)
 			(effects
 				(font
@@ -9482,6 +9518,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT1" "LDK120M12R"
+			(at 76.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6dc88f75-6d4e-408c-802e-f752a280704c")
 		)
@@ -10687,6 +10732,15 @@
 			)
 		)
 		(property "DK" "MCP1824T-0802E/OTCT-ND"
+			(at 137.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT1" "LDK120M08R"
 			(at 137.16 73.66 0)
 			(effects
 				(font
