@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "emberOne/00")
-		(date "2025-04-21")
-		(rev "4")
+		(date "2025-02-25")
+		(rev "3")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2948,6 +2948,10 @@
 		(uuid "4fea4aab-5d07-4b9a-858c-7c6d3a3c1dee")
 	)
 	(no_connect
+		(at 242.57 227.33)
+		(uuid "57b97fa2-d60f-499d-a8fe-1f2c05c98ada")
+	)
+	(no_connect
 		(at 66.04 168.91)
 		(uuid "641c1101-1159-4b2b-983a-ff5fe7d999d3")
 	)
@@ -2982,6 +2986,10 @@
 	(no_connect
 		(at 242.57 171.45)
 		(uuid "ae8a0ec9-2beb-40a9-8b6c-f5d6b1a7294e")
+	)
+	(no_connect
+		(at 242.57 229.87)
+		(uuid "b2a758c2-cea9-4e1c-ba15-4a53230aad1b")
 	)
 	(no_connect
 		(at 279.4 173.99)
@@ -3644,16 +3652,6 @@
 			(type default)
 		)
 		(uuid "39e83296-95ce-49db-a701-d3f6a83d6226")
-	)
-	(wire
-		(pts
-			(xy 238.76 229.87) (xy 242.57 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ae0e0bb-ee0f-4436-b9bf-c9a80f9b3fb0")
 	)
 	(wire
 		(pts
@@ -5847,16 +5845,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 227.33) (xy 242.57 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6382faa-d10c-4888-b078-beaf3ef28679")
-	)
-	(wire
-		(pts
 			(xy 242.57 105.41) (xy 203.2 105.41)
 		)
 		(stroke
@@ -6962,17 +6950,6 @@
 		)
 		(uuid "72c04f90-0a1e-4512-8799-d5aaba1dba03")
 	)
-	(hierarchical_label "TEMP_N"
-		(shape output)
-		(at 238.76 229.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "74869524-9ca1-4cc7-8f7d-ba5fea11df6d")
-	)
 	(hierarchical_label "VDDIO_IN2"
 		(shape input)
 		(at 45.72 220.98 180)
@@ -6983,17 +6960,6 @@
 			(justify right)
 		)
 		(uuid "7b469dc4-ce00-4850-a17c-3670009a3a57")
-	)
-	(hierarchical_label "TEMP_P"
-		(shape output)
-		(at 238.76 227.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e653704-05e7-4b93-8b62-8bdf63b0519f")
 	)
 	(hierarchical_label "BO"
 		(shape output)
@@ -7132,6 +7098,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 91.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7289,6 +7263,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "CL31A107MQHNNNE"
+			(at 384.81 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "29f30053-f89f-46d7-ba5d-84059e3c63f3")
 		)
@@ -7443,6 +7425,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 57.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6b0912a-a6ea-4de4-9775-3d5c5b3e0c02")
 		)
@@ -7529,13 +7519,12 @@
 				(hide yes)
 			)
 		)
-		(property "ALT1" "LDK120M08R"
+		(property "Manufacturer" "Microchip Technology"
 			(at 137.16 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7633,13 +7622,12 @@
 				(hide yes)
 			)
 		)
-		(property "ALT1" "LDK120M08R"
+		(property "Manufacturer" "Microchip Technology"
 			(at 137.16 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7738,6 +7726,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 311.15 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f78e1ae-2ed6-4dff-af77-41f263dc0969")
 		)
@@ -7824,6 +7820,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 152.4 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7913,6 +7917,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 337.82 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f8dc74a9-65ff-48b2-a4ec-f5764e18a540")
 		)
@@ -7998,6 +8010,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 220.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8087,6 +8107,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 118.11 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec797a77-3b46-4e8f-bb79-ae8b6f2ce714")
 		)
@@ -8174,6 +8202,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 118.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "675cee8c-5085-49df-b7c3-a215a168c66d")
 		)
@@ -8241,6 +8277,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bitmain"
+			(at 260.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
+			(at 260.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "12"
@@ -8384,7 +8436,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 49.53 44.45 0)
 			(effects
 				(font
@@ -8393,13 +8445,21 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 49.53 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8487,13 +8547,12 @@
 				(hide yes)
 			)
 		)
-		(property "ALT1" "LDK120M12R"
+		(property "Manufacturer" "Microchip Technology"
 			(at 76.2 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8599,6 +8658,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Shenzhen SCTF Elec"
+			(at 160.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2536875b-03cd-4409-a193-e646f782cd2c")
 		)
@@ -8626,7 +8693,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "49cd972a-46c5-4150-879f-a09109d8d2f3")
@@ -8778,13 +8845,12 @@
 				(hide yes)
 			)
 		)
-		(property "ALT1" "LDK120M12R"
+		(property "Manufacturer" "Microchip Technology"
 			(at 76.2 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8865,7 +8931,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 363.22 111.76 0)
 			(effects
 				(font
@@ -8874,13 +8940,21 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 363.22 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 363.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8970,6 +9044,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 220.98 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "77a7a410-05f0-4efb-b0ad-01e5397a394d")
 		)
@@ -9057,6 +9139,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "368bfc9d-c81b-4bd2-9a20-25fee4f41371")
 		)
@@ -9077,7 +9167,7 @@
 		(at 265.43 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5d075ed6-ed94-4867-830d-2695d74bf220")
@@ -9210,6 +9300,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9366,6 +9464,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 297.18 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2d202d34-e9e3-439e-8cd7-218c0a8f1528")
 		)
@@ -9453,6 +9559,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 57.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40266895-5bc2-4a9c-83db-1868250c81c9")
 		)
@@ -9538,6 +9652,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 373.38 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9628,6 +9750,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c215bd79-792c-417e-9a3e-385b8e81d4a5")
 		)
@@ -9715,6 +9845,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 240.03 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "309a95d5-9fb5-4b2d-974f-4182233d403f")
 		)
@@ -9800,6 +9938,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 212.09 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9956,6 +10102,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 325.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d23f41ab-4a10-4aed-8af2-291596f79a23")
 		)
@@ -10043,6 +10197,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 317.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ecf56049-2c1f-4a48-ab79-9fbbaa2ec459")
 		)
@@ -10112,7 +10274,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 161.29 53.34 0)
 			(effects
 				(font
@@ -10121,13 +10283,21 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 161.29 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10218,6 +10388,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "CL31A107MQHNNNE"
+			(at 384.81 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7aeab060-7651-4823-aa73-3620afc9a87f")
 		)
@@ -10297,13 +10475,21 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402FR-072KL"
+		(property "PARTNO" "RC0402FR-071KL"
 			(at 63.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 63.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10393,6 +10579,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 332.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7f98bb5-8566-4ec8-9740-0f5613a082cd")
 		)
@@ -10413,7 +10607,7 @@
 		(at 265.43 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7f2f1832-04ec-444c-88e8-053989d5b60d")
@@ -10547,6 +10741,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 232.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5efd8be4-8a5e-4e1b-8d5a-3d35577cd471")
 		)
@@ -10634,6 +10836,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "202b85d6-d71f-433f-8ad6-647d99aefdab")
 		)
@@ -10701,6 +10911,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bitmain"
+			(at 260.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
+			(at 260.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "10"
@@ -10862,6 +11088,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 302.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a5248a0-b134-4e50-af24-60798a507917")
 		)
@@ -10948,6 +11182,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CL31A107MQHNNNE"
+			(at 384.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11083,6 +11325,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bitmain"
+			(at 260.35 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
+			(at 260.35 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "12"
@@ -11245,6 +11503,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 91.44 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64ffcfb9-4703-4dad-8e32-505f032367fc")
 		)
@@ -11398,6 +11664,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 203.2 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9004a42c-f09d-434c-934d-2851f704e925")
 		)
@@ -11418,7 +11692,7 @@
 		(at 265.43 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a30ede02-4fb5-4961-9181-12ce40a277ad")
@@ -11552,6 +11826,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 232.41 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "111c0c7f-f1f7-4f23-bab5-1bb36a5665d8")
 		)
@@ -11637,6 +11919,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 186.69 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11793,6 +12083,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 186.69 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23aa1dd9-8070-4edf-873a-a6ba3bff00e2")
 		)
@@ -11878,6 +12176,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 212.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11968,6 +12274,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 152.4 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9ec223d-f2b5-4593-aea7-48006026eb60")
 		)
@@ -12053,13 +12367,12 @@
 				(hide yes)
 			)
 		)
-		(property "ALT1" "LDK120M12R"
+		(property "Manufacturer" "Microchip Technology"
 			(at 76.2 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12156,6 +12469,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 240.03 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12294,7 +12615,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 363.22 227.33 0)
 			(effects
 				(font
@@ -12303,13 +12624,21 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 363.22 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 363.22 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12397,6 +12726,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 373.38 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12552,6 +12889,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 186.69 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8265d1d7-b916-4f80-9ce3-4342618b4012")
 		)
@@ -12637,6 +12982,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 302.26 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12860,6 +13213,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 232.41 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "76a91add-658c-4322-b753-900fe326b84b")
 		)
@@ -12945,6 +13306,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 194.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13034,6 +13403,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 373.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7e31560b-6342-4ec1-95c6-61440a6d2561")
 		)
@@ -13119,6 +13496,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 328.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13208,6 +13593,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "66a12d5a-d7f3-4caa-8a14-12c6a15a8954")
 		)
@@ -13292,6 +13685,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13422,13 +13823,12 @@
 				(hide yes)
 			)
 		)
-		(property "ALT1" "LDK120M08R"
+		(property "Manufacturer" "Microchip Technology"
 			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13509,7 +13909,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 118.11 44.45 0)
 			(effects
 				(font
@@ -13518,13 +13918,21 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 118.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13612,6 +14020,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 309.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13702,6 +14118,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 195.58 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aec410e4-a942-479f-bac8-f555d95f0095")
 		)
@@ -13787,6 +14211,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 57.15 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13876,6 +14308,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 240.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a1260fff-e1c1-4823-b667-b35fed25d2ea")
 		)
@@ -13963,6 +14403,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 320.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "34b05e3e-1592-4b61-bdcf-4018d9a098a8")
 		)
@@ -14032,7 +14480,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 363.22 167.64 0)
 			(effects
 				(font
@@ -14041,13 +14489,21 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 363.22 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 363.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

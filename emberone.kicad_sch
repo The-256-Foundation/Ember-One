@@ -2166,6 +2166,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 116.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a0ebef8-eaba-45ad-8a84-9c5e1c07ad3a")
 		)
@@ -2247,6 +2255,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 116.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
