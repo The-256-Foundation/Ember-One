@@ -9581,6 +9581,24 @@
 				(hide yes)
 			)
 		)
+		(property "PARTNO" "TPD1E05U06DYAR"
+			(at 52.07 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-TPD1E05U06DYARCT-ND"
+			(at 52.07 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65ee2cb5-1ea5-4986-97db-c32c52c02e5c")
 		)
@@ -11562,6 +11580,24 @@
 			)
 		)
 		(property "Description" "1-Channel ESD Protection for Super-Speed USB 3.0 Interface, SOD-523"
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-TPD1E05U06DYARCT-ND"
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "TPD1E05U06DYAR"
 			(at 58.42 154.94 0)
 			(effects
 				(font
